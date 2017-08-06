@@ -33,14 +33,10 @@ ul li {
 ul li a {
   display: block;
   
-  opacity: 0.8;
-  
   transition: 0.2s ease;
 }
 
 ul li a:hover {
-  opacity: 1;
-  
   transform: scale(1.1);
 }
 
