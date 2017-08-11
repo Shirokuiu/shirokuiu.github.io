@@ -23,7 +23,8 @@ ul {
 }
 
 ul li {
-  width: 35%;
+  width: 310px;
+  height: 379px;
   margin-bottom: 50px;
   margin-right: 50px;
 }
@@ -40,7 +41,6 @@ ul li a:hover {
 
 ul li a img {
   display: block;
-  height: 250px;
 }
 
 @media (max-width: 1000px) {
