@@ -15,7 +15,7 @@
 
 
         <!--[if (gt IE 9)|!(IE)]><!-->
-        <link href="static/css/mainsdmglhfrxgtsmphtcsor.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/mainnebja15xedofutb6b6gvi.min.css" rel="stylesheet" type="text/css">
         <!--<![endif]-->
 
         <meta property="og:title" content="" />
@@ -38,22 +38,27 @@
     <body class="page">
 
 
-        <div class="page-wrapper">
+        <div class="page-wrapper page-wrapper--menu-close">
             <div class="container">
                 <header class="page-header">
-                    <nav class="main-nav main-nav--close">
+                    <nav class="main-nav">
                         <button class="main-nav__button" type="button"></button>
-                        <ul class="main-nav__list">
-                            <li class="main-nav__items main-nav__items--active"><a class="main-nav__item">Главная</a>
-                            </li>
-                            <li class="main-nav__items"><a href="photo.html" class="main-nav__item">Фото и видео</a>
-                            </li>
-                            <li class="main-nav__items main-nav__items--logo"></li>
-                            <li class="main-nav__items"><a href="form.html" class="main-nav__item">Форма отзыва</a>
-                            </li>
-                            <li class="main-nav__items"><a href="https://htmlacademy.ru/" class="main-nav__item">Html academy</a>
-                            </li>
-                        </ul>
+                        <div class="main-nav__blockWrap">
+                            <ul class="main-nav__list main-nav__list--left">
+                                <li class="main-nav__items main-nav__items--active"><a class="main-nav__item">Главная</a>
+                                </li>
+                                <li class="main-nav__items"><a href="photo.html" class="main-nav__item">Фото и видео</a>
+                                </li>
+                            </ul>
+                            <div class="main-nav__logo"></div>
+                            <ul class="main-nav__list main-nav__list--right">
+                                <li class="main-nav__items"><a href="form.html" class="main-nav__item">Форма отзыва</a>
+                                </li>
+                                <li class="main-nav__items"><a href="https://htmlacademy.ru/" class="main-nav__item">Html academy</a>
+                                </li>
+                            </ul>
+                            <button class="main-nav__button-close" type="button"></button>
+                        </div>
                     </nav>
                 </header>
                 <main class="page-content">
@@ -140,6 +145,45 @@
                             </div>
                         </div>
                         <button class="order__button" type="button">Найти гостиницу</button>
+                        <div class="order__popup order__popup--hidden">
+                            <form class="order__popup-form" action="action.php" method="post">
+                                <ul class="order__popup-form-list">
+                                    <li class="order__popup-form-items">
+                                        <label class="order__popup-form-label" for="date-in">Дата заезда:</label>
+                                        <div class="order__popup-form-inputWrap">
+                                            <input id="date-in" class="order__popup-form-itemInput-date" type="text" name="input-date-in" placeholder="24 Апреля 2017">
+                                            <span class="order__popup-form-item order__popup-form-item--calendar"></span>
+                                        </div>
+                                    </li>
+                                    <li class="order__popup-form-items">
+                                        <label class="order__popup-form-label order__popup-form-label--margin" for="date-out">Дата Выезда:</label>
+                                        <div class="order__popup-form-inputWrap">
+                                            <input id="date-out" class="order__popup-form-itemInput-date" type="text" name="input-date-out" placeholder="4 июля 2017">
+                                            <span class="order__popup-form-item order__popup-form-item--calendar"></span>
+                                        </div>
+                                    </li>
+                                    <li class="order__popup-form-items order__popup-form-items--people">
+                                        <div class="order__popup-form-itemPeople">
+                                            <label class="order__popup-form-labelPeople" for="adults">Взрослые</label>
+                                            <div class="order__popup-form-itemPeople-wrap">
+                                                <input class="order__popup-form-inputPeople" id="adults" class="order__popup-form-itemInput-people" type="text" name="input-adults" value="0">
+                                                <span class="order__popup-form-item order__popup-form-item--minus"></span>
+                                                <span class="order__popup-form-item order__popup-form-item--plus"></span>
+                                            </div>
+                                        </div>
+                                        <div class="order__popup-form-itemPeople">
+                                            <label class="order__popup-form-labelPeople" for="children">Дети:</label>
+                                            <div class="order__popup-form-itemPeople-wrap">
+                                                <input class="order__popup-form-inputPeople" id="children" type="text" name="input-adults" value="0">
+                                                <span class="order__popup-form-item order__popup-form-item--minus"></span>
+                                                <span class="order__popup-form-item order__popup-form-item--plus"></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="order__popup-form-button" type="submit">Найти</button>
+                            </form>
+                        </div>
                     </div>
                     <div class="map">
                         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab703f51507987788612a0bd3d7dfc6bb47e87f39fe73a8ddba9a0e8955c1a049&amp;width=100%25&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
@@ -162,7 +206,7 @@
 
 
         <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
-        <script src="static/js/mainsdmglhfrxgtsmphtcsor.min.js"></script>
+        <script src="static/js/mainnebja15xedofutb6b6gvi.min.js"></script>
     </body>
 
 </html>
