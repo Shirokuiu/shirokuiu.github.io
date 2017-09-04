@@ -4,9 +4,7 @@ img {
 }
 
 .container {
-  display: flex;
   max-width: 1200px;
-  height: 100vh;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -43,27 +41,44 @@ ul li a img {
   display: block;
 }
 
-@media (max-width: 1000px) {
-  .container {
-    width: auto;
-    padding: 0 5%;
+@media (max-width: 1155px) {
+  ul {
+    padding-top: 20px;
   }
   
-  ul li {
-    width: 150px;
+  ul li:nth-child(1) {
+    display: none;
   }
   
-  ul li a img {
-    height: 125px;
+  ul li:nth-child(7) {
+    display: none;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .container {
-    padding: 0 2%
+    height: auto;
   }
   
+  ul li {
+    width: 160px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 703px) {
   ul {
-    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  ul li {
+    height: 180px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 394px) {
+  ul {
+    justify-content: center;
   }
 }
