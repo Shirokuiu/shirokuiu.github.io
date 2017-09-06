@@ -15,7 +15,7 @@
 
 
         <!--[if (gt IE 9)|!(IE)]><!-->
-        <link href="static/css/main2wcxupy0e945qh9tfbt9.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/mainxlmqxkfpb43r9oiy919k9.min.css" rel="stylesheet" type="text/css">
         <!--<![endif]-->
 
         <meta property="og:title" content="" />
@@ -26,6 +26,7 @@
         <meta property="og:image:width" content="500" />
         <meta property="og:image:height" content="300" />
         <meta property="twitter:description" content="" />
+        <link rel="image_src" href="" />
 
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <script>
@@ -39,8 +40,8 @@
         <div class="page__wrapper">
             <header class="page-header">
                 <div class="container">
-                    <nav class="main-nav">
-                        <button class="main-nav__button" type="button"></button>
+                    <nav id="mainNav" class="main-nav">
+                        <button id="mainNavButton" class="main-nav__button" type="button"></button>
                         <ul class="main-nav__listLeft">
                             <li class="main-nav__itemsLeft"><a href="catalog.html" class="main-nav__itemLeft">Каталог товаров</a>
                             </li>
@@ -57,7 +58,8 @@
                             </a>
                         </div>
                         <ul class="main-nav__listRight">
-                            <li class="main-nav__itemsRight main-nav__itemsRight--search"></li>
+                            <li class="main-nav__itemsRight main-nav__itemsRight--search"><a href="#" class="main-nav__itemRight main-nav__itemRight--search">Поиск по сайту</a>
+                            </li>
                             <li class="main-nav__itemsRight main-nav__itemsRight--basket"><a href="#" class="main-nav__itemRight main-nav__itemRight--basket">Корзина: пока пуста</a>
                             </li>
                         </ul>
@@ -157,18 +159,44 @@
                                 <h2 class="reviews__headline">Отзывы</h2>
                                 <button class="reviews__button" type="button">Написать</button>
                             </div>
-                            <div class="reviews__row-text">
-                                <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а
-                                    также набирают больше лайков!</p>
+                            <div id="reviewsSlider" class="reviews__slider owl-carousel">
+                                <div>
+                                    <div class="reviews__slider-slide">
+                                        <div class="reviews__row-text">
+                                            <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более
+                                                стильными, а также набирают больше лайков!</p>
+                                        </div>
+                                        <div class="reviews__row-bottom">
+                                            <p class="reviews__author">Анастасия Красильникова</p>
+                                            <span class="reviews__authorMail">@misssssiskras</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="reviews__slider-slide">
+                                        <div class="reviews__row-text">
+                                            <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более
+                                                стильными, а также набирают больше лайков!</p>
+                                        </div>
+                                        <div class="reviews__row-bottom">
+                                            <p class="reviews__author">Анастасия Красильникова</p>
+                                            <span class="reviews__authorMail">@misssssiskras</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="reviews__slider-slide">
+                                        <div class="reviews__row-text">
+                                            <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более
+                                                стильными, а также набирают больше лайков!</p>
+                                        </div>
+                                        <div class="reviews__row-bottom">
+                                            <p class="reviews__author">Анастасия Красильникова</p>
+                                            <span class="reviews__authorMail">@misssssiskras</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="reviews__row-bottom">
-                                <p class="reviews__author">Анастасия Красильникова</p>
-                                <span class="reviews__authorMail">@misssssiskras</span>
-                            </div>
-                        </div>
-                        <div class="reviews__controlsWrap">
-                            <button class="reviews__control reviews__control--left" type="button"></button>
-                            <button class="reviews__control reviews__control--right" type="button"></button>
                         </div>
                     </div>
                     <div class="border">
@@ -192,11 +220,15 @@
                                             <p class="address__description-contactText">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</p>
                                         </div>
                                     </div>
-                                    <button class="address__description-button" type="button">Напишите нам</button>
                                 </div>
                             </div>
                             <div class="map">
-                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8dccbce9b28743333c9d1acde93e3834c7e74a7f4100c9c537294a890972ea92&amp;width=100%25&amp;lang=ru_RU&amp;scroll=true"></script>
+                                <picture>
+                                    <source media="(max-width: 1080px) and (min-width: 751px)" srcset="static/img/content/map-tablet.jpg">
+                                        <source media="(max-width: 750px)" srcset="static/img/content/map-mobile.jpg">
+                                            <img src="static/img/content/map.jpg" alt="Карта">
+                                </picture>
+                                <button class="address__description-button" type="button">Напишите нам</button>
                             </div>
                         </div>
                     </div>
@@ -220,12 +252,12 @@
                 </div>
             </footer>
         </div>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 
         <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
-        <script src="static/js/main2wcxupy0e945qh9tfbt9.min.js"></script>
+        <script src="static/js/mainxlmqxkfpb43r9oiy919k9.min.js"></script>
     </body>
 
 </html>
