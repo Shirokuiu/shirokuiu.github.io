@@ -15,7 +15,7 @@
 
 
         <!--[if (gt IE 9)|!(IE)]><!-->
-        <link href="static/css/mainp1uhzg37cy1s1ct0529.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/mainwtqtjec15hw8dajlwhfr.min.css" rel="stylesheet" type="text/css">
         <!--<![endif]-->
 
 
@@ -29,12 +29,14 @@
     <body class="page">
 
         <div class="page__wrapper">
-            <header class="page-header">
+            <header class="page-header page-header--countries">
 
                 <div class="page-header__rowTop">
                     <div class="container">
                         <div class="logo">
-                            <img src="static/img/content/logo.png" alt="Гранд Вояж">
+                            <a href="index.html">
+                                <img src="static/img/content/logo.png" alt="Гранд Вояж">
+                            </a>
                         </div>
                         <div class="page-header__search">
                             <label for="search">Поиск</label>
@@ -63,17 +65,16 @@
                                 </li>
                                 <li class="main-nav__items"><a href="#" class="main-nav__item">Новости</a>
                                 </li>
-                                <li class="main-nav__items"><a href="#" class="main-nav__item">Контакты</a>
+                                <li class="main-nav__items"><a href="contacts.html" class="main-nav__item">Контакты</a>
                                 </li>
                                 <li class="main-nav__items"><a href="#" class="main-nav__item">Отзывы</a>
                                 </li>
-                                <li class="main-nav__items"><a href="#" class="main-nav__item main-nav__item--language-ru">
-
-                  Ru</a>
+                                <li class="main-nav__items main-nav__items--language">
+                                    <select class="main-nav__item-language" name="mainNavItemLanguage" id="mainNavItemLanguage">
+                                        <option value="1">Ru</option>
+                                        <option value="2">Ro</option>
+                                    </select>
                                     <span></span>
-                                    <a href="#" class="main-nav__item main-nav__item--language-ro">
-
-                  Ro</a>
                                 </li>
                             </ul>
                         </nav>
@@ -86,6 +87,148 @@
 
             </header>
             <main class="page-content">
+
+                <div class="countries">
+                    <div class="container">
+                        <div class="countries__wrapheadblocks">
+                            <h2 class="countries__headline">Список стран от GrandVoyage</h2>
+                            <h3 class="countries__subtitle">Эксклюзивные предложения, отдых вашей мечты!</h3>
+                        </div>
+
+                        <div class="country-nav">
+                            <h2 class="country-nav__headline">Сортировать по:</h2>
+                            <ul class="country-nav__list">
+                                <li class="country-nav__items country-nav__items--popular">
+                                    <input id="cityNavPopular" type="checkbox" name="cityNavPopular">
+                                    <label for="cityNavPopular">Популярности
+                                        <span></span>
+                                    </label>
+                                    <div class="country-nav__itemBorder"></div>
+                                </li>
+                                <li class="country-nav__items country-nav__items--direction">
+                                    <input id="cityNavNew" type="checkbox" name="cityNavNew">
+                                    <label for="cityNavNew">Новые направления
+                                        <span></span>
+                                    </label>
+                                    <div class="country-nav__itemBorder"></div>
+                                </li>
+                                <li class="country-nav__items country-nav__items--trends">
+                                    <input id="cityNavTrends" type="checkbox" name="cityNavTrends">
+                                    <label for="cityNavTrends">Тренды сезона
+                                        <span></span>
+                                    </label>
+                                    <div class="country-nav__itemBorder"></div>
+                                </li>
+                                <li class="country-nav__items">
+                                    <select name="cityNavSelect" id="cityNavSelect">
+                                        <option value="1">Выберите страну</option>
+                                    </select>
+                                    <div class="country-nav__itemBorder"></div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="countries__wrapCarts">
+                            <div class="countries__cart">
+                                <div class="countries__wrapImg">
+                                    <img src="static/img/content/countriesCartImg1.jpg" alt="картинка">
+                                </div>
+                                <div class="countries__wrapdescription">
+                                    <div class="countries__wrapHeadline">
+                                        <h2>Мальдивы</h2>
+                                        <span><img src="static/img/content/cartcountriesimg1.jpg" alt=""></span>
+                                    </div>
+                                    <p class="countries__text">Мальдивы, официальное название Мальдивская Республика — государство в Южной Азии, располагающееся на группе атоллов в Индийском океане, находящихся к югу от Индии. Столица — город Мале.</p>
+                                    <ul class="counties__list">
+                                        <li class="countries__items">
+                                            <span>Столица</span>
+                                            <span>Мале</span>
+                                        </li>
+                                        <li class="countries__items">
+                                            <span>Телефонный код</span>
+                                            <span>+960</span>
+                                        </li>
+                                        <li class="countries__items">
+                                            <span>Валюта</span>
+                                            <span>Мальдиваская руфия</span>
+                                        </li>
+                                        <li class="countries__items">
+                                            <span>Континент</span>
+                                            <span>Азия</span>
+                                        </li>
+                                    </ul>
+                                    <a class="countries__excerpt" href="one-country.html">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="countries__wrapCarts">
+                            <div class="countries__cart">
+                                <div class="countries__wrapImg">
+                                    <img src="static/img/content/countriesCartImg2.jpg" alt="картинка">
+                                </div>
+                                <div class="countries__wrapdescription">
+                                    <div class="countries__wrapHeadline">
+                                        <h2>Тайланд</h2>
+                                        <span><img src="static/img/content/cartcountriesimg2.jpg" alt=""></span>
+                                    </div>
+                                    <p class="countries__text">Тайланд, Королевство Таиланд, до 1939 и в 1945—1948 гг. Сиам — государство Юго-Восточной Азии, расположенное в юго-западной части полуострова Индокитай и в северной части полуострова Малакка</p>
+                                    <ul class="counties__list">
+                                        <li class="countries__items">
+                                            <span>Столица</span>
+                                            <span>Мале</span>
+                                        </li>
+                                        <li class="countries__items">
+                                            <span>Телефонный код</span>
+                                            <span>+960</span>
+                                        </li>
+                                        <li class="countries__items">
+                                            <span>Валюта</span>
+                                            <span>Мальдиваская руфия</span>
+                                        </li>
+                                        <li class="countries__items">
+                                            <span>Континент</span>
+                                            <span>Азия</span>
+                                        </li>
+                                    </ul>
+                                    <a class="countries__excerpt" href="#">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="countries__wrapCarts">
+                            <div class="countries__cart">
+                                <div class="countries__wrapImg">
+                                    <img src="static/img/content/countriesCartImg3.jpg" alt="картинка">
+                                </div>
+                                <div class="countries__wrapdescription">
+                                    <div class="countries__wrapHeadline">
+                                        <h2>Гавайи</h2>
+                                        <span><img src="static/img/content/cartcountriesimg3.jpg" alt=""></span>
+                                    </div>
+                                    <p class="countries__text">Мальдивы, официальное название Мальдивская Республика — государство в Южной Азии, располагающееся на группе атоллов в Индийском океане, находящихся к югу от Индии. Столица — город Мале.</p>
+                                    <ul class="counties__list">
+                                        <li class="countries__items">
+                                            <span>Столица</span>
+                                            <span>Мале</span>
+                                        </li>
+                                        <li class="countries__items">
+                                            <span>Телефонный код</span>
+                                            <span>+960</span>
+                                        </li>
+                                        <li class="countries__items">
+                                            <span>Валюта</span>
+                                            <span>Мальдиваская руфия</span>
+                                        </li>
+                                        <li class="countries__items">
+                                            <span>Континент</span>
+                                            <span>Азия</span>
+                                        </li>
+                                    </ul>
+                                    <a class="countries__excerpt" href="#">подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="contacts">
                     <div class="contacts__headlineBlock">
@@ -194,7 +337,7 @@
                         </div>
                         <nav class="main-nav">
                             <ul class="main-nav__list main-nav__list--footer">
-                                <li class="main-nav__items"><a href="#" class="main-nav__item">Страны</a>
+                                <li class="main-nav__items"><a class="main-nav__item main-nav__item--active">Страны</a>
                                 </li>
                                 <li class="main-nav__items"><a href="#" class="main-nav__item">Туры</a>
                                 </li>
@@ -312,7 +455,7 @@
 
         <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="static/js/mainp1uhzg37cy1s1ct0529.min.js"></script>
+        <script src="static/js/mainwtqtjec15hw8dajlwhfr.min.js"></script>
     </body>
 
 </html>
