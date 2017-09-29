@@ -20,6 +20,19 @@ ul {
   list-style: none;
 }
 
+ul.list {
+  display: block;
+}
+
+ul.list li {
+  width: auto;
+  height: auto;
+}
+
+ul.list li a:hover {
+  transform: none;
+}
+
 ul li {
   width: 310px;
   height: 379px;

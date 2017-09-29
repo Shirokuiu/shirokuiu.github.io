@@ -15,7 +15,7 @@
 
 
         <!--[if (gt IE 9)|!(IE)]><!-->
-        <link href="static/css/mainwtqtjec15hw8dajlwhfr.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/mainddd693waxkcyle17zaor.min.css" rel="stylesheet" type="text/css">
         <!--<![endif]-->
 
         <meta property="og:title" content="" />
@@ -52,6 +52,7 @@
                             <a class="page-header__contacts-link page-header__contacts-link--tel" href="tel:06928799">0 (69) 287 99</a>
                             <a class="page-header__contacts-link page-header__contacts-link--order" href="#">заказать звонок</a>
                         </div>
+                        <button class="page-header__rowTop-button" type="button"></button>
                     </div>
                 </div>
                 <div class="page-header__rowMiddle">
@@ -60,7 +61,7 @@
                             <ul class="main-nav__list">
                                 <li class="main-nav__items"><a href="countries.html" class="main-nav__item">Страны</a>
                                 </li>
-                                <li class="main-nav__items"><a href="link1-offer.html" class="main-nav__item">Туры</a>
+                                <li class="main-nav__items"><a href="link1-more-cities.html" class="main-nav__item">Туры</a>
                                 </li>
                                 <li class="main-nav__items"><a href="#" class="main-nav__item">Горящие туры</a>
                                 </li>
@@ -106,71 +107,249 @@
 
                                 <div class="search-avia__tabs-content">
                                     <form id="fromTour" class="search-avia__fromTour" action="action.php" method="post">
-                                        <ul class="search-avia__fromTour-list">
-                                            <li class="search-avia__fromTour-items">
-                                                <div class="search-avia__fromTour-itemsWrap search-avia__fromTour-itemsWrap--mark">
-                                                    <label for="fromTourOut">Город отправления</label>
-                                                    <input id="fromTourOut" type="text" name="fromTourOut" placeholder="прим. Кишинев" required>
-                                                </div>
-                                            </li>
-                                            <li class="search-avia__fromTour-items">
-                                                <div class="search-avia__fromTour-itemsWrap search-avia__fromTour-itemsWrap--earth">
-                                                    <label for="fromTourTo">Страна</label>
-                                                    <input id="fromTourTo" type="text" name="fromTourTo" placeholder="прим. Turkey, Antalya" required>
-                                                </div>
-                                            </li>
-                                            <li class="search-avia__fromTour-items">
-                                                <div class="search-avia__fromTour-itemsWrap search-avia__fromTour-itemsWrap--avia">
-                                                    <label for="fromTourSelect">Тур</label>
-                                                    <select name="fromTourSelect" id="fromTourSelect">
-                                                        <option value="1">прим. Day flight</option>
-                                                        <option value="1">прим. Night flight</option>
+                                        <div class="search-avia__fromTour-listWrap">
+                                            <ul class="search-avia__fromTour-list">
+                                                <li class="search-avia__fromTour-items">
+                                                    <div class="search-avia__fromTour-itemsWrap search-avia__fromTour-itemsWrap--mark">
+                                                        <label for="fromTourOut">Город отправления</label>
+                                                        <input id="fromTourOut" type="text" name="fromTourOut" placeholder="прим. Кишинев" required>
+                                                    </div>
+                                                </li>
+                                                <li class="search-avia__fromTour-items">
+                                                    <div class="search-avia__fromTour-itemsWrap search-avia__fromTour-itemsWrap--earth">
+                                                        <label for="fromTourTo">Страна</label>
+                                                        <input id="fromTourTo" type="text" name="fromTourTo" placeholder="прим. Turkey, Antalya" required>
+                                                    </div>
+                                                </li>
+                                                <li class="search-avia__fromTour-items">
+                                                    <div class="search-avia__fromTour-itemsWrap search-avia__fromTour-itemsWrap--avia">
+                                                        <label for="fromTourSelect">Тур</label>
+                                                        <select name="fromTourSelect" id="fromTourSelect">
+                                                            <option value="1">прим. Day flight</option>
+                                                            <option value="1">прим. Night flight</option>
+                                                        </select>
+                                                    </div>
+                                                </li>
+                                                <li class="search-avia__fromTour-items">
+                                                    <button class="search-avia__fromTour-search">Поиск</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="search-avia__fromTour-moreOption" action="action.php">
+                                            <ul class="search-avia__fromTour-moreOption-list">
+                                                <li class="search-avia__fromTour-moreOption-items">
+                                                    <label for="search-avia__fromTourDate">Даты вылета</label>
+                                                    <input id="search-avia__fromTourDate" type="text" name="search-avia__fromTourDate" placeholder="11.12.2017 - 14.12.2017">
+                                                </li>
+                                                <li class="search-avia__fromTour-moreOption-items">
+                                                    <label for="search-avia__fromTourNights">К-во ночей</label>
+                                                    <select id="search-avia__fromTourNights" name="search-avia__fromTourNights">
+                                                        <option value="1">7-9 ночей</option>
+                                                        <option value="2">5-8 ночей</option>
                                                     </select>
+                                                </li>
+                                                <li class="search-avia__fromTour-moreOption-items">
+                                                    <label for="search-avia__fromTourTourists">Туристы</label>
+                                                    <select id="search-avia__fromTourTourists" name="search-avia__fromTourTourists">
+                                                        <option value="1">3 взрослых, 2 ребенка</option>
+                                                        <option value="2">2 взрослых, 1 ребенок</option>
+                                                    </select>
+                                                </li>
+                                                <li class="search-avia__fromTour-moreOption-items">
+                                                    <label for="search-avia__fromTourPrice">Цена EUR</label>
+                                                    <select id="search-avia__fromTourPrice" name="search-avia__fromTourPrice">
+                                                        <option value="1">от 1000 до 2000</option>
+                                                        <option value="2">от 500 до 1000</option>
+                                                    </select>
+                                                </li>
+                                                <li class="search-avia__fromTour-moreOption-items search-avia__fromTour-moreOption-items--is">
+                                                    <input id="search-avia__fromTourCheckboxIs" type="checkbox" name="search-avia__fromTourCheckboxIs">
+                                                    <label for="search-avia__fromTourCheckboxIs">Есть места на рейсы
+                                                        <span></span>
+                                                    </label>
+                                                </li>
+                                                <li class="search-avia__fromTour-moreOption-items search-avia__fromTour-moreOption-items--not">
+                                                    <input id="search-avia__fromTourCheckboxNot" type="checkbox" name="search-avia__fromTourCheckboxIs">
+                                                    <label for="search-avia__fromTourCheckboxNot">Нет остановки продажи
+                                                        <span></span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                            <div class="search-avia__fromTour-moreOption-rowBottom">
+
+                                                <div class="search-avia__fromTour-moreOption-rowBottom-block">
+                                                    <div class="search-avia__fromTour-moreOption-rowBottom-blockHeadline">
+                                                        <h2 class="search-avia__fromTour-moreOption-rowBottom-headline">Город</h2>
+                                                        <button class="search-avia__fromTour-moreOption-rowBottom-random" type="button">любой</button>
+                                                    </div>
+                                                    <ul class="search-avia__fromTour-moreOption-rowBottom-list">
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="alania" type="checkbox">
+                                                            <label for="alania">Алания
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="antalia" type="checkbox">
+                                                            <label for="antalia">Анталия
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="kemer" type="checkbox">
+                                                            <label for="kemer">Кемер
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="side" type="checkbox">
+                                                            <label for="side">Сиде
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="anapa" type="checkbox">
+                                                            <label for="anapa">Анапа
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="maldivi" type="checkbox">
+                                                            <label for="maldivi">Мальдивы
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="cyprus" type="checkbox">
+                                                            <label for="cyprus">Кипр
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                    </ul>
                                                 </div>
-                                            </li>
-                                            <li class="search-avia__fromTour-items">
-                                                <button class="search-avia__fromTour-search">Поиск</button>
-                                            </li>
-                                        </ul>
+
+                                                <div class="search-avia__fromTour-moreOption-rowBottom-block">
+                                                    <div class="search-avia__fromTour-moreOption-rowBottom-blockHeadline">
+                                                        <h2 class="search-avia__fromTour-moreOption-rowBottom-headline">Питание</h2>
+                                                        <button class="search-avia__fromTour-moreOption-rowBottom-random" type="button">любое</button>
+                                                    </div>
+                                                    <ul class="search-avia__fromTour-moreOption-rowBottom-list">
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="category5" type="checkbox">
+                                                            <label for="category5">5*
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="category4" type="checkbox">
+                                                            <label for="category4">4*
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="category3" type="checkbox">
+                                                            <label for="category3">3*
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="categoryFamily" type="checkbox">
+                                                            <label for="categoryFamily">Family
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="category2" type="checkbox">
+                                                            <label for="category2">2*
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="category1" type="checkbox">
+                                                            <label for="category1">1*
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="search-avia__fromTour-moreOption-rowBottom-block search-avia__fromTour-moreOption-rowBottom-block--hotels">
+                                                    <div class="search-avia__fromTour-moreOption-rowBottom-blockHeadline">
+                                                        <h2 class="search-avia__fromTour-moreOption-rowBottom-headline">Питание</h2>
+                                                        <button class="search-avia__fromTour-moreOption-rowBottom-random" type="button">любое</button>
+                                                    </div>
+                                                    <div class="search-avia__fromTour-moreOption-rowBottom-blockSearch">
+                                                        <input id="searchHotels" type="text" name="searchHotels" placeholder="поиск">
+                                                    </div>
+                                                    <ul class="search-avia__fromTour-moreOption-rowBottom-list search-avia__fromTour-moreOption-rowBottom-list--hotels">
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="hotel1" type="checkbox">
+                                                            <label for="hotel1">ADALYA ARTSIDE HOTEL 5*
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="hotel2" type="checkbox">
+                                                            <label for="hotel2">ADALYA ELITE LARA 5*
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="hotel3" type="checkbox">
+                                                            <label for="hotel3">ADAM EVE 5*
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="search-avia__fromTour-moreOption-rowBottom-block">
+                                                    <div class="search-avia__fromTour-moreOption-rowBottom-blockHeadline">
+                                                        <h2 class="search-avia__fromTour-moreOption-rowBottom-headline">Категория</h2>
+                                                        <button class="search-avia__fromTour-moreOption-rowBottom-random" type="button">любая</button>
+                                                    </div>
+                                                    <ul class="search-avia__fromTour-moreOption-rowBottom-list">
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="foodUai" type="checkbox">
+                                                            <label for="foodUai">Uai
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="foodAi" type="checkbox">
+                                                            <label for="foodAi">Ai
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="foodBb" type="checkbox">
+                                                            <label for="foodBb">Bb
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="foodHb" type="checkbox">
+                                                            <label for="foodHb">Hb
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                        <li class="search-avia__fromTour-moreOption-rowBottom-items">
+                                                            <input id="foodRо" type="checkbox">
+                                                            <label for="foodRо">Rо
+                                                                <span></span>
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
 
                                     </form>
-                                    <form class="search-avia__fromTour-moreOption" action="action.php">
-                                        <ul class="search-avia__fromTour-moreOption-list">
-                                            <li class="search-avia__fromTour-moreOption-items">
-                                                <label for="search-avia__fromTourDate">Даты вылета</label>
-                                                <input id="search-avia__fromTourDate" type="text" name="search-avia__fromTourDate" placeholder="11.12.2017 - 14.12.2017">
-                                            </li>
-                                            <li class="search-avia__fromTour-moreOption-items">
-                                                <label for="search-avia__fromTourNights">К-во ночей</label>
-                                                <select id="search-avia__fromTourNights" name="search-avia__fromTourNights">
-                                                    <option value="1">7-9 ночей</option>
-                                                    <option value="2">5-8 ночей</option>
-                                                </select>
-                                            </li>
-                                            <li class="search-avia__fromTour-moreOption-items">
-                                                <label for="search-avia__fromTourTourists">Туристы</label>
-                                                <select id="search-avia__fromTourTourists" name="search-avia__fromTourTourists">
-                                                    <option value="1">3 взрослых, 2 ребенка</option>
-                                                    <option value="2">2 взрослых, 1 ребенок</option>
-                                                </select>
-                                            </li>
-                                            <li class="search-avia__fromTour-moreOption-items">
-                                                <label for="search-avia__fromTourPrice">Цена EUR</label>
-                                                <select id="search-avia__fromTourPrice" name="search-avia__fromTourPrice">
-                                                    <option value="1">от 1000 до 2000</option>
-                                                    <option value="2">от 500 до 1000</option>
-                                                </select>
-                                            </li>
-                                            <li class="search-avia__fromTour-moreOption-items">
-                                                <label for="search-avia__fromTourCheckboxIs">Есть места на рейсы</label>
-                                                <input id="search-avia__fromTourCheckboxIs" type="checkbox" name="search-avia__fromTourCheckboxIs">
-                                            </li>
-                                            <li class="search-avia__fromTour-moreOption-items">
-                                                <label for="search-avia__fromTourCheckboxNot">Нет остановки продажи</label>
-                                                <input id="search-avia__fromTourCheckboxNot" type="checkbox" name="search-avia__fromTourCheckboxIs">
-                                            </li>
-                                        </ul>
-                                    </form>
+
+
+
                                 </div>
 
                                 <div class="search-avia__tabs-content">
@@ -723,6 +902,7 @@
 
                         </div>
 
+                        <a href="#" class="slider-promotion__link">Посмотреть все</a>
                     </div>
 
                 </div>
@@ -752,7 +932,10 @@
 
                                     <div class="news__tabs-contentBlock">
                                         <div class="news__tabs-contentBlock-imgWrap news__tabs-contentBlock-imgWrap--wide">
-                                            <img src="static/img/content/news-wide-img.jpg" alt="Картинка 1">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/news-wide-img.jpg">
+                                                    <img src="static/img/content/news-wide-img.jpg" alt="Картинка 1">
+                                            </picture>
                                         </div>
                                         <p class="news__tabs-contentBlock-title">НОВОЕ НАПРАВЛЕНИЕ / МОНАКО</p>
                                         <h2 class="news__tabs-contentBlock-headline">Монако для избарнных: золотой курорт миллионеров</h2>
@@ -761,7 +944,10 @@
 
                                     <div class="news__tabs-contentBlock">
                                         <div class="news__tabs-contentBlock-imgWrap">
-                                            <img src="static/img/content/news-img2.jpg" alt="">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/news-img2.jpg">
+                                                    <img src="static/img/content/news-img2.jpg" alt="Картинка 1">
+                                            </picture>
                                         </div>
                                         <p class="news__tabs-contentBlock-title">ВОСТОК / ЭКСКУРСИИ</p>
                                         <h2 class="news__tabs-contentBlock-headline">Стамбул: Жемчужина востока</h2>
@@ -770,9 +956,12 @@
                                         <a href="#" class="news__tabs-contentBlock-link">Подробнее</a>
                                     </div>
 
-                                    <div class="news__tabs-contentBlock">
+                                    <div class="news__tabs-contentBlock news__tabs-contentBlock--hidden">
                                         <div class="news__tabs-contentBlock-imgWrap">
-                                            <img src="static/img/content/news-img3.jpg" alt="">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/news-img3.jpg">
+                                                    <img src="static/img/content/news-img3.jpg" alt="Картинка 1">
+                                            </picture>
                                         </div>
                                         <p class="news__tabs-contentBlock-title">ЭКЗОТИКА / РАЙ</p>
                                         <h2 class="news__tabs-contentBlock-headline">Бали - Рай на земле</h2>
@@ -781,20 +970,26 @@
                                         <a href="#" class="news__tabs-contentBlock-link">Подробнее</a>
                                     </div>
 
-                                    <div class="news__tabs-contentBlock">
+                                    <div class="news__tabs-contentBlock news__tabs-contentBlock--hidden news__tabs-contentBlock--positionTop">
                                         <div class="news__tabs-contentBlock-imgWrap news__tabs-contentBlock-imgWrap--wide">
-                                            <img src="static/img/content/news-wide-img4.jpg" alt="">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/news-wide-img4.jpg">
+                                                    <img src="static/img/content/news-wide-img4.jpg" alt="Картинка 1">
+                                            </picture>
                                         </div>
                                         <p class="news__tabs-contentBlock-title">ЗИМА / АЛЬПЫ</p>
                                         <h2 class="news__tabs-contentBlock-headline">Альпийская свежасть: Готовь альпийские сани летом</h2>
                                         <a href="#" class="news__tabs-contentBlock-link">Подробнее</a>
                                     </div>
-
+                                    <a href="#" class="slider-promotion__link">Посмотреть все</a>
                                 </div>
                                 <div class="news__tabs-content news__tabs-content--reverse">
                                     <div class="news__tabs-contentBlock">
                                         <div class="news__tabs-contentBlock-imgWrap news__tabs-contentBlock-imgWrap--wide">
-                                            <img src="static/img/content/news-wide-img.jpg" alt="Картинка 1">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/news-wide-img.jpg">
+                                                    <img src="static/img/content/news-wide-img.jpg" alt="Картинка 1">
+                                            </picture>
                                         </div>
                                         <p class="news__tabs-contentBlock-title">НОВОЕ НАПРАВЛЕНИЕ / МОНАКО</p>
                                         <h2 class="news__tabs-contentBlock-headline">Монако для избарнных: золотой курорт миллионеров</h2>
@@ -803,7 +998,10 @@
 
                                     <div class="news__tabs-contentBlock">
                                         <div class="news__tabs-contentBlock-imgWrap">
-                                            <img src="static/img/content/news-img2.jpg" alt="">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/news-img2.jpg">
+                                                    <img src="static/img/content/news-img2.jpg" alt="Картинка 1">
+                                            </picture>
                                         </div>
                                         <p class="news__tabs-contentBlock-title">ВОСТОК / ЭКСКУРСИИ</p>
                                         <h2 class="news__tabs-contentBlock-headline">Стамбул: Жемчужина востока</h2>
@@ -812,9 +1010,12 @@
                                         <a href="#" class="news__tabs-contentBlock-link">Подробнее</a>
                                     </div>
 
-                                    <div class="news__tabs-contentBlock">
+                                    <div class="news__tabs-contentBlock news__tabs-contentBlock--hidden">
                                         <div class="news__tabs-contentBlock-imgWrap">
-                                            <img src="static/img/content/news-img3.jpg" alt="">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/news-img3.jpg">
+                                                    <img src="static/img/content/news-img3.jpg" alt="Картинка 1">
+                                            </picture>
                                         </div>
                                         <p class="news__tabs-contentBlock-title">ЭКЗОТИКА / РАЙ</p>
                                         <h2 class="news__tabs-contentBlock-headline">Бали - Рай на земле</h2>
@@ -823,15 +1024,19 @@
                                         <a href="#" class="news__tabs-contentBlock-link">Подробнее</a>
                                     </div>
 
-                                    <div class="news__tabs-contentBlock">
+                                    <div class="news__tabs-contentBlock news__tabs-contentBlock--hidden news__tabs-contentBlock--positionTop">
                                         <div class="news__tabs-contentBlock-imgWrap news__tabs-contentBlock-imgWrap--wide">
-                                            <img src="static/img/content/news-wide-img4.jpg" alt="">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/news-wide-img4.jpg">
+                                                    <img src="static/img/content/news-wide-img4.jpg" alt="Картинка 1">
+                                            </picture>
                                         </div>
                                         <p class="news__tabs-contentBlock-title">ЗИМА / АЛЬПЫ</p>
                                         <h2 class="news__tabs-contentBlock-headline">Альпийская свежасть: Готовь альпийские сани летом</h2>
                                         <a href="#" class="news__tabs-contentBlock-link">Подробнее</a>
                                     </div>
-
+                                    .
+                                    <a href="#" class="slider-promotion__link">Посмотреть все</a>
                                 </div>
                             </div>
                         </div>
@@ -893,7 +1098,10 @@
                         <div class="best-deals__blocksWrap">
                             <div class="best-deals__blockLeft">
                                 <a class="best-deals__block-link best-deals__block-link--height" href="#">
-                                    <img src="static/img/content/best-deals-img1.jpg" alt="Картинка">
+                                    <picture>
+                                        <source media="(max-width: 768px)" srcset="static/img/content/best-deals-img1-mobile.jpg">
+                                            <img src="static/img/content/best-deals-img1.jpg" alt="Картинка">
+                                    </picture>
                                 </a>
                                 <div class="best-deals__titleWrap">
                                     <h2 class="best-deals__block-link-headline">Анталия горячие туры</h2>
@@ -904,7 +1112,10 @@
                                 <div class="best-deals__blockRight-row">
                                     <div class="best-deals__blockRight">
                                         <a class="best-deals__block-link best-deals__block-link--right" href="#">
-                                            <img src="static/img/content/best-deals-img2.jpg" alt="Картинка">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/best-deals-img2-mobile.jpg">
+                                                    <img src="static/img/content/best-deals-img2.jpg" alt="Картинка">
+                                            </picture>
                                         </a>
                                         <div class="best-deals__titleWrap">
                                             <h2 class="best-deals__block-link-headline">Анталия горячие туры</h2>
@@ -913,7 +1124,10 @@
                                     </div>
                                     <div class="best-deals__blockRight">
                                         <a class="best-deals__block-link best-deals__block-link--right" href="#">
-                                            <img src="static/img/content/best-deals-img3.jpg" alt="Картинка">
+                                            <picture>
+                                                <source media="(max-width: 768px)" srcset="static/img/content/best-deals-img3-mobile.jpg">
+                                                    <img src="static/img/content/best-deals-img3.jpg" alt="Картинка">
+                                            </picture>
                                         </a>
                                         <div class="best-deals__titleWrap">
                                             <h2 class="best-deals__block-link-headline">Бали</h2>
@@ -923,7 +1137,10 @@
                                 </div>
                                 <div class="best-deals__blockRight best-deals__blockRight--wide">
                                     <a class="best-deals__block-link" href="#">
-                                        <img src="static/img/content/best-deals-img4.jpg" alt="Картинка">
+                                        <picture>
+                                            <source media="(max-width: 768px)" srcset="static/img/content/best-deals-img4-mobile.jpg">
+                                                <img src="static/img/content/best-deals-img4.jpg" alt="Картинка">
+                                        </picture>
                                     </a>
                                     <div class="best-deals__titleWrap">
                                         <h2 class="best-deals__block-link-headline">Бали</h2>
@@ -943,7 +1160,7 @@
                         <div class="logo logo--footer">
                             <img src="static/img/content/logo-footer.png" alt="Гранд Вояж">
                         </div>
-                        <nav class="main-nav">
+                        <nav class="main-nav main-nav--footer">
                             <ul class="main-nav__list main-nav__list--footer">
                                 <li class="main-nav__items"><a href="#" class="main-nav__item">Туры</a>
                                 </li>
@@ -1053,7 +1270,7 @@
 
         <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="static/js/mainwtqtjec15hw8dajlwhfr.min.js"></script>
+        <script src="static/js/mainddd693waxkcyle17zaor.min.js"></script>
     </body>
 
 </html>
