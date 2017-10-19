@@ -15,7 +15,7 @@
 
 
         <!--[if (gt IE 9)|!(IE)]><!-->
-        <link href="static/css/mainikkfdtzx1tp91crkvs4i.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/mainqrdjpa7e7z49otg9zfr.min.css" rel="stylesheet" type="text/css">
         <!--<![endif]-->
 
         <meta property="og:title" content="" />
@@ -300,7 +300,7 @@
 
             <footer id="contacts" class="page-footer page-footer--index tracked">
 
-                <form class="contacts-form" action="actipn.php" autocomplete="off">
+                <form class="contacts-form" autocomplete="off">
                     <div class="container">
                         <h2 class="case-pageDesign__headline case-pageDesign__headline--contactsForm">Контакты</h2>
                         <ul class="contacts-form__list">
@@ -333,7 +333,24 @@
 
         <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="static/js/mainikkfdtzx1tp91crkvs4i.min.js"></script>
+        <script src="static/js/mainqrdjpa7e7z49otg9zfr.min.js"></script>
+        
+        <script type="text/javascript">
+          $(document).ready(function(){
+              $(".contacts-form").submit(function() { //устанавливаем событие отправки для формы с id=form
+                var form_data = $(this).serialize(); //собераем все данные из формы
+                $.ajax({
+                  type: "POST", //Метод отправки
+                  url: "mail.php", //путь до php фаила отправителя
+                  data: form_data,
+                  success: function() {
+                   //код в этом блоке выполняется при успешной отправке сообщения
+                   alert("Ваше сообщение отпрвлено!");
+                  }
+              });
+          });
+        });
+        </script>
     </body>
 
 </html>
