@@ -15,7 +15,7 @@
 
 
         <!--[if (gt IE 9)|!(IE)]><!-->
-        <link href="static/css/mainqrdjpa7e7z49otg9zfr.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/main0rotvvpkchwjc4z5xw29.min.css" rel="stylesheet" type="text/css">
         <!--<![endif]-->
 
         <meta property="og:title" content="" />
@@ -277,7 +277,25 @@
                                 </div>
                             </a>
 
-                            <a class="portfolio__cart portfolio__cart--mobileHidden wow fadeInLeft" data-wow-offset="300" href="#contacts">
+                            <a class="portfolio__cart portfolio__cart--mobileHidden wow fadeInLeft" data-wow-offset="300" href="case-porterYard.html">
+                                <div class="portfolio__cart-img">
+                                    <picture>
+                                        <source media="(max-width: 767px)" srcset="static/img/content/preview-case-oleni-mobile.jpg">
+                                            <img src="static/img/content/porterYard-portfolio.jpg" alt="Каринка">
+                                    </picture>
+                                </div>
+                                <div class="page-header__caseDescriptionWrap">
+                                    <div class="page-header__caseDescriptionHead-linkWrap">
+                                        <div class="page-header__caseDescriptionHead-link page-header__caseDescriptionHead-link--portfolio">SMM продвижение Porter Yard</div>
+                                    </div>
+                                    <div class="page-header__caseDescriptionHead-border"></div>
+                                    <ul class="page-header__caseDescriptionHead-list">
+                                        <li class="page-header__caseDescriptionHead-items">SMM</li>
+                                    </ul>
+                                </div>
+                            </a>
+
+                            <a class="portfolio__cart portfolio__cart--mobileHidden wow fadeInRight" data-wow-offset="300" href="#contacts">
                                 <div class="portfolio__cart-img">
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="static/img/content/portfolio-img8-mobile.jpg">
@@ -300,7 +318,7 @@
 
             <footer id="contacts" class="page-footer page-footer--index tracked">
 
-                <form class="contacts-form" autocomplete="off">
+                <form class="contacts-form" action="mail.php" autocomplete="off">
                     <div class="container">
                         <h2 class="case-pageDesign__headline case-pageDesign__headline--contactsForm">Контакты</h2>
                         <ul class="contacts-form__list">
@@ -333,25 +351,22 @@
 
         <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="static/js/mainqrdjpa7e7z49otg9zfr.min.js"></script>
-        
+        <script src="static/js/main0rotvvpkchwjc4z5xw29.min.js"></script>
         <script type="text/javascript">
-          $(document).ready(function() {
-
-              $(".contacts-form").submit(function() {
-                  $.ajax({
-                      type: "POST",
-                      url: "mail.php",
-                      data: $(this).serialize()
-                  }).done(function() {
-                      $(this).find("input").val("");
-                      alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
-                      $("#form").trigger("reset");
+            $(document).ready(function(){
+                  $(".contacts-form").submit(function() { //устанавливаем событие отправки для формы с id=form
+                    var form_data = $(this).serialize(); //собераем все данные из формы
+                    $.ajax({
+                      type: "POST", //Метод отправки
+                      url: "mail.php", //путь до php фаила отправителя
+                      data: form_data,
+                      success: function() {
+                       //код в этом блоке выполняется при успешной отправке сообщения
+                       alert("Ваше сообщение отпрвлено!");
+                      }
                   });
-                  return false;
+                });
               });
-
-          });
         </script>
     </body>
 
