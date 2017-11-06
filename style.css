@@ -43,6 +43,8 @@ ul li {
 ul li a {
   display: block;
   
+  font-size: 50px;
+  
   transition: 0.2s ease;
 }
 
@@ -88,6 +90,11 @@ ul li a img {
     height: 180px;
     margin-right: 0;
   }
+  
+  ul li a {
+    
+  }
+  
 }
 
 @media (max-width: 394px) {
