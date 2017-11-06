@@ -60,7 +60,7 @@ ul li a img {
   }
   
   ul li:nth-child(1) {
-    display: none;
+    display: block;
   }
   
   ul li:nth-child(7) {
