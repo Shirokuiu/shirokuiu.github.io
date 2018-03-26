@@ -1493,6 +1493,186 @@ button {
   background-color: #b33a3d;
   border-radius: 50%;
 }
+.about__review-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+.about__review-modal--hidden {
+  display: none;
+}
+.about__review-modal-content {
+  box-sizing: border-box;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 25px;
+  background-color: #212121;
+}
+.about__review-modal-rate-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+.about__review-modal-rate {
+  width: 48px;
+  height: 41px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.about__review-modal-rate:last-child {
+  margin-right: 0;
+}
+.about__review-modal-rate .star {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #b33a3d;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.about__review-modal-textarea-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 3.125%;
+}
+.about__review-modal-textarea {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  box-sizing: border-box;
+  min-height: 145px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 300;
+  color: #929292;
+  text-align: center;
+  border: 1px solid #4d4d4d;
+  resize: none;
+}
+.about__review-modal-buttons-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about__review-modal-button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45px;
+}
+.about__review-modal-button--confirm {
+  background-color: #233f3b;
+}
+.about__review-modal-button--cancel {
+  background-color: #4e2324;
+}
+.about__review-modal-button-iconConfirm {
+  width: 23px;
+  height: 15px;
+}
+.about__review-modal-button-iconConfirm .account-confirm {
+  width: 100%;
+  height: auto;
+  stroke: #45ab9b;
+}
+.about__review-modal-button-iconCancel {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.about__review-modal-button-iconCancel::before,
+.about__review-modal-button-iconCancel::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  width: 21.21320343559643px;
+  height: 1px;
+  background-color: #e9464b;
+}
+.about__review-modal-button-iconCancel::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.about__review-modal-button-iconCancel::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.about__review-modal-input-wrap {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 0 3.125%;
+}
+.about__review-modal-input {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 300;
+  color: #929292;
+  text-align: center;
+  border: 1px solid #737373;
+  border-radius: 5px;
+}
 .faq__list {
   margin: 0;
   padding: 0;
@@ -1797,15 +1977,34 @@ button {
       -ms-flex-align: center;
           align-items: center;
   margin: auto;
+  background-color: #161616;
 }
 .event-cart__modal--hidden {
   display: none;
+}
+.event-cart__modal-row {
+  position: fixed;
+  top: 22px;
+  left: 3.125%;
+  right: 3.125%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .event-cart__modal-content {
   position: relative;
   padding: 10.41666666666667%;
   background-color: #fff;
-  box-shadow: -4px 34px 58px 13px rgba(34,60,62,0.95);
 }
 .event-cart__modal-exit {
   position: absolute;
