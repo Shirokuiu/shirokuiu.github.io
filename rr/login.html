@@ -119,192 +119,67 @@
             </symbol>
         </svg>
         <div class="wrapper">
-            <div class="content">
-                <header class="page-header">
+            <a class="link-back link-back--login" href="index.html"></a>
+            <div class="content content--index">
+                <main class="page-content page-content--index">
                     <div class="container">
-                        <div class="page-header__content page-header__content--search">
-                            <div class="search">
-                                <div class="search__content">
-                                    <div class="search__inputWrap">
-                                        <input class="search__input" type="text"><span class="search__input-icon">
-            <svg class="search-icon" width="95.43px" height="94.22px">
-                <use xlink:href="#search-icon"></use>
-            </svg>
-        </span>
-                                    </div><span class="search__button"><span class="search__button-icon">
-            <svg class="booking-list" width="99.5px" height="98.81px">
-                <use xlink:href="#booking-list"></use>
-            </svg>
-        </span></span>
-                                </div>
-                            </div>
+                        <div class="el el--logoIndex">
+                            <svg class="logo" width="82.32px" height="85.62px">
+                                <use xlink:href="#logo"></use>
+                            </svg>
+
                         </div>
-                    </div>
-                </header>
-                <main class="page-content page-content--inner">
-                    <nav class="menu menu--hidden"><span class="menu__exit"></span>
-                        <ul class="menu__list">
-                            <li class="menu__listItems menu__listItems--headline"><a class="text text--fs20 text--cNav text--center" href="#">Indy Sports</a>
-                            </li>
-                            <li class="menu__listItems menu__listItems--content"><a class="text text--fs20 text--cNav text--uppercase text--center" href="account.html">Account</a><a class="text text--fs20 text--cNav text--uppercase text--center" href="wallet.html">Wallet</a><a class="text text--fs20 text--cNav text--uppercase text--center"
-                                href="about.html">About</a><a class="text text--fs20 text--cNav text--uppercase text--center" href="faq.html">Faq</a>
-                            </li>
-                            <li class="menu__listItems menu__listItems--language">
-                                <a class="menu__listItem-language menu__listItem-language--rus" href="#"></a>
-                                <a class="menu__listItem-language menu__listItem-language--eng" href="#"></a>
-                            </li>
-                            <li class="menu__listItems menu__listItems--login"><a class="buttons buttons--fontSize16 buttons--uppercase buttons--red" href="#">Log out</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="slider">
-                        <div class="container">
-                            <div class="slider__content">
-                                <div class="slider__slide">
-                                    <p class="slider__text">Категория</p>
-                                </div>
-                                <div class="slider__slide slider__slide--active">
-                                    <p class="slider__text">Категория</p>
-                                </div>
-                                <div class="slider__slide">
-                                    <p class="slider__text">Категория</p>
-                                </div>
-                                <div class="slider__buttonsWrap">
-                                    <button class="slider__button slider__button--left" type="button"></button>
-                                    <button class="slider__button slider__button--right" type="button"></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="el el--mb10">
-                        <div class="event-cart">
-                            <div class="event-cart__title">
-                                <div class="container">
-                                    <div class="event-cart__title-row"><span class="event-cart__title-icon">
-            <svg class="event-cart-dice" width="91.56px" height="71.72px">
-                <use xlink:href="#event-cart-dice"></use>
-            </svg>
-        </span>
-                                        <h2 class="text text--fs18 text--center">Lorem ipsum dolor sit amet, consectetur</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="event-cart__imgWrap">
-                                <img src="static/img/content/event-cart-img.jpg" alt="img">
-                            </div>
-                            <div class="container">
-                                <div class="event-cart__content event-cart__content--upcomingMod">
-                                    <div class="event-cart__block event-cart__block--discription">
-                                        <h2 class="event-cart__description-headline">Lorem ipsum dolor sit amet, consectetur adiш...</h2>
-                                        <div class="event-cart__row">
-                                            <div class="event-cart__descriptionWrap">
-                                                <p class="event-cart__description-address">641 High Rd Leytonstone London</p><span class="event-cart__description-address-icon">
-            <svg class="pic" width="54.1px" height="86.2px">
-                <use xlink:href="#pic"></use>
-            </svg>
-        </span>
-                                                <p class="event-cart__description-date">SW1 1YY</p>
+                        <p class="index-title index-title--fs24">Russian Roulette</p>
+                        <div class="el el--marginTopAuto el--marginBottomAuto el--widthFill">
+                            <div class="account account--login">
+                                <form class="account__form" action="action.php">
+                                    <div class="account__list">
+                                        <li class="account__listItems">
+                                            <div class="account__list-inputWrap">
+                                                <input class="account__list-input" type="text" placeholder="User name" required>
                                             </div>
-                                            <div class="event-cart__dateWrap">
-                                                <h2 class="event-cart__date-price">£ 40</h2><span class="event-cart__date-time">16:00-18:00</span><span class="event-cart__date-time">Fri 22 Jan</span>
+                                        </li>
+                                        <li class="account__listItems">
+                                            <div class="account__list-inputWrap">
+                                                <input class="account__list-input" type="password" placeholder="Password" required>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="el el--mb10">
-                                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                </div>
-                            </div>
-                            <div class="event-cart__buttonsWrap"><a class="event-cart__button event-cart__button--confirm" href="past-booking-view.html"><span class="event-cart__button-iconConfirm">
+                                        </li>
+                                        <li class="account__listItems">
+                                            <button class="buttons buttons--centerIcons buttons--green" type="submit"><span class="account__buttonIcon">
             <svg class="account-confirm" width="51.08px" height="32.22px">
                 <use xlink:href="#account-confirm"></use>
             </svg>
-        </span></a>
-                                <button class="event-cart__button event-cart__button--cancel" type="button"><span class="event-cart__button-iconCancel"></span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="el el--mb10">
-                        <div class="event-cart">
-                            <div class="event-cart__title">
-                                <div class="container">
-                                    <div class="event-cart__title-row"><span class="event-cart__title-icon">
-            <svg class="event-cart-dice" width="91.56px" height="71.72px">
-                <use xlink:href="#event-cart-dice"></use>
-            </svg>
         </span>
-                                        <h2 class="text text--fs18 text--center">Lorem ipsum dolor sit amet, consectetur</h2>
+                                            </button>
+                                        </li>
+                                        <li class="account__listItems"><a class="account__restorePassword" href="#">Восстановить пароль</a>
+                                        </li>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="event-cart__imgWrap">
-                                <img src="static/img/content/event-cart-img.jpg" alt="img">
-                            </div>
-                            <div class="container">
-                                <div class="event-cart__content event-cart__content--upcomingMod">
-                                    <div class="event-cart__block event-cart__block--discription">
-                                        <h2 class="event-cart__description-headline">Lorem ipsum dolor sit amet, consectetur adiш...</h2>
-                                        <div class="event-cart__row">
-                                            <div class="event-cart__descriptionWrap">
-                                                <p class="event-cart__description-address">641 High Rd Leytonstone London</p><span class="event-cart__description-address-icon">
-            <svg class="pic" width="54.1px" height="86.2px">
-                <use xlink:href="#pic"></use>
-            </svg>
-        </span>
-                                                <p class="event-cart__description-date">SW1 1YY</p>
+                                </form>
+                                <form class="account__form account__form--hidden" action="action.php" id="restorePassword">
+                                    <div class="account__list">
+                                        <li class="account__listItems">
+                                            <div class="account__list-inputWrap">
+                                                <input class="account__list-input" type="email" placeholder="E-mail" required>
                                             </div>
-                                            <div class="event-cart__dateWrap">
-                                                <h2 class="event-cart__date-price">£ 40</h2><span class="event-cart__date-time">16:00-18:00</span><span class="event-cart__date-time">Fri 22 Jan</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="el el--mb10">
-                                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                                </div>
-                            </div>
-                            <div class="event-cart__buttonsWrap"><a class="event-cart__button event-cart__button--confirm" href="past-booking-view.html"><span class="event-cart__button-iconConfirm">
+                                        </li>
+                                        <li class="account__listItems">
+                                            <button class="buttons buttons--height43 buttons--centerIcons buttons--green" type="submit"><span class="account__buttonIcon">
             <svg class="account-confirm" width="51.08px" height="32.22px">
                 <use xlink:href="#account-confirm"></use>
             </svg>
-        </span></a>
-                                <button class="event-cart__button event-cart__button--cancel" type="button"><span class="event-cart__button-iconCancel"></span>
-                                </button>
+        </span>
+                                            </button>
+                                            <button class="buttons buttons--height43 buttons--centerIcons buttons--red" type="submit" id="restoreCancel"><span class="account__buttonIcon account__buttonIcon--cancel"></span>
+                                            </button>
+                                        </li>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </main>
             </div>
-            <footer class="page-footer">
-                <div class="footer-content">
-                    <div class="container">
-                        <ul class="footer-content__list">
-                            <li class="footer-content__listItems">
-                                <a class="footer-content__listItem footer-content__listItem-right footer-content__listItem--active" href="booking-upcoming.html">
-                                    <svg class="logo" width="82.32px" height="85.62px">
-                                        <use xlink:href="#logo"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="footer-content__listItems">
-                                <a class="footer-content__listItem footer-content__listItem--bookingList" href="booking-list.html">
-                                    <svg class="booking-list" width="99.5px" height="98.81px">
-                                        <use xlink:href="#booking-list"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="footer-content__listItems">
-                                <a class="footer-content__listItem footer-content__listItem-settings" href="#">
-                                    <svg class="settings" width="101.77px" height="101.77px">
-                                        <use xlink:href="#settings"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </footer>
         </div>
 
 
