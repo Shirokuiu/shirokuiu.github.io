@@ -404,6 +404,11 @@ button {
 .el--hidden {
   display: none;
 }
+@media (max-width: 376px) {
+  .el--iphone5 {
+    width: auto;
+  }
+}
 .buttons {
   margin: 0;
   padding: 0;
@@ -513,6 +518,12 @@ button {
 .text--walletModActive {
   color: #f6494e;
   border-bottom: 1px solid #f6494e;
+}
+@media (max-width: 376px) {
+  .text--iphone5 {
+    font-size: 12px !important;
+    line-height: 15px !important;
+  }
 }
 .prealoader {
   position: fixed;
@@ -786,6 +797,12 @@ button {
 .slider__button--right::after {
   top: 6px;
 }
+@media (max-width: 376px) {
+  .slider__text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
 .link-back {
   position: absolute;
   top: 0;
@@ -881,6 +898,12 @@ button {
 .index-title--fs24 {
   font-size: 24px;
   line-height: 27px;
+}
+@media (max-width: 376px) {
+  .index-title {
+    font-size: 30px;
+    line-height: 33px;
+  }
 }
 .menu {
   position: fixed;
@@ -1456,6 +1479,12 @@ button {
     font-size: 10px;
   }
 }
+@media (max-width: 376px) {
+  .wallet__payLink-img {
+    width: 100%;
+    height: auto;
+  }
+}
 .about__imgWrap {
   margin-bottom: 20px;
 }
@@ -1672,6 +1701,11 @@ button {
   text-align: center;
   border: 1px solid #737373;
   border-radius: 5px;
+}
+@media (max-width: 376px) {
+  .about__review-modal-rate-list {
+    padding: 0 30px;
+  }
 }
 .faq__list {
   margin: 0;
@@ -2106,6 +2140,12 @@ button {
   }
   .event-cart__description-address {
     max-width: 90%;
+  }
+}
+@media (max-width: 376px) {
+  .event-cart__date-price {
+    font-size: 30px;
+    line-height: 33px;
   }
 }
 .footer-content {
