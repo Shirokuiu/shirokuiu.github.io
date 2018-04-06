@@ -406,6 +406,11 @@ img {
   font-weight: 100;
   text-decoration: none;
 }
+.text--white30 {
+  font-size: 30px;
+  line-height: 33px;
+  color: #fff;
+}
 .text--white24 {
   font-size: 24px;
   line-height: 27px;
@@ -1921,6 +1926,12 @@ img {
   resize: none;
 }
 .message__add-message-button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  outline: none;
   margin-left: 5%;
 }
 .message__add-message-icon {
@@ -2439,6 +2450,9 @@ img {
   z-index: 5;
   padding: 11px 10px;
   background-color: transparent;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 .booking__order-therapist-filter-headlineWrap--open .booking__order-therapist-filter-headline-indicator {
   -webkit-transform: rotate(180deg);
@@ -2752,6 +2766,10 @@ img {
 .booking__confirm-sum {
   padding: 15px 0;
   background-color: #f4f9f9;
+}
+.booking__explore-headline {
+  height: 22vh;
+  background-color: #868686;
 }
 .booking__explore-select-wrap {
   position: relative;
