@@ -353,11 +353,14 @@ button {
 .el--mr25 {
   margin-right: 25px;
 }
+.el--mb5 {
+  margin-bottom: 5px !important;
+}
 .el--mb8 {
   margin-bottom: 8px;
 }
 .el--mb10 {
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 .el--mb12 {
   margin-bottom: 12px;
@@ -444,6 +447,10 @@ button {
 .buttons--blue {
   background-color: #213340;
   color: #428abc;
+}
+.buttons--blueLight {
+  background-color: #1f2d37;
+  color: #f6494e;
 }
 .buttons--red {
   background-color: #4b292a;
@@ -2004,6 +2011,10 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2146,6 +2157,13 @@ button {
   .event-cart__date-price {
     font-size: 30px;
     line-height: 33px;
+  }
+}
+@media (max-width: 350px) {
+  .event-cart__modal-row {
+    position: relative;
+    width: 100%;
+    margin-bottom: auto;
   }
 }
 .footer-content {
