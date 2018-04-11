@@ -1612,6 +1612,9 @@ img {
   border-radius: 50%;
 }
 .settings__user-arrow {
+  position: absolute;
+  top: 0;
+  right: 3.125%;
   width: 10px;
   height: 19px;
   margin-top: 10px;
@@ -1721,6 +1724,9 @@ img {
 .settings__address-cart--active .settings__address-cart-description-text {
   display: block;
 }
+.settings__address-cart .container {
+  position: relative;
+}
 .settings__user-config-button {
   width: 30%;
 }
@@ -1746,8 +1752,37 @@ img {
   display: none;
 }
 .settings__address-cart-description-text {
+  position: relative;
   display: none;
   margin-top: 20px;
+}
+.settings__address-cart-description-text-cancel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+}
+.settings__address-cart-description-text-cancel::before,
+.settings__address-cart-description-text-cancel::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 1px;
+  margin: auto;
+  background-color: #868686;
+}
+.settings__address-cart-description-text-cancel::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.settings__address-cart-description-text-cancel::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .settings__address-add-icon {
   position: relative;
@@ -2125,9 +2160,22 @@ img {
 }
 .booking__list-avatar {
   box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 130px;
   height: 130px;
   border: 2px solid #4fc6d0;
+  border-radius: 50%;
+}
+.booking__list-avatar img {
+  width: 90%;
   border-radius: 50%;
 }
 .booking__list-avatar-star {
@@ -2138,6 +2186,11 @@ img {
   width: 100%;
   height: auto;
   fill: #4cc5cf;
+}
+.booking__list-avatar-star--noFill .star {
+  fill: none;
+  stroke: #4cc5cf;
+  stroke-width: 5px;
 }
 .booking__list-specification {
   -webkit-box-flex: 1;
@@ -2276,6 +2329,10 @@ img {
 }
 .booking__order-cart-description-button {
   min-width: 100px;
+  margin-right: 3%;
+}
+.booking__order-cart-description-button:last-child {
+  margin-right: 0;
 }
 .booking__next-step-link {
   box-shadow: 0px 9px 20px 1px rgba(76,197,207,0.31);
