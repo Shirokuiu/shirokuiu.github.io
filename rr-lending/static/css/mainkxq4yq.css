@@ -282,6 +282,9 @@ img {
 .b--w315 {
   width: 315px;
 }
+.b--w285 {
+  width: 285px;
+}
 .b--w215 {
   width: 215px;
 }
@@ -614,11 +617,85 @@ img {
 .logo__link {
   display: block;
 }
+.user-block {
+  position: relative;
+}
 .user-block__link {
   box-sizing: border-box;
   display: block;
   padding: 8px 0;
   background-color: #4d292a;
+}
+.user-block__login {
+  position: absolute;
+  right: 0;
+  bottom: -164px;
+  z-index: 5;
+}
+.user-block__login--hidden {
+  display: none;
+}
+.user-block__login-form-description {
+  padding: 10px;
+  background-color: #212121;
+}
+.user-block__login-button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+.user-block__login-button--confirm {
+  background-color: #2b4743;
+}
+.user-block__login-button--exit {
+  position: relative;
+  background-color: #562b2c;
+}
+.user-block__login-button-confirm {
+  width: 23px;
+  height: 14px;
+}
+.user-block__login-button-confirm .account-confirm {
+  width: 23px;
+  height: 14px;
+  fill: #409387;
+}
+.user-block__login-button-exit {
+  width: 15px;
+  height: 15px;
+}
+.user-block__login-button-exit::before,
+.user-block__login-button-exit::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 18.5969083452062px;
+  height: 1px;
+  margin: auto;
+  background-color: #9e393b;
+}
+.user-block__login-button-exit::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.user-block__login-button-exit::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .page-content {
   background-color: #161616;
