@@ -285,8 +285,14 @@ img {
 .b--w315 {
   width: 315px;
 }
+.b--w310 {
+  width: 310px;
+}
 .b--w285 {
   width: 285px;
+}
+.b--w280 {
+  width: 280px;
 }
 .b--w215 {
   width: 215px;
@@ -310,7 +316,7 @@ img {
   margin: 0;
   padding: 0;
   font-weight: 300;
-  text-decoration: none;
+  text-decoration: nones;
 }
 .text--white37 {
   font-size: 47px;
@@ -800,10 +806,6 @@ img {
 .page-content__description-about {
   padding-bottom: 30px;
   border-bottom: 1px solid #371e1e;
-}
-.page-content__description-about-text {
-  -ms-flex-preferred-size: 360px;
-      flex-basis: 360px;
 }
 .page-content__description-about-text-icon {
   width: 26px;
