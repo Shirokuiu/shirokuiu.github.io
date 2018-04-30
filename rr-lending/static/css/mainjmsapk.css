@@ -727,12 +727,13 @@ img {
 }
 .page-content__img-language-link {
   margin-right: 15px;
+  opacity: 0.3;
 }
 .page-content__img-language-link:last-child {
   margin-right: 0;
 }
 .page-content__img-language-link--active {
-  opacity: 0.3;
+  opacity: 1;
 }
 .page-content__img-download {
   width: 250px;
