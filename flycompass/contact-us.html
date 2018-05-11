@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>default title</title>
+        <title>Contact us</title>
         <meta content="" name="description">
         <meta content="" name="keywords">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
         <meta name="HandheldFriendly" content="true">
 
         <!--[if (gt IE 9)|!(IE)]><!-->
-        <link href="static/css/main5ydew.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/main4zmlpo.min.css" rel="stylesheet" type="text/css">
         <!--<![endif]-->
         <meta property="og:title" content="#{data.title}">
         <meta property="og:title" content="">
@@ -131,7 +131,7 @@
                                 <ul class="main-nav__list row m--l-a">
                                     <li class="main-nav__items"><a class="main-nav__item text text--white14 text--fw600" href="index.html">Home</a>
                                     </li>
-                                    <li class="main-nav__items"><a class="main-nav__item text text--white14 text--fw600" href="#">Services</a>
+                                    <li class="main-nav__items"><a class="main-nav__item text text--white14 text--fw600" href="services.html">Services</a>
                                     </li>
                                     <li class="main-nav__items"><a class="main-nav__item text text--white14 text--fw600" href="about.html">About</a>
                                     </li>
@@ -148,6 +148,19 @@
             </svg>
         </span>
                                     </button>
+                                    <div class="search__form search__form--hidden">
+                                        <div class="row row--jc-c row--ia-c grow"><span class="search__form-exit"></span>
+                                            <div class="column column--jc-c">
+                                                <div class="search__form-input-wrap b--w445">
+                                                    <input class="search__form-input text text--white30 text--fw700" type="text" name="search" placeholder="Search..." autofocus><span class="search__icon search__icon--form">
+            <svg class="search" width="490px" height="490px">
+                <use xlink:href="#search"></use>
+            </svg>
+        </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </nav>
                             <div class="socials row row--ai-c m--l30">
@@ -228,26 +241,28 @@
                     <div class="contact-us m--b30">
                         <form class="contact-us__form container m--b10" action="action.php" method="post">
                             <ul class="contact-us__form-list">
-                                <li class="contact-us__form-list-items">
-                                    <label class="contact-us__form-list-label text text--grayLowLight16 text--fw300 text--center m--b10" for="name">Your name:</label>
-                                    <div class="contact-us__form-input-wrap">
-                                        <input class="contact-us__form-input text text--grayLowLight14 text--fw300 text--center" type="text" placeholder="Enter please your name" required id="name">
+                                <li class="contact-us__form-list-items row row--jc-sb">
+                                    <div class="b--w375">
+                                        <label class="contact-us__form-list-label text text--grayLowLight16 text--fw300 m--b10" for="name">Your name:</label>
+                                        <div class="contact-us__form-input-wrap">
+                                            <input class="contact-us__form-input text text--grayLowLight14 text--fw300" type="text" placeholder="Enter please your name" required id="name">
+                                        </div>
+                                    </div>
+                                    <div class="b--w375">
+                                        <label class="contact-us__form-list-label text text--grayLowLight16 text--fw300 m--b10" for="email">Your email:</label>
+                                        <div class="contact-us__form-input-wrap">
+                                            <input class="contact-us__form-input text text--grayLowLight14 text--fw300" type="email" placeholder="Enter please your email" required id="email">
+                                        </div>
+                                    </div>
+                                    <div class="b--w375">
+                                        <label class="contact-us__form-list-label text text--grayLowLight16 text--fw300 m--b10" for="phone">Your phone:</label>
+                                        <div class="contact-us__form-input-wrap">
+                                            <input class="contact-us__form-input text text--grayLowLight14 text--fw300" type="tel" placeholder="Enter please your phone" required id="phone">
+                                        </div>
                                     </div>
                                 </li>
                                 <li class="contact-us__form-list-items">
-                                    <label class="contact-us__form-list-label text text--grayLowLight16 text--fw300 text--center m--b10" for="email">Your email:</label>
-                                    <div class="contact-us__form-input-wrap">
-                                        <input class="contact-us__form-input text text--grayLowLight14 text--fw300 text--center" type="email" placeholder="Enter please your email" required id="email">
-                                    </div>
-                                </li>
-                                <li class="contact-us__form-list-items">
-                                    <label class="contact-us__form-list-label text text--grayLowLight16 text--fw300 text--center m--b10" for="phone">Your phone:</label>
-                                    <div class="contact-us__form-input-wrap">
-                                        <input class="contact-us__form-input text text--grayLowLight14 text--fw300 text--center" type="tel" placeholder="Enter please your phone" required id="phone">
-                                    </div>
-                                </li>
-                                <li class="contact-us__form-list-items">
-                                    <label class="contact-us__form-list-label text text--grayLowLight16 text--fw300 text--center m--b10" for="mesage">Your message:</label>
+                                    <label class="contact-us__form-list-label text text--grayLowLight16 text--fw300 m--b10" for="mesage">Your message:</label>
                                     <div class="contact-us__form-textarea-wrap">
                                         <textarea class="contact-us__form-input contact-us__form-input--textarea text text--grayLowLight14 text--fw300" placeholder="Enter please your message" required id="mesage"></textarea>
                                     </div>
@@ -296,7 +311,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="static/js/separate-js/noframework.waypoints.min.js"></script>
-        <script src="static/js/main5ydew.min.js"></script>
+        <script src="static/js/main4zmlpo.min.js"></script>
     </body>
 
 </html>
