@@ -12,7 +12,7 @@
         <meta name="HandheldFriendly" content="true">
 
         <!--[if (gt IE 9)|!(IE)]><!-->
-        <link href="static/css/main4zmlpo.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/mainozf9r9.min.css" rel="stylesheet" type="text/css">
         <!--<![endif]-->
         <meta property="og:title" content="#{data.title}">
         <meta property="og:title" content="">
@@ -122,13 +122,15 @@
         </svg>
         <div class="wrapper">
             <div class="content">
-                <header class="page-header">
+                <header class="page-header" id="rowTop">
                     <div class="page-header__row-top page-header__row-top--inner" id="rowTop">
                         <div class="container row">
+                            <button class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                            </button>
                             <div class="logo"><a class="logo__text text text--fw700" href="index.html">Flycompass</a>
                             </div>
                             <nav class="main-nav grow row row--ai-c">
-                                <ul class="main-nav__list row m--l-a">
+                                <ul class="main-nav__list main-nav__list--mobileHidden row m--l-a">
                                     <li class="main-nav__items"><a class="main-nav__item text text--white14 text--fw600" href="index.html">Home</a>
                                     </li>
                                     <li class="main-nav__items"><a class="main-nav__item text text--white14 text--fw600" href="services.html">Services</a>
@@ -163,7 +165,7 @@
                                     </div>
                                 </div>
                             </nav>
-                            <div class="socials row row--ai-c m--l30">
+                            <div class="socials socials--header row row--ai-c m--l30">
                                 <a class="socials__items socials__items--fb" href="#">
                                     <svg class="facebook" width="238.94px" height="512px">
                                         <use xlink:href="#facebook"></use>
@@ -198,7 +200,10 @@
                         <div class="column column--ai-c container">
                             <div class="about__cart column column--ai-c m--b25">
                                 <div class="about__cart-img-wrap m--b10">
-                                    <img class="about__cart-img" src="static/img/content/about-img1.jpg" alt="director">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="static/img/content/about-img1-mobile.jpg">
+                                            <img class="about__cart-img" src="static/img/content/about-img1.jpg" alt="director">
+                                    </picture>
                                 </div>
                                 <h2 class="text text--black20 text--fw400 m--b15">John Borthwick</h2>
                                 <p class="text text--blueLowLight14 text--fw400 m--b15">Director</p>
@@ -220,11 +225,14 @@
                             </div>
                             <div class="about__cart column column--ai-c">
                                 <div class="about__cart-img-wrap m--b10">
-                                    <img class="about__cart-img" src="static/img/content/about-img2.jpg" alt="director">
+                                    <picture>
+                                        <source media="(max-width: 480px)" srcset="static/img/content/about-img2-mobile.jpg">
+                                            <img class="about__cart-img" src="static/img/content/about-img2.jpg" alt="director">
+                                    </picture>
                                 </div>
                                 <h2 class="text text--black20 text--fw400 m--b15">Edwards Borthwick</h2>
                                 <p class="text text--blueLowLight14 text--fw400 m--b15">Director</p>
-                                <p class="text text--grayMedium16 text--fw600 m--b15">Edward has run and advised a number of companies</p>
+                                <p class="text text--grayMedium16 text--fw600 m--b15 text--media500-center">Edward has run and advised a number of companies</p>
                                 <div class="socials socials--about row row--ai-c m--b15">
                                     <a class="socials__items socials__items--fb" href="#">
                                         <svg class="facebook" width="238.94px" height="512px">
@@ -249,9 +257,9 @@
                     </div>
                     <div class="home__feedback row row--jc-c row--ai-c">
                         <div class="container column column--ai-c">
-                            <h2 class="text text--white50 text--center text--fw200 m--b5">Still Have Some Questions Left?</h2>
-                            <h3 class="text text--white50 text--center text--fw600 m--b15">Call us <a class="text text--white50" href="tel:">Tel: 01908 315501</a></h3>
-                            <p class="text text--white16 text--fw300 m--b40">Feel free to contact our support team to learn more about the services provided by us and multiple offers for Your business!</p>
+                            <h2 class="text text--white50 text--center text--fw200 m--b5 text--media880-fs25">Still Have Some Questions Left?</h2>
+                            <h3 class="text text--white50 text--center text--fw600 m--b15 text--media880-fs25">Call us <a class="text text--white50 text--media880-fs25" href="tel:">Tel: 01908 315501</a></h3>
+                            <p class="text text--white16 text--fw300 m--b40 text--media880-center">Feel free to contact our support team to learn more about the services provided by us and multiple offers for Your business!</p>
                             <div class="b--w200 row row--ai-c"><a class="home__feedback-button button button--fill-blueLight button--p-tb17 text text--white13 text--fw500 text--uppercase" href="#">Call us today<span class="home__feedback-tel-icon">
             <svg class="tel" width="512px" height="510.84px">
                 <use xlink:href="#tel"></use>
@@ -292,7 +300,7 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="static/js/separate-js/noframework.waypoints.min.js"></script>
-        <script src="static/js/main4zmlpo.min.js"></script>
+        <script src="static/js/mainozf9r9.min.js"></script>
     </body>
 
 </html>
