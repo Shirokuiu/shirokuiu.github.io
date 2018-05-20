@@ -4082,6 +4082,9 @@ a.ui-button:active,
   padding-bottom: 30px;
   background-color: #19191a;
 }
+.m--t-a {
+  margin-top: auto;
+}
 .m--l-a {
   margin-left: auto;
 }
@@ -4152,5 +4155,10 @@ a.ui-button:active,
   }
   .m--media1040-b20 {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 480px) and (min-resolution: 1.5dppx) {
+  .home__feedback {
+    background-image: url("../img/content/feedback-bg.jpg");
   }
 }
