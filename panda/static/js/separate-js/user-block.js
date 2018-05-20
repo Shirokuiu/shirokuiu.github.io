@@ -1,14 +1,13 @@
 (function () {
   var container = document.querySelector('.user-block');
   var elem = {
-    container: '.user-block__language',
-    input: '.user-block__language-select-input',
-    select: {
-      elem: '.user-block__language-select-wrap',
-      mod: 'user-block__language-select-wrap--hidden'
+    selectContainer: {
+      selectContainerClass: '.user-block__language',
+      selectContainerMod: 'user-block__language--hidden'
     },
+    input: '.user-block__language-select-input',
     target: '.user-block__language-select-text'
-  }
+  };
   var search = container.querySelector('.user-block__search-input');
   var icon = container.querySelector('.user-block__search-icon');
   
