@@ -296,7 +296,7 @@
                         </div>
                         <nav class="b--w500">
                             <div class="nav">
-                                <ul class="list row row--jc-sb" tabindex="0">
+                                <ul class="list row row--jc-sb">
                                     <li class="nav__items"><a class="nav__link text text text--white16 text--uppercase text--fw700" href="#">Биржа</a>
                                     </li>
                                     <li class="nav__items"><a class="nav__link text text text--white16 text--uppercase text--fw700" href="#">Фриланс</a>
@@ -320,175 +320,111 @@
                 </header>
                 <main class="page-content m--b30">
                     <div class="container">
-                        <div class="row row--jc-sb m--b70">
-                            <div class="b--w650">
-                                <div class="lend lend--greet">
-                                    <div class="lend__greet">
-                                        <h1 class="lend__greet-text text text--white18 text--lh24 b--w445"><span class="text text--white18 text--fw700 m--r4">Привет!</span>Мы<span class="text text--white18 text--fw700 text--uppercase m--l4 m--r4">It panda</span>честное и открытое IT сообщество и вы можете стать одним из нас. </h1>
+                        <div class="contacts">
+                            <div class="row row--jc-sb">
+                                <form class="b--w560" action="action.php" method="post">
+                                    <div class="row row--jc-c m--b35">
+                                        <div class="b--w395">
+                                            <h2 class="text text--black18 text--fw700 text--bordered">Напишите нам</h2>
+                                        </div>
                                     </div>
-                                    <div class="lend__img-wrap">
-                                        <img class="lend__img" src="static/img/content/lend__panda.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="b--w345">
-                                <div class="user-block">
-                                    <form class="user-block__entry-account" action="action.php" method="post">
-                                        <ul class="list m--b5">
-                                            <li class="list--items-mb20">
-                                                <input class="input input--fill-gray" type="email" name="mail" placeholder="Е-Мейл" required>
-                                            </li>
-                                            <li class="list--items-mb20">
-                                                <input class="input input--fill-gray" type="password" name="password" placeholder="Пароль" required>
-                                            </li>
-                                        </ul>
-                                        <p class="text text--purpleMedium11 m--b20">Используйте минимум одну цифру, одну большую букву и не меньше 8 символов</p>
-                                        <button class="button button--fill-greenMedium text text--white18 text--fw700 m--b10" type="submit">Вход / Регистрация</button><a class="d-block text text--purpleMedium14 text--center text--td-underline m--b20" href="#">Восстановить пароль</a>
-                                        <div class="b m--b20">
-                                            <input class="user-block__entry-account-checkbox input--checkbox" type="checkbox" name="checkbox" checked required id="user-block__rules">
-                                            <label class="user-block__entry-account-checkbox-label d-block text text--black14 text--center" for="user-block__rules">Регистрируясь на сайте вы принимаете <a class="text text--purpleMedium14 text--td-underline" href="#">правила сайта</a>
-                                                <div class="user-block__entry-account-checkbox-indicator"><span class="checkbox"></span>
+                                    <ul class="list row m--b40">
+                                        <li class="list--items-mr30 grow">
+                                            <label class="d-block m--b15" for="contactsName">Ваше имя</label>
+                                            <div class="b">
+                                                <input class="input input--text input--fill-white input--p-tb6" type="text" name="userName" required id="contactsName">
+                                            </div>
+                                        </li>
+                                        <li class="list--items-mr30 grow">
+                                            <label class="d-block m--b15" for="contactsEmail">Ваш Email</label>
+                                            <div class="b">
+                                                <input class="input input--text input--fill-white input--p-tb6" type="email" name="userEmail" required id="contactsEmail">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="list m--b20">
+                                        <li class="m--b40">
+                                            <h2 class="text m--b15">Причина обращения</h2>
+                                            <div class="contacts__form-select-wrap contacts__form-select-wrap--hidden select">
+                                                <div class="contacts__form-select-input-wrap select__input-wrap">
+                                                    <input class="contacts__form-select-input select__input" type="text" name="contactsSelect" value="Сменна данных (имя пользователя или email)" readonly><span class="select__indicator"></span>
                                                 </div>
-                                            </label>
-                                        </div>
-                                        <p class="text text--purpleMedium12">Подтвердите регистрацию через указанную почту, повторное подтверждение отправляется 24 часа</p>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m--b50">
-                            <div class="lend">
-                                <h2 class="text text--black30 text--fw700 text--center m--b40">Наши преимущества</h2>
-                                <ul class="list row row--jc-sb m--b55">
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="pointer" width="79.18px" height="101.08px">
-                <use xlink:href="#pointer"></use>
+                                                <div class="contacts__form-select-items-wrap select__items-wrap select__items-wrap--t37">
+                                                    <p class="contacts__form-select-items select__items text">Сменна данных (имя пользователя или email)</p>
+                                                    <p class="contacts__form-select-items select__items text">Выбор причины 1</p>
+                                                    <p class="contacts__form-select-items select__items text">Выбор причины 2</p>
+                                                    <p class="contacts__form-select-items select__items text">Выбор причины 3</p>
+                                                    <p class="contacts__form-select-items select__items text">Выбор причины 4</p>
+                                                    <p class="contacts__form-select-items select__items text">Выбор причины 5</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <label class="d-block m--b15" for="contactMessage">Текст сообщения</label>
+                                            <div class="contacts__form-textarea-wrap">
+                                                <textarea class="input input--textarea input--fill-white" id="contactMessage"></textarea>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="row row--jc-sb">
+                                        <div class="contacts__form-captcha b--w280">
+                                            <div class="contacts__form-captcha-img-wrap">
+                                                <img src="static/img/content/captcha.jpg" alt="капча">
+                                            </div>
+                                            <div class="row">
+                                                <div class="b grow">
+                                                    <input class="input" type="text" placeholder="Type the above code" required>
+                                                </div>
+                                                <ul class="contacts__form-captcha-list list row">
+                                                    <li class="contacts__form-captcha-items row row--jc-c"><span class="contacts__form-captcha-refresh-icon d-block">
+            <svg class="refresh" width="408px" height="561px">
+                <use xlink:href="#refresh"></use>
             </svg>
         </span>
-                                        </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Бесплатное</h2>
-                                        <p class="text text--black14 text--center">Пользование<span class="text text--black14 text--uppercase m--l4">Для всех!</span>
-                                        </p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20"><img src="static/img/content/no-pro.svg"></span>
-                                        </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Отсутствие</h2>
-                                        <p class="text text--black14 text--center"><span class="text text--black14 text--uppercase m--r4">Про</span>аккаунта и платных тарифов</p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="intuitive" width="100.02px" height="82.67px">
-                <use xlink:href="#intuitive"></use>
+                                                    </li>
+                                                    <li class="contacts__form-captcha-items row row--jc-c"><span class="contacts__form-captcha-voice-icon d-block">
+            <svg class="speaker" width="93.04px" height="73.91px">
+                <use xlink:href="#speaker"></use>
             </svg>
         </span>
-                                        </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Интуитивный</h2>
-                                        <p class="text text--black14 text--center">Понятный интерфейс</p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="confirm" width="95px" height="95px">
-                <use xlink:href="#confirm"></use>
+                                                    </li>
+                                                    <li class="contacts__form-captcha-items row row--jc-c"><span class="contacts__form-captcha-notice-icon d-block">
+            <svg class="notice" width="24px" height="24px">
+                <use xlink:href="#notice"></use>
             </svg>
         </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Верификация</h2>
-                                        <p class="text text--black14 text--center">3 ступени, для вашего спокойствия</p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="bonus" width="90.34px" height="98.88px">
-                <use xlink:href="#bonus"></use>
-            </svg>
-        </span>
+                                        <div class="b column">
+                                            <button class="button button--fill-purpleMedium button--p-tb8 button--p-t10 text text--white15 text--uppercase m--t-a" type="submit">Отправить</button>
                                         </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Бонусы</h2>
-                                        <p class="text text--black14 text--center">Масса приятных мелочей</p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20"><img src="static/img/content/percent.svg"></span>
+                                    </div>
+                                </form>
+                                <div class="b--w510">
+                                    <div class="row row--jc-c m--b35">
+                                        <div class="b--w395">
+                                            <h2 class="text text--black18 text--fw700 text--bordered">Наши контакты</h2>
                                         </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Бонусы</h2>
-                                        <p class="text text--black14 text--center">Масса приятных мелочей</p>
-                                    </li>
-                                </ul>
-                                <h2 class="text text--black30 text--fw700 text--center m--b40">Для кого</h2>
-                                <ul class="list row row--jc-sb">
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="it" width="94.78px" height="93.5px">
-                <use xlink:href="#it"></use>
-            </svg>
-        </span>
-                                        </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Все кто в IT</h2>
-                                        <p class="text text--black14 text--center">Посудите сами у нас есть все!!!</p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="infobisness" width="99.09px" height="92.85px">
-                <use xlink:href="#infobisness"></use>
-            </svg>
-        </span>
-                                        </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Инфобизнесмены</h2>
-                                        <p class="text text--black14 text--center">Вы можете найти/продать готовый бизнес</p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="freelance" width="100.33px" height="66.66px">
-                <use xlink:href="#freelance"></use>
-            </svg>
-        </span>
-                                        </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Фрилансеры</h2>
-                                        <p class="text text--black14 text--center">Предлагайте свои услуги и с готовым ТЗ</p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="customer" width="93.7px" height="92.85px">
-                <use xlink:href="#customer"></use>
-            </svg>
-        </span>
-                                        </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Заказчики</h2>
-                                        <p class="text text--black14 text--center">Выбирайте нужного вам исполнителя</p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="brain" width="78.6px" height="88.99px">
-                <use xlink:href="#brain"></use>
-            </svg>
-        </span>
-                                        </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Образование</h2>
-                                        <p class="text text--black14 text--center">Размещайте и находите курсы и семинары</p>
-                                    </li>
-                                    <li class="b--w165">
-                                        <div class="row row--jc-c"><span class="lend__feature-icon d-block m--b20">
-            <svg class="brain" width="78.6px" height="88.99px">
-                <use xlink:href="#brain"></use>
-            </svg>
-        </span>
-                                        </div>
-                                        <h2 class="text text--purpleMedium18 text--uppercase text--fw700 text--center m--b5">Биржа труда</h2>
-                                        <p class="text text--black14 text--center">Находите или публикуйте IT вакансии</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="video">
-                            <h2 class="text text--black30 text--fw700 text--center m--b40">Видео о нас!</h2>
-                            <div class="video__block row row--jc-c row--ai-c m--b80"><span class="video__block-icon">
-            <svg class="play" width="100.78px" height="75.14px">
-                <use xlink:href="#play"></use>
-            </svg>
-        </span>
-                            </div>
-                            <div class="row row--jc-c">
-                                <div class="b--mw330"><a class="button button--fill-greenMedium text text--white18 text--fw700" href="#">Регистритуйтесь сейчас</a>
+                                    </div>
+                                    <p class="text text--fw700 text--center m--b25">1115407, г. Москва, бульв. Кленовый, д. 13, пом. II, ком. 1</p>
+                                    <p class="text text--center m--b5">Понедельник - пятница</p>
+                                    <p class="text text--center text--fw700 m--b5">с 8:00 до 21:00</p>
+                                    <p class="text text--center m--b5">Выходные и праздничные дни</p>
+                                    <p class="text text--center text--fw700 m--b30">с 8:00 до 12:00</p>
+                                    <h2 class="text text--center m--b5">Консультация по сделкам и техническим вопросам:</h2><a class="text text--fw700 text--center d-block m--b30" href="mailto:support@telderi.ru">support@telderi.ru</a>
+                                    <h2 class="text text--center m--b30">Общие вопросы можно обсудить на форуме, ВКонтакте, на Facebook.</h2>
+                                    <p class="text text--center m--b5">Наши реквизиты</p>
+                                    <p class="text text--center m--b5">ООО “Интернет проекты”</p>
+                                    <p class="text text--center m--b5">ОГРН: 1167746338759</p>
+                                    <p class="text text--center m--b5">ИНН: 7725312923</p>
+                                    <p class="text text--center m--b5">КПП: 772501001</p>
+                                    <p class="text text--center m--b5">Р\сч: 40702810602370001394</p>
+                                    <p class="text text--center m--b5">Банк: АО “Альфа-Банк”</p>
+                                    <p class="text text--center m--b5">БИК: 044525593</p>
+                                    <p class="text text--center m--b5">К\Сч: 30101810200000000593</p>
+                                    <p class="text text--center m--b5">Генеральный директор Хаткевич И.Б.</p>
                                 </div>
                             </div>
                         </div>
@@ -553,7 +489,7 @@
                                         </li>
                                         <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="reviews.html">Отзывы</a>
                                         </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="contacts.html">Контакты</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link nav__link--active text text text--black14" href="contacts.html">Контакты</a>
                                         </li>
                                         <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="#">Правовой раздел</a>
                                         </li>
@@ -628,6 +564,7 @@
 
 
         <script src="static/js/separate-js/util.js"></script>
+        <script src="static/js/separate-js/contacts.js"></script>
         <script src="static/js/separate-js/user-block.js"></script>
         <script src="static/js/mainpyxz0f.min.js"></script>
     </body>
