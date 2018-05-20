@@ -391,6 +391,29 @@ img {
 .text--overflow-h {
   overflow: hidden;
 }
+.text--bordered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.text--bordered::before,
+.text--bordered::after {
+  content: '';
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 1px;
+  background-color: #454545;
+}
+.text--bordered::before {
+  margin-right: 40px;
+}
+.text--bordered::after {
+  margin-left: 40px;
+}
 .button {
   margin: 0;
   padding: 0;
@@ -430,6 +453,9 @@ img {
 .b--w500 {
   width: 500px;
 }
+.b--w450 {
+  width: 450px;
+}
 .b--w445 {
   width: 445px;
 }
@@ -438,6 +464,9 @@ img {
 }
 .b--w345 {
   width: 345px;
+}
+.b--w320 {
+  width: 320px;
 }
 .b--w280 {
   width: 280px;
@@ -456,6 +485,9 @@ img {
 }
 .b--w160 {
   width: 160px;
+}
+.b--w150 {
+  width: 150px;
 }
 .b--w140 {
   width: 140px;
@@ -659,10 +691,22 @@ img {
   padding: 0;
   list-style: none;
 }
+.list--items-mr50 {
+  margin-right: 50px;
+}
+.list--items-mr50:last-child {
+  margin-right: 0;
+}
 .list--items-mr20 {
   margin-right: 20px;
 }
 .list--items-mr20:last-child {
+  margin-right: 0;
+}
+.list--items-mr15 {
+  margin-right: 15px;
+}
+.list--items-mr15:last-child {
   margin-right: 0;
 }
 .list--items-mb20 {
@@ -1161,6 +1205,9 @@ img {
 .advert-cart__content:hover {
   border-color: #8a68eb;
 }
+.advert-cart__content--no-hover:hover {
+  border-color: transparent;
+}
 .advert-cart__headline {
   overflow: hidden;
   min-width: 250px;
@@ -1262,6 +1309,24 @@ img {
 .advert-cart__freelance-text {
   overflow: hidden;
   max-height: 115px;
+}
+.advert-cart__social-vk {
+  width: 25px;
+  height: 14px;
+}
+.advert-cart__social-vk .vk-advert-social {
+  width: 25px;
+  height: 14px;
+  fill: #c7c7c7;
+}
+.advert-cart__social-fb {
+  width: 13px;
+  height: 23px;
+}
+.advert-cart__social-fb .fb-news {
+  width: 13px;
+  height: 23px;
+  fill: #c7c7c7;
 }
 .news__cart {
   padding: 10px;
@@ -1506,6 +1571,9 @@ img {
 }
 .m--b40 {
   margin-bottom: 40px;
+}
+.m--b30 {
+  margin-bottom: 30px;
 }
 .m--b25 {
   margin-bottom: 25px;
