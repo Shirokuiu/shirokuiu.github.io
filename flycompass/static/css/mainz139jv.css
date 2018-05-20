@@ -3317,9 +3317,9 @@ a.ui-button:active,
     box-sizing: border-box;
     visibility: visible;
     display: block;
-    width: 65%;
+    width: 40%;
     padding: 20px;
-    background-color: #000;
+    background-color: rgba(25,25,26,0.8);
     -webkit-transform: translateX(0);
             transform: translateX(0);
     -webkit-transition: -webkit-transform 0.3s linear;
