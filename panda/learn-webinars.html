@@ -373,13 +373,13 @@
                         <nav class="b--w500">
                             <div class="nav nav--header">
                                 <ul class="list row row--jc-sb">
-                                    <li class="nav__items"><a class="nav__link nav__link--active text text--white16 text--uppercase text--fw700" href="exchange-all.html">Биржа</a>
+                                    <li class="nav__items"><a class="nav__link text text--white16 text--uppercase text--fw700" href="exchange-all.html">Биржа</a>
                                     </li>
                                     <li class="nav__items"><a class="nav__link text text--white16 text--uppercase text--fw700" href="#">Фриланс</a>
                                     </li>
                                     <li class="nav__items"><a class="nav__link text text--white16 text--uppercase" href="news.html">Лента</a>
                                     </li>
-                                    <li class="nav__items"><a class="nav__link text text--white16 text--uppercase" href="learn-all.html">Обучение</a>
+                                    <li class="nav__items"><a class="nav__link nav__link--active text text--white16 text--uppercase" href="learn-all.html">Обучение</a>
                                     </li>
                                     <li class="nav__items"><a class="nav__link text text--white16 text--uppercase" href="users-all.html">Пользователи</a>
                                     </li>
@@ -398,22 +398,14 @@
                     <div class="container">
                         <div class="m--b30">
                             <div class="nav nav--exchange">
-                                <ul class="list row row--jc-sb row--ai-c">
-                                    <li class="nav__items"><a class="nav__link nav__link--active text" href="exchange-all.html">Все</a>
+                                <ul class="list row row--ai-c">
+                                    <li class="nav__items list--items-mr25"><a class="nav__link text" href="learn-all.html">Все</a>
                                     </li>
-                                    <li class="nav__items"><a class="nav__link text" href="exchange-socials.html">Социальные сети</a>
+                                    <li class="nav__items list--items-mr25"><a class="nav__link text" href="learn-course.html">Курсы</a>
                                     </li>
-                                    <li class="nav__items"><a class="nav__link text" href="exchange-site.html">Сайты и домены </a>
+                                    <li class="nav__items list--items-mr25"><a class="nav__link nav__link--active text" href="learn-webinars.html">Вебинары</a>
                                     </li>
-                                    <li class="nav__items"><a class="nav__link text" href="exchange-game.html">Игры</a>
-                                    </li>
-                                    <li class="nav__items"><a class="nav__link text" href="exchange-soft.html">Софт</a>
-                                    </li>
-                                    <li class="nav__items"><a class="nav__link text" href="exchange-design.html">Дизайн и инфопродукты</a>
-                                    </li>
-                                    <li class="nav__items"><a class="nav__link text" href="exchange-promo.html">Реклама</a>
-                                    </li>
-                                    <li class="nav__items"><a class="button button--fill-greenMedium button--p-tb3 text text--white16" href="#">Добавить объявление</a>
+                                    <li class="nav__items list--items-mr25 m--l-a"><a class="button button--fill-greenMedium button--p-tb3 text text--white16" href="#">Добавить объявление</a>
                                     </li>
                                 </ul>
                             </div>
@@ -613,6 +605,54 @@
                                             </ul>
                                             <ul class="sidebar__list list list--items-mb15">
                                                 <li class="sidebar__dropdown-title sidebar__dropdown-title--close row row--ai-c">
+                                                    <h2 class="sidebar__dropdown-title-headline text text--black18 text--fw700">Уровень курса</h2>
+                                                    <div class="sidebar__dropdown-title-border"></div><span class="sidebar__dropdown-title-arrow"></span>
+                                                </li>
+                                                <li class="sidebar__items">
+                                                    <ul class="sidebar__list-inner list m--t10 m--l15">
+                                                        <li class="sidebar__inner-items list--items-mb15">
+                                                            <input class="sidebar__verification-checkbox input input--radio" type="checkbox" name="courseLevel" checked id="courseLevelStart">
+                                                            <label class="sidebar__verification-checkbox-label button button--stroke1-grayDarkMedium button--p-tb5 text text--grayDark14" for="courseLevelStart" tabindex="0">Начальный</label>
+                                                        </li>
+                                                        <li class="sidebar__inner-items list--items-mb15">
+                                                            <input class="sidebar__verification-checkbox input input--radio" type="checkbox" name="courseLevel" id="courseLevelMiddle">
+                                                            <label class="sidebar__verification-checkbox-label button button--stroke1-grayDarkMedium button--p-tb5 text text--grayDark14" for="courseLevelMiddle" tabindex="0">Средний</label>
+                                                        </li>
+                                                        <li class="sidebar__inner-items list--items-mb15">
+                                                            <input class="sidebar__verification-checkbox input input--radio" type="checkbox" name="courseLevel" id="courseLevelPro">
+                                                            <label class="sidebar__verification-checkbox-label button button--stroke1-grayDarkMedium button--p-tb5 text text--grayDark14" for="courseLevelPro" tabindex="0">Продвинутый</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="sidebar__list list list--items-mb15">
+                                                <li class="sidebar__dropdown-title sidebar__dropdown-title--close row row--ai-c">
+                                                    <h2 class="sidebar__dropdown-title-headline text text--black18 text--fw700">Особенности</h2>
+                                                    <div class="sidebar__dropdown-title-border"></div><span class="sidebar__dropdown-title-arrow"></span>
+                                                </li>
+                                                <li class="sidebar__items">
+                                                    <ul class="sidebar__list-inner list m--t10 m--l15">
+                                                        <li class="sidebar__inner-items list--items-mb15">
+                                                            <input class="sidebar__verification-checkbox input input--radio" type="checkbox" name="courseFeatures" checked id="courseFeaturesMethod">
+                                                            <label class="sidebar__verification-checkbox-label button button--stroke1-grayDarkMedium button--p-tb5 text text--grayDark14" for="courseFeaturesMethod" tabindex="0">Методичка</label>
+                                                        </li>
+                                                        <li class="sidebar__inner-items list--items-mb15">
+                                                            <input class="sidebar__verification-checkbox input input--radio" type="checkbox" name="courseFeatures" id="courseFeaturesWebinars">
+                                                            <label class="sidebar__verification-checkbox-label button button--stroke1-grayDarkMedium button--p-tb5 text text--grayDark14" for="courseFeaturesWebinars" tabindex="0">Запись вебинара</label>
+                                                        </li>
+                                                        <li class="sidebar__inner-items list--items-mb15">
+                                                            <input class="sidebar__verification-checkbox input input--radio" type="checkbox" name="courseFeatures" id="courseFeaturesCertificate">
+                                                            <label class="sidebar__verification-checkbox-label button button--stroke1-grayDarkMedium button--p-tb5 text text--grayDark14" for="courseFeaturesCertificate" tabindex="0">Сертификат</label>
+                                                        </li>
+                                                        <li class="sidebar__inner-items list--items-mb15">
+                                                            <input class="sidebar__verification-checkbox input input--radio" type="checkbox" name="courseFeatures" id="courseFeaturesEmployment">
+                                                            <label class="sidebar__verification-checkbox-label button button--stroke1-grayDarkMedium button--p-tb5 text text--grayDark14" for="courseFeaturesEmployment" tabindex="0">Трудоустройство</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                            <ul class="sidebar__list list list--items-mb15">
+                                                <li class="sidebar__dropdown-title sidebar__dropdown-title--close row row--ai-c">
                                                     <h2 class="sidebar__dropdown-title-headline text text--black18 text--fw700">Верификация</h2>
                                                     <div class="sidebar__dropdown-title-border"></div><span class="sidebar__dropdown-title-arrow"></span>
                                                 </li>
@@ -770,7 +810,7 @@
                                 </ul>
                             </div>
                             <div class="b--fb845 grow">
-                                <h2 class="text text--black18 text--bordered-right text--bordered-right-fill-grayDark text--fw700 m--b15">Биржа</h2>
+                                <h2 class="text text--black18 text--bordered-right text--bordered-right-fill-grayDark text--fw700 m--b15">Обучение</h2>
                                 <div class="m--b10">
                                     <div class="user-block">
                                         <form class="user-block__search user-block__search--exchange" action="action.php" method="get">
@@ -852,12 +892,9 @@
                                                             <p class="text text--black15 text--right">Ставок: <span class="text--black14 text--fw700 m--l4">404</span>
                                                             </p>
                                                         </li>
-                                                        <li class="list--items-mb15 row row--jc-fe row--ai-c"><span class="exchange-cart__timer-icon m--r20">
-            <svg class="timer" width="18px" height="21px">
-                <use xlink:href="#timer"></use>
-            </svg>
-        </span>
-                                                            <p class="text text--black15 text--right text--fw700">20д 15ч 15м</p>
+                                                        <li class="list--items-mb15 row row--jc-fe row--ai-c">
+                                                            <h2 class="text text--black14 text--fw700 m--r10">Начало:</h2>
+                                                            <p class="text text--black15 text--right text--fw700">31.02.2017</p>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -891,13 +928,6 @@
                                                         <li class="list--items-mb15">
                                                             <p class="text text--black15 text--right">Ставок: <span class="text--black14 text--fw700 m--l4">404</span>
                                                             </p>
-                                                        </li>
-                                                        <li class="list--items-mb15 row row--jc-fe row--ai-c"><span class="exchange-cart__timer-icon m--r20">
-            <svg class="timer" width="18px" height="21px">
-                <use xlink:href="#timer"></use>
-            </svg>
-        </span>
-                                                            <p class="text text--black15 text--right text--fw700">20д 15ч 15м</p>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -943,13 +973,6 @@
                                                             <p class="text text--black15 text--right">Ставок: <span class="text--black14 text--fw700 m--l4">404</span>
                                                             </p>
                                                         </li>
-                                                        <li class="list--items-mb15 row row--jc-fe row--ai-c"><span class="exchange-cart__timer-icon m--r20">
-            <svg class="timer" width="18px" height="21px">
-                <use xlink:href="#timer"></use>
-            </svg>
-        </span>
-                                                            <p class="text text--black15 text--right text--fw700">20д 15ч 15м</p>
-                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -983,13 +1006,6 @@
                                                             <p class="text text--black15 text--right">Ставок: <span class="text--black14 text--fw700 m--l4">404</span>
                                                             </p>
                                                         </li>
-                                                        <li class="list--items-mb15 row row--jc-fe row--ai-c"><span class="exchange-cart__timer-icon m--r20">
-            <svg class="timer" width="18px" height="21px">
-                <use xlink:href="#timer"></use>
-            </svg>
-        </span>
-                                                            <p class="text text--black15 text--right text--fw700">20д 15ч 15м</p>
-                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1013,13 +1029,6 @@
                             </li>
                             <li class="list--items-mb15">
                               <p class="text text--black15 text--right">Ставок:  <span class="text--black14 text--fw700 m--l4">404</span></p>
-                            </li>
-                            <li class="list--items-mb15 row row--jc-fe row--ai-c"><span class="exchange-cart__timer-icon m--r20">
-            <svg class="timer" width="18px" height="21px">
-                <use xlink:href="#timer"></use>
-            </svg>
-        </span>
-                              <p class="text text--black15 text--right text--fw700">20д 15ч 15м</p>
                             </li>
                           </ul>
                         </div>
