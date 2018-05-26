@@ -3306,8 +3306,13 @@ a.ui-button:active,
   color: #fff;
 }
 @media (max-width: 520px) {
-  .logo__text span {
-    display: none;
+  .logo__text {
+    font-size: 17px;
+  }
+}
+@media (max-width: 325px) {
+  .logo__text {
+    font-size: 14px;
   }
 }
 .main-nav {
@@ -3661,6 +3666,7 @@ a.ui-button:active,
 @media (max-width: 1440px) {
   .services__bg {
     background-image: url("../img/content/services-bg1-notebook.jpg");
+    background-position: -370px;
   }
 }
 @media (max-width: 1270px) {
@@ -3730,6 +3736,7 @@ a.ui-button:active,
   margin: 0 auto;
   height: 100vh;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .home__scroll-top {
   position: fixed;
@@ -3794,7 +3801,6 @@ a.ui-button:active,
 .home__features-text-wrap {
   box-sizing: border-box;
   width: 50%;
-  padding-top: 100px;
   padding-left: 1.724137931034483%;
   padding-right: 1.724137931034483%;
 }
