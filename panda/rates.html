@@ -12,7 +12,7 @@
         <meta name="HandheldFriendly" content="true">
 
         <!--[if (gt IE 9)|!(IE)]><!-->
-        <link href="static/css/maing6l1el.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/mainmjr3ub.min.css" rel="stylesheet" type="text/css">
         <!--<![endif]-->
         <meta property="og:title" content="#{data.title}">
         <meta property="og:title" content="">
@@ -288,6 +288,10 @@
                 <path class="cls-1" d="M51.78 7.53L64.36 33a2 2 0 0 0 1.5 1.09L94 38.2a2 2 0 0 1 1.11 3.41L74.75 61.45a2 2 0 0 0-.57 1.77l4.8 28a2 2 0 0 1-2.9 2.11L50.92 80.11a2 2 0 0 0-1.86 0L23.91 93.33a2 2 0 0 1-2.91-2.1l4.8-28a2 2 0 0 0-.57-1.77L4.89 41.61A2 2 0 0 1 6 38.2l28.13-4.09A2 2 0 0 0 35.62 33L48.2 7.53a2 2 0 0 1 3.58 0z"
                 transform="translate(-3.28 -5.42)" />
             </symbol>
+            <symbol id="timer" viewBox="0 0 18 21">
+                <title>timer</title>
+                <path d="M9 19.02a7 7 0 1 0-7-7 7 7 0 0 0 7 7zm7-12.59a9 9 0 1 1-7-3.41 9.15 9.15 0 0 1 5.63 2L16 3.57a10 10 0 0 1 1.44 1.45zm-8 6.59v-6h2v6zm4-13v2H6v-2z" />
+            </symbol>
             <symbol id="verifed" viewBox="0 0 353.12 471.22">
                 <title>verifed</title>
                 <path class="cls-1" d="M408.58 113.52a8 8 0 0 0-6.56-7.36C301.54 85.52 241.06 4.08 240.5 3.28l-.64-.64v-.4A8 8 0 0 0 237.7.8h-.48a7.12 7.12 0 0 0-6.56 0l-.8.56A8 8 0 0 0 228 3h-.4c-.64 1.12-61 82.48-161.6 103.2a8 8 0 0 0-6.4 7.36c-.72 12.32-16 301.36 172.32 354.4a8 8 0 0 0 4.32 0C424.9 414.88 409.3 125.84 408.58 113.52zM226 449.28c-83.44-29-121.12-113.2-137.76-189.92l-.16-.16H226zm0-205.92H85a616 616 0 0 1-9.7-122.72l-.08-.16A304 304 0 0 0 226 29.92zm16 205.92V259.36h137.86C363.14 336.08 325.54 420.24 242 449.28zM383 243.2H242V29.92a304 304 0 0 0 150.64 90.7A615.23 615.23 0 0 1 383 243.2z"
@@ -363,15 +367,15 @@
                         <nav class="b--w500">
                             <div class="nav">
                                 <ul class="list row row--jc-sb">
-                                    <li class="nav__items"><a class="nav__link text text text--white16 text--uppercase text--fw700" href="#">Биржа</a>
+                                    <li class="nav__items"><a class="nav__link text text--white16 text--uppercase text--fw700" href="exchange-all.html">Биржа</a>
                                     </li>
-                                    <li class="nav__items"><a class="nav__link text text text--white16 text--uppercase text--fw700" href="#">Фриланс</a>
+                                    <li class="nav__items"><a class="nav__link text text--white16 text--uppercase text--fw700" href="#">Фриланс</a>
                                     </li>
-                                    <li class="nav__items"><a class="nav__link text text text--white16 text--uppercase" href="#">Лента</a>
+                                    <li class="nav__items"><a class="nav__link text text--white16 text--uppercase" href="#">Лента</a>
                                     </li>
-                                    <li class="nav__items"><a class="nav__link text text text--white16 text--uppercase" href="#">Обучение</a>
+                                    <li class="nav__items"><a class="nav__link text text--white16 text--uppercase" href="#">Обучение</a>
                                     </li>
-                                    <li class="nav__items"><a class="nav__link text text text--white16 text--uppercase" href="#">Пользователи</a>
+                                    <li class="nav__items"><a class="nav__link text text--white16 text--uppercase" href="#">Пользователи</a>
                                     </li>
                                 </ul>
                             </div>
@@ -414,16 +418,18 @@
                                     </div>
                                     <div class="row row--ai-c">
                                         <h2 class="text text--fw700 m--r10">Выбранная валюта</h2>
-                                        <div class="b--w85">
-                                            <div class="rates__select-wrap rates__select-wrap--hidden select select--p-lr8 select--no-border">
-                                                <div class="rates__select-input-wrap select__input-wrap">
-                                                    <input class="rates__select-input select__input text--uppercase" type="text" value="Rub" readonly><span class="select__indicator"></span>
-                                                </div>
-                                                <div class="rates__select-items-wrap select__items-wrap select__items-wrap--t36">
-                                                    <p class="rates__select-items select__items text text--uppercase">Rub</p>
-                                                    <p class="rates__select-items select__items text text--uppercase">Token</p>
-                                                    <p class="rates__select-items select__items text text--uppercase">Usd</p>
-                                                    <p class="rates__select-items select__items text text--uppercase">Eur</p>
+                                        <div class="b--w75">
+                                            <div class="select">
+                                                <div class="select__content select__content--no-border select__content--p-tb5-lr5 select__content--close">
+                                                    <div class="select__input-wrap select__input-wrap--fill-grayDarkMedium">
+                                                        <input class="select__input text--uppercase" type="text" value="Rub" readonly><span class="select__indicator"></span>
+                                                    </div>
+                                                    <div class="select__items-wrap">
+                                                        <p class="select__items text text--uppercase">Rub</p>
+                                                        <p class="select__items text text--uppercase">Token</p>
+                                                        <p class="select__items text text--uppercase">Usd</p>
+                                                        <p class="select__items text text--uppercase">Eur</p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -897,39 +903,39 @@
                             <div class="b--w585">
                                 <div class="nav nav--footer row">
                                     <ul class="nav__list list b--w200">
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14 text--fw700" href="#">Биржа</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14 text--fw700" href="#">Биржа</a>
                                         </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14 text--fw700" href="#">Фриланс</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14 text--fw700" href="#">Фриланс</a>
                                         </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14 text--fw700" href="#">Лента</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14 text--fw700" href="#">Лента</a>
                                         </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14 text--fw700" href="#">Обучение</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14 text--fw700" href="#">Обучение</a>
                                         </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14 text--fw700" href="#">Пользователи</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="nav__list list b--w200">
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="about-us.html">О нас</a>
-                                        </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="reviews.html">Отзывы</a>
-                                        </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="contacts.html">Контакты</a>
-                                        </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="legal.html">Правовой раздел</a>
-                                        </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="affiliate-program.html">Партнерские программы</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14 text--fw700" href="#">Пользователи</a>
                                         </li>
                                     </ul>
                                     <ul class="nav__list list b--w200">
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="faq.html">F.A.Q</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14" href="about-us.html">О нас</a>
                                         </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="etiquette.html">Этикет</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14" href="reviews.html">Отзывы</a>
                                         </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link nav__link--active text text text--black14" href="rates.html">Тарифы</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14" href="contacts.html">Контакты</a>
                                         </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="news.html">Новости</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14" href="legal.html">Правовой раздел</a>
                                         </li>
-                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text text--black14" href="security.html">Безопасность</a>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14" href="affiliate-program.html">Партнерские программы</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav__list list b--w200">
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14" href="faq.html">F.A.Q</a>
+                                        </li>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14" href="etiquette.html">Этикет</a>
+                                        </li>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link nav__link--active text text--black14" href="rates.html">Тарифы</a>
+                                        </li>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14" href="news.html">Новости</a>
+                                        </li>
+                                        <li class="nav__items text--center list--items-mb5"><a class="nav__link text text--black14" href="security.html">Безопасность</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -989,8 +995,8 @@
 
         <script src="static/js/separate-js/util.js"></script>
         <script src="static/js/separate-js/user-block.js"></script>
-        <script src="static/js/separate-js/rates.js"></script>
-        <script src="static/js/maing6l1el.min.js"></script>
+        <script src="static/js/separate-js/select.js"></script>
+        <script src="static/js/mainmjr3ub.min.js"></script>
     </body>
 
 </html>
