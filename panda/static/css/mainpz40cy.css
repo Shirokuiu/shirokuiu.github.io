@@ -284,6 +284,11 @@ img {
   line-height: 27px;
   color: #fff;
 }
+.text--white20 {
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+}
 .text--white18 {
   font-size: 18px;
   line-height: 21px;
@@ -592,6 +597,9 @@ img {
 }
 .b--w445 {
   width: 445px;
+}
+.b--w430 {
+  width: 430px;
 }
 .b--w425 {
   width: 425px;
@@ -3109,6 +3117,9 @@ img {
 }
 .m--r4 {
   margin-right: 4px;
+}
+.m--b-a {
+  margin-bottom: auto;
 }
 .m--b240 {
   margin-bottom: 240px;
