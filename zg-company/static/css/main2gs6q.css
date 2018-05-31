@@ -227,11 +227,11 @@ blockquote {
   src: local('Montserrat Bold'), local('Montserrat-Bold'), url("../fonts/montserrat-v12-cyrillic_latin-700.eot?#iefix") format('embedded-opentype'), url("../fonts/montserrat-v12-cyrillic_latin-700.woff2") format('woff2'), url("../fonts/montserrat-v12-cyrillic_latin-700.woff") format('woff'), url("../fonts/montserrat-v12-cyrillic_latin-700.ttf") format('truetype'), url("../fonts/montserrat-v12-cyrillic_latin-700.svg#Montserrat") format('svg'); /* Legacy iOS */
 }
 @font-face {
-  font-family: 'Allura';
+  font-family: 'Great Vibes';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/allura-v6-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local('Allura Regular'), local('Allura-Regular'), url("../fonts/allura-v6-latin-regular.eot?#iefix") format('embedded-opentype'), url("../fonts/allura-v6-latin-regular.woff2") format('woff2'), url("../fonts/allura-v6-latin-regular.woff") format('woff'), url("../fonts/allura-v6-latin-regular.ttf") format('truetype'), url("../fonts/allura-v6-latin-regular.svg#Allura") format('svg'); /* Legacy iOS */
+  src: url("../fonts/great-vibes-v5-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url("../fonts/great-vibes-v5-latin-regular.eot?#iefix") format('embedded-opentype'), url("../fonts/great-vibes-v5-latin-regular.woff2") format('woff2'), url("../fonts/great-vibes-v5-latin-regular.woff") format('woff'), url("../fonts/great-vibes-v5-latin-regular.ttf") format('truetype'), url("../fonts/great-vibes-v5-latin-regular.svg#GreatVibes") format('svg'); /* Legacy iOS */
 }
 body {
   font-size: 16px;
@@ -3219,8 +3219,8 @@ a.ui-button:active,
   right: 0;
   bottom: 0;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: rgba(25,25,26,0.7);
 }
 @media (max-width: 880px) {
@@ -3306,7 +3306,7 @@ a.ui-button:active,
   display: block;
 }
 .logo__img {
-  width: 50px;
+  width: 35px;
 }
 .logo__text {
   font-size: 24px;
@@ -3527,8 +3527,9 @@ a.ui-button:active,
   z-index: 10;
 }
 .slider__title {
-  font-family: 'Allura';
+  font-family: 'Great Vibes';
   font-size: 34px;
+  font-weight: 400;
   color: #fff;
 }
 .owl-carousel.owl-loaded {
