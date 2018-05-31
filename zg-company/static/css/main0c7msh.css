@@ -2929,6 +2929,9 @@ a.ui-button:active,
 .b--w560 {
   width: 560px;
 }
+.b--w480 {
+  width: 480px;
+}
 .b--w445 {
   width: 445px;
 }
@@ -4065,6 +4068,9 @@ a.ui-button:active,
 }
 .m--l-a {
   margin-left: auto;
+}
+.m--l250 {
+  margin-left: 250px;
 }
 .m--l30 {
   margin-left: 30px;
