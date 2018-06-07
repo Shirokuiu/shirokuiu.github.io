@@ -26,6 +26,13 @@
           arrow.classList.toggle(elements.arrow.mod);
         }
       });
+    },
+    escPress: function (evt, action) {
+      var ESC_KEY_CODE = 27;
+      
+      if (evt.keyCode === ESC_KEY_CODE) {
+        action();
+      }
     }
   }
 })();
