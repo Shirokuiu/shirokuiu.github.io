@@ -542,7 +542,7 @@
         </svg>
         <div class="wrapper">
             <div class="content">
-                <header class="page-header page-header--entry m--b20">
+                <header class="page-header page-header--entry">
                     <div class="container row row--jc-sb row--ai-c">
                         <div class="logo logo--entry">
                             <a class="logo__link d-block" href="index.html" tabindex="0">
@@ -609,434 +609,350 @@
                     </div>
                 </header>
                 <main class="page-content m--b30">
-                    <div class="messages">
-                        <div class="user-profile">
-                            <div class="container row">
-                                <div class="b--w240 m--r20">
-                                    <div class="m--b20">
-                                        <ul class="nav nav--profile-nav list">
-                                            <li class="nav__items"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="messages.html">Сообщения<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
+                    <div class="user-profile">
+                        <div class="user-profile__banner-wrap">
+                            <img class="user-profile__banner" src="static/img/content/user-profile-banner-img.jpg">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="user-profile__aside-description-wrap b--w315">
+                                    <div class="m--b30">
+                                        <ul class="nav nav--user-profile-tabs list row">
+                                            <li class="nav__user-profile-items"><a class="nav__user-profile-item-link text text--black12 text--uppercase text--td-none text--center" href="user-profile-friends-information.html">Друзья</a>
                                             </li>
-                                            <li class="nav__items"><a class="nav__items-link nav__items-link--active text text--black16 row row--jc-sb row--ai-c" href="user-profile-exchange-active.html">Биржа<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
+                                            <li class="nav__user-profile-items"><a class="nav__user-profile-item-link nav__user-profile-item-link--active text text--black12 text--uppercase text--td-none text--center" href="user-profile-teams-information.html">Команды</a>
                                             </li>
-                                            <li class="nav__items"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="user-profile-freelance-active.html">Фриланс<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
-                                            </li>
-                                            <li class="nav__items"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="user-profile-learn-active.html">Обучение<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
-                                            </li>
-                                            <li class="nav__items"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="user-profile-users-active.html">Пользователи<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
-                                            </li>
-                                            <li class="nav__items m--b10"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="user-profile-finance-balance.html">Финансы<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
-                                            </li>
-                                            <li class="nav__items"><a class="button button--fill-greenMedium button--p-tb5 text text--white16" href="#">Подать объявление</a>
+                                            <li class="nav__user-profile-items"><a class="nav__user-profile-item-link text text--black12 text--uppercase text--td-none text--center" href="user-profile-schools-information.html">Школы</a>
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="advert-cart">
-                                        <a class="advert-cart__content d-block" href="#">
-                                            <div class="column column--ai-c">
-                                                <h2 class="text text--black18 text--fw700 m--b10">Информация о продавце</h2>
-                                                <div class="column column--ai-c m--b5">
-                                                    <div class="advert-cart__avatar-wrap m--b15">
-                                                        <img src="static/img/content/avatar-grey.svg"><span class="advert-cart__avatar-icon d-block">
-            <svg class="verifed" width="353.12px" height="471.22px">
-                <use xlink:href="#verifed"></use>
-            </svg>
-        </span><span class="advert-cart__user-online d-block"></span>
-                                                    </div>
-                                                </div>
-                                                <h2 class="text text--black18 text--fw700 text--center m--b5">Евгений Горонин</h2>
-                                                <div class="b m--b5">
-                                                    <h2 class="advert-cart__nickname text text--purpleMedium16 text--td-underline text--center">@Евгений</h2>
-                                                </div>
-                                                <div class="b m--b10">
-                                                    <div class="row row--ai-c"><span class="icons icons--security icons--fill-purpleMedium icons--security-user-profile m--r10">
-            <svg class="security" width="274.11px" height="347.5px">
-                <use xlink:href="#security"></use>
+                                    <ul class="list row row--ai-c m--b20">
+                                        <li class="m--r20">
+                                            <div class="icons icons--flag icons--fill-purpleMedium">
+                                                <svg class="flag" width="74.48px" height="97.44px">
+                                                    <use xlink:href="#flag"></use>
+                                                </svg>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="button button--stroke1-greenMedium button--p-tb3 text text--black14">Необходимо оставить отзывов:<span class="text text--black14 text--fw700 m--l5">2</span>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="list b--w200">
+                                        <li class="list--items-mb10">
+                                            <div class="row row--ai-c m--b10"><span class="icons icons--hammer icons--stroke3-purpleMedium m--r10">
+            <svg class="hammer" width="72.47px" height="78.6px">
+                <use xlink:href="#hammer"></use>
             </svg>
         </span>
-                                                        <div class="b">
-                                                            <p class="text text--black14 m--b5">Рейтинг:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">58</span>
-                                                            </p>
-                                                            <p class="text text--black14 m--b5">Отзывов:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">25</span>
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <p class="text text--black14">Репутация:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">2500</span>
-                                                    </p>
+                                                <div class="b">
+                                                    <h2 class="text text--black12 text--uppercase">Лоты</h2>
+                                                    <p class="text text--purpleMedium12 text--uppercase">56</p>
                                                 </div>
-                                                <p class="text text--black16 m--b10">Принимает:</p>
-                                                <ul class="list row row--jc-c row--wrap b--w200">
-                                                    <li class="list--items-mb10 list--items-mr10">
-                                                        <div class="icons icons--yandexmoney icons--fill-purpleMedium icons--yandexmoney-user-panel">
-                                                            <svg class="yandexmoney" width="49.08px" height="17.12px">
-                                                                <use xlink:href="#yandexmoney"></use>
-                                                            </svg>
-
-                                                        </div>
-                                                    </li>
-                                                    <li class="list--items-mb10 list--items-mr10">
-                                                        <div class="icons icons--webmoney icons--fill-purpleMedium icons--webmoney-user-panel">
-                                                            <svg class="webmoney" width="49.89px" height="13.14px">
-                                                                <use xlink:href="#webmoney"></use>
-                                                            </svg>
-
-                                                        </div>
-                                                    </li>
-                                                    <li class="list--items-mb10 list--items-mr10">
-                                                        <div class="icons icons--visa icons--fill-purpleMedium icons--visa-user-panel">
-                                                            <svg class="visa" width="47.83px" height="14.73px">
-                                                                <use xlink:href="#visa"></use>
-                                                            </svg>
-
-                                                        </div>
-                                                    </li>
-                                                </ul>
                                             </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="b--fb800 grow">
-                                    <div class="row row--jc-fe m--b10">
-                                        <div class="b--w150"><a class="button button--fill-greenMedium button--p-tb3 text text--white14" href="#">Подать объявление</a>
-                                        </div>
-                                    </div>
-                                    <div class="m--b20">
-                                        <ul class="nav nav--user-profile-tabs nav--user-profile-tabs-freelance list row">
-                                            <li class="nav__user-profile-items">
-                                                <a class="nav__user-profile-item-link text text--black12 text--uppercase text--td-none text--center row row--jc-sb row--ai-c" href="user-profile-exchange-active.html"> <span>Активные</span><span class="nav__items-number text text--white12 text--center d-block">5</span>
-                                                </a>
-                                            </li>
-                                            <li class="nav__user-profile-items">
-                                                <a class="nav__user-profile-item-link nav__user-profile-item-link--active text text--black12 text--uppercase text--td-none text--center row row--jc-sb row--ai-c" href="user-profile-exchange-no-active.html"> <span>Не активные</span><span class="nav__items-number text text--white12 text--center d-block">5</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="row row--jc-c m--b40">
-                                        <ul class="nav nav--user-profile-nav list row">
-                                            <li class="list--items-mr10"><a class="nav__link nav__link--active button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="#">Все</a>
-                                            </li>
-                                            <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="#">Социальные сети</a>
-                                            </li>
-                                            <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="#">Сайты и домены</a>
-                                            </li>
-                                            <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="#">Игры</a>
-                                            </li>
-                                            <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="#">Софт</a>
-                                            </li>
-                                            <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="#">Дизайн и инфопродукты</a>
-                                            </li>
-                                            <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="#">Реклама</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <ul class="list m--b30">
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--disable">
-                                                <div class="row grow">
-                                                    <div class="column m--r15">
-                                                        <div class="exchange-cart__img-wrap grow column">
-                                                            <img class="exchange-cart__img grow" src="static/img/content/exchange-cart-img-icon.jpg" aly="img">
-                                                        </div>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="grow b--fb380 column">
-                                                            <div class="b--w450 m--b15"><a class="exchange-cart__headline text text--fw700" href="#">Название Lorem ipsum lorem delmoer to ledotorem orem delmoer to ledot</a>
-                                                            </div>
-                                                            <h2 class="text text-black16 text--fw700 text--uppercase m--b10">Модерируется</h2>
-                                                            <p class="text text--black14 p--l15 b--w425">Поданные объявления проходят модерацию в течении часа, срочные объявления проходят проверку модерации после подачи.</p>
-                                                        </div>
-                                                        <ul class="list column">
-                                                            <li class="m--b5 row row--jc-fe row--ai-c">
-                                                                <p class="text text--grayMediumDark14 text--right text--fw700">20д 15ч 15м</p><span class="exchange-cart__timer-icon exchange-cart__timer-icon--freelance m--l10">
-            <svg class="timer" width="18px" height="21px">
-                <use xlink:href="#timer"></use>
+                                            <div class="border border--fill-grayDark"></div>
+                                        </li>
+                                        <li class="list--items-mb10">
+                                            <div class="row row--ai-c m--b10"><span class="icons icons--work icons--stroke3-purpleMedium m--r10">
+            <svg class="work" width="99.36px" height="100.38px">
+                <use xlink:href="#work"></use>
             </svg>
         </span>
-                                                            </li>
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--fw700 text--right m--b5">Зарплата</p>
-                                                                <p class="text text--purpleMedium20 text--fw700 text--right">$250 000</p>
-                                                            </li>
-                                                            <li class="list--items-mb15">
-                                                                <div class="row row--jc-sb">
-                                                                    <p class="text text--black14 text--right m--r5">Категория:</p>
-                                                                    <p class="text text--purpleMedium14">Игры/Ресурсы</p>
-                                                                </div>
-                                                            </li>
-                                                            <li class="list--items-mb15 m--t-a">
-                                                                <button class="exchange-cart__submit-resume-button button button--fill-greenMedium button--stroke1-greenMedium button--p-tb3 text text--white16" type="button">Подать резюме</button>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
+                                                <div class="b">
+                                                    <h2 class="text text--black12 text--uppercase">Выполняется</h2>
+                                                    <p class="text text--purpleMedium12 text--uppercase">56</p>
                                                 </div>
                                             </div>
+                                            <div class="border border--fill-grayDark"></div>
                                         </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--disable">
-                                                <div class="row grow">
-                                                    <div class="column m--r15">
-                                                        <div class="exchange-cart__img-wrap grow column">
-                                                            <img class="exchange-cart__img grow" src="static/img/content/exchange-cart-img-icon.jpg" aly="img">
-                                                        </div>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="grow b--fb380 column">
-                                                            <div class="b--w450 m--b15"><a class="exchange-cart__headline text text--fw700" href="#">Название Lorem ipsum lorem delmoer to ledotorem orem delmoer to ledot</a>
-                                                            </div>
-                                                            <h2 class="text text-black16 text--fw700 text--uppercase m--b10">Снят с публикации</h2>
-                                                            <div class="m--l15">
-                                                                <h3 class="text text--black14 text--fw700 m--b5">Причина:</h3>
-                                                                <ul class="list">
-                                                                    <li class="text text--black14">- Истек срок публикации 21.12.12</li>
-                                                                    <li class="text text--black14">- Объявление не соответствует правилам сайта (Пункт. 228)</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <ul class="list column">
-                                                            <li class="m--b5 row row--jc-fe row--ai-c">
-                                                                <p class="text text--grayMediumDark14 text--right text--fw700">20д 15ч 15м</p><span class="exchange-cart__timer-icon exchange-cart__timer-icon--freelance m--l10">
-            <svg class="timer" width="18px" height="21px">
-                <use xlink:href="#timer"></use>
+                                        <li class="list--items-mb10">
+                                            <div class="row row--ai-c m--b10"><span class="icons icons--verification icons--fill-purpleMedium m--r10">
+            <svg class="verification" width="836.55px" height="910.29px">
+                <use xlink:href="#verification"></use>
             </svg>
         </span>
-                                                            </li>
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--fw700 text--right m--b5">Зарплата</p>
-                                                                <p class="text text--purpleMedium20 text--fw700 text--right">$250 000</p>
-                                                            </li>
-                                                            <li class="list--items-mb15">
-                                                                <div class="row row--jc-sb">
-                                                                    <p class="text text--black14 text--right m--r5">Категория:</p>
-                                                                    <p class="text text--purpleMedium14">Игры/Ресурсы</p>
-                                                                </div>
-                                                            </li>
-                                                            <li class="list--items-mb15 m--t-a">
-                                                                <button class="exchange-cart__submit-resume-button button button--fill-greenMedium button--stroke1-greenMedium button--p-tb3 text text--white16" type="button">Подать резюме</button>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--disable">
-                                                <div class="row grow">
-                                                    <div class="column m--r15">
-                                                        <div class="exchange-cart__img-wrap grow column">
-                                                            <img class="exchange-cart__img grow" src="static/img/content/exchange-cart-img-icon.jpg" aly="img">
-                                                        </div>
-                                                        <p class="text text--grayDark12 m--t5">Опубликованно:<span class="text text--grayDark12 m--l4">22:01:17</span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="b--w380 column">
-                                                            <h2 class="exchange-cart__headline text text--fw700">Название Lorem ipsum lorem delmoer to ledotorem orem delmoer to ledot</h2>
-                                                            <ul class="list row row--jc-sb m--t-a m--b5">
-                                                                <li>
-                                                                    <p class="text text--black14 m--b5">Подписчиков:<span class="text--black14 text--fw700 m--l4">1 000 00</span>
-                                                                    </p>
-                                                                    <p class="text text--black14">Поситители(день):<span class="text--black14 text--fw700 m--l4">340</span>
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p class="text text--black14 m--b5">Просмотров:<span class="text--black14 text--fw700 m--l4">2340</span>
-                                                                    </p>
-                                                                    <p class="text text--black14">Категория:<span class="text--black14 text--fw700 m--l4">Информация</span>
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                            <p class="text text--grayDark12">Теги:<span class="text--grayDark12 m--l4">Реверс-инженеринг</span>
-                                                            </p>
-                                                        </div>
-                                                        <ul class="list">
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Текущая цена<span class="text--purpleMedium15 text--fw700 m--l10">$250 000</span>
-                                                                </p>
-                                                            </li>
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Ставок: <span class="text--black14 text--fw700 m--l4">404</span>
-                                                                </p>
-                                                            </li>
-                                                            <li class="list--items-mb15 row row--jc-fe row--ai-c">
-                                                                <h2 class="text text--black14 text--fw700 m--r10">Начало:</h2>
-                                                                <p class="text text--black15 text--right text--fw700">31.02.2017</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--disable">
-                                                <div class="row grow">
-                                                    <div class="column m--r15">
-                                                        <div class="exchange-cart__img-wrap grow column">
-                                                            <img class="exchange-cart__img grow" src="static/img/content/exchange-cart-img-icon.jpg" aly="img">
-                                                        </div>
-                                                        <p class="text text--grayDark12 m--t5">Опубликованно:<span class="text text--grayDark12 m--l4">22:01:17</span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="b--w380 column">
-                                                            <h2 class="exchange-cart__headline text text--fw700">Название Lorem ipsum lorem delmoer to ledotorem orem delmoer to ledot</h2>
-                                                            <p class="exchange-cart__description-text text text--black14 m--t-a m--b5">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это Lorem
-                                                                Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это Lorem
-                                                                Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это</p>
-                                                            <p class="text text--grayDark12">Теги:<span class="text--grayDark12 m--l4">Реверс-инженеринг</span>
-                                                            </p>
-                                                        </div>
-                                                        <ul class="list">
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Текущая цена<span class="text--purpleMedium15 text--fw700 m--l10">$250 000</span>
-                                                                </p>
-                                                            </li>
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Ставок: <span class="text--black14 text--fw700 m--l4">404</span>
-                                                                </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--blue exchange-cart--disable">
-                                                <div class="row grow">
-                                                    <div class="column m--r15">
-                                                        <div class="exchange-cart__img-wrap grow column">
-                                                            <img class="exchange-cart__img grow" src="static/img/content/exchange-cart-img-icon.jpg" aly="img">
-                                                        </div>
-                                                        <p class="text text--grayDark12 m--t5">Опубликованно:<span class="text text--grayDark12 m--l4">22:01:17</span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="b--w380 column">
-                                                            <h2 class="exchange-cart__headline text text--fw700">Название Lorem ipsum lorem delmoer to ledotorem orem delmoer to ledot</h2>
-                                                            <ul class="list row row--jc-sb m--t-a m--b5">
-                                                                <li>
-                                                                    <p class="text text--black14 m--b5">Подписчиков:<span class="text--black14 text--fw700 m--l4">1 000 00</span>
-                                                                    </p>
-                                                                    <p class="text text--black14">Поситители(день):<span class="text--black14 text--fw700 m--l4">340</span>
-                                                                    </p>
-                                                                </li>
-                                                                <li>
-                                                                    <p class="text text--black14 m--b5">Просмотров:<span class="text--black14 text--fw700 m--l4">2340</span>
-                                                                    </p>
-                                                                    <p class="text text--black14">Категория:<span class="text--black14 text--fw700 m--l4">Информация</span>
-                                                                    </p>
-                                                                </li>
-                                                            </ul>
-                                                            <p class="text text--black12">Теги:<span class="text--white12 m--l4">Реверс-инженеринг</span>
-                                                            </p>
-                                                        </div>
-                                                        <ul class="list">
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Текущая цена<span class="text--purpleMedium15 text--fw700 m--l10">$250 000</span>
-                                                                </p>
-                                                            </li>
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Ставок: <span class="text--black14 text--fw700 m--l4">404</span>
-                                                                </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--blue exchange-cart--disable">
-                                                <div class="row grow">
-                                                    <div class="column m--r15">
-                                                        <div class="exchange-cart__img-wrap grow column">
-                                                            <img class="exchange-cart__img grow" src="static/img/content/exchange-cart-img-icon.jpg" aly="img">
-                                                        </div>
-                                                        <p class="text text--grayDark12 m--t5">Опубликованно:<span class="text text--grayDark12 m--l4">22:01:17</span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="b--w380 column">
-                                                            <h2 class="exchange-cart__headline text text--fw700">Название Lorem ipsum lorem delmoer to ledotorem orem delmoer to ledot</h2>
-                                                            <p class="exchange-cart__description-text text text--black14 m--t-a m--b5">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это Lorem
-                                                                Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это Lorem
-                                                                Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это</p>
-                                                            <p class="text text--black12">Теги:<span class="text--white12 m--l4">Реверс-инженеринг</span>
-                                                            </p>
-                                                        </div>
-                                                        <ul class="list">
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Текущая цена<span class="text--purpleMedium15 text--fw700 m--l10">$250 000</span>
-                                                                </p>
-                                                            </li>
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Ставок: <span class="text--black14 text--fw700 m--l4">404</span>
-                                                                </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--blue exchange-cart--disable"><span class="exchange-cart__urgently-icon d-block"></span>
-                                                <div class="row grow">
-                                                    <div class="column m--r15">
-                                                        <div class="exchange-cart__img-wrap grow column">
-                                                            <img class="exchange-cart__img grow" src="static/img/content/exchange-cart-img-icon.jpg" aly="img">
-                                                        </div>
-                                                        <p class="text text--grayDark12 m--t5">Опубликованно:<span class="text text--grayDark12 m--l4">22:01:17</span>
-                                                        </p>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="b--w380 column">
-                                                            <h2 class="exchange-cart__headline text text--fw700">Название Lorem ipsum lorem delmoer to ledotorem orem delmoer to ledot</h2>
-                                                            <p class="exchange-cart__description-text text text--black14 m--t-a m--b5">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это Lorem
-                                                                Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это Lorem
-                                                                Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem IpsuLorem Ipsum - это</p>
-                                                            <p class="text text--black12">Теги:<span class="text--white12 m--l4">Реверс-инженеринг</span>
-                                                            </p>
-                                                        </div>
-                                                        <ul class="list">
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Текущая цена<span class="text--purpleMedium15 text--fw700 m--l10">$250 000</span>
-                                                                </p>
-                                                            </li>
-                                                            <li class="list--items-mb15">
-                                                                <p class="text text--black15 text--right">Ставок: <span class="text--black14 text--fw700 m--l4">404</span>
-                                                                </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
+                                                <div class="b">
+                                                    <h2 class="text text--black12 text--uppercase">Уровень верификации:</h2>
+                                                    <p class="text text--purpleMedium12 text--uppercase">Lorem ipsum - 21д 2ч</p>
                                                 </div>
                                             </div>
                                         </li>
                                     </ul>
-                                    <div class="pagination">
-                                        <div class="row row--ai-c">
-                                            <div class="pagination__border pagination__border--left grow"></div>
-                                            <ul class="list row row--ai-c">
-                                                <li class="row">
-                                                    <button class="pagination__arows pagination__arows--prev m--r10" type="button"><span class="pagination__arow d-block"></span><span class="pagination__arow pagination__arow pagination__arow--last d-block"></span>
-                                                    </button>
-                                                    <div class="pagination__arows">
-                                                        <button class="pagination__arow pagination__arow--prev" type="button"></button>
-                                                    </div>
-                                                </li>
-                                                <li class="m--l25 m--r25"><a class="pagination__number pagination__number--active text list--items-mr15" href="#">1</a><a class="pagination__number text list--items-mr15" href="#">2</a><a class="pagination__number text list--items-mr15"
-                                                    href="#">3</a><a class="pagination__number text list--items-mr15" href="#">4</a><a class="pagination__number text list--items-mr15" href="#">...</a><a class="pagination__number text list--items-mr15"
-                                                    href="#">154</a>
-                                                </li>
-                                                <li class="row">
-                                                    <div class="pagination__arows pagination__arows--next">
-                                                        <button class="pagination__arow pagination__arow--next" type="button"></button>
-                                                    </div>
-                                                    <button class="pagination__arows pagination__arows--next m--l10" type="button"><span class="pagination__arow d-block"></span><span class="pagination__arow pagination__arow--last d-block"></span>
-                                                    </button>
-                                                </li>
-                                            </ul>
-                                            <div class="pagination__border pagination__border--right grow"></div>
+                                </div>
+                                <div class="grow row row--jc-sb">
+                                    <div class="b user-profile__avatar-description-wrap">
+                                        <form class="column column--ai-c m--b10" action="action.php" method="post">
+                                            <div class="user-profile__avatar-wrap m--b10">
+                                                <img class="user-profile__avatar" src="static/img/content/user-profile-avatar-img.jpg">
+                                                <input class="input input--file" type="file" name="uploadAvatar" id="userProfileUploadavatar">
+                                                <label class="user-profile__avatar-upload-icon d-block" for="userProfileUploadavatar">
+                                                    <svg class="camera" width="100px" height="81.54px">
+                                                        <use xlink:href="#camera"></use>
+                                                    </svg>
+
+                                                </label><span class="user-profile__avatar-indicator d-block"></span>
+                                            </div>
+                                            <div class="row position position--rel">
+                                                <ul class="list row">
+                                                    <li class="user-profile__avatar-rate-star list--items-mr5">
+                                                        <svg class="star" width="93.43px" height="89.15px">
+                                                            <use xlink:href="#star"></use>
+                                                        </svg>
+
+                                                    </li>
+                                                    <li class="user-profile__avatar-rate-star list--items-mr5">
+                                                        <svg class="star" width="93.43px" height="89.15px">
+                                                            <use xlink:href="#star"></use>
+                                                        </svg>
+
+                                                    </li>
+                                                    <li class="user-profile__avatar-rate-star list--items-mr5">
+                                                        <svg class="star" width="93.43px" height="89.15px">
+                                                            <use xlink:href="#star"></use>
+                                                        </svg>
+
+                                                    </li>
+                                                    <li class="user-profile__avatar-rate-star list--items-mr5">
+                                                        <svg class="star" width="93.43px" height="89.15px">
+                                                            <use xlink:href="#star"></use>
+                                                        </svg>
+
+                                                    </li>
+                                                    <li class="user-profile__avatar-rate-star user-profile__avatar-rate-star--no-fill list--items-mr5">
+                                                        <svg class="star" width="93.43px" height="89.15px">
+                                                            <use xlink:href="#star"></use>
+                                                        </svg>
+
+                                                    </li>
+                                                </ul>
+                                                <p class="user-profile__avatar-rate-text text text--grayDark12">4.0</p>
+                                            </div>
+                                        </form>
+                                        <p class="text text--purpleMedium16 text--fw700 text--center m--b5">@Евгений</p>
+                                        <p class="text text--black24 text--fw700 text--center m--b10">Горонин Евгений</p>
+                                        <ul class="list row m--b10">
+                                            <li class="list--items-mr15">
+                                                <p class="text text--black12 text--uppercase text--fw700">Отзывов:<span class="text text--green12 text--fw700 m--l4">56</span>
+                                                </p>
+                                            </li>
+                                            <li class="list--items-mr15">
+                                                <p class="text text--black12 text--uppercase text--fw700">Рейтинг:<span class="text text--green12 text--fw700 m--l4">56</span>
+                                                </p>
+                                            </li>
+                                            <li class="list--items-mr15">
+                                                <p class="text text--black12 text--uppercase text--fw700">Репутация:<span class="text text--green12 text--fw700 m--l4">56</span>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                        <h2 class="text text--grayDark12 text--uppercase text--center m--b5">Профилирование</h2>
+                                        <ul class="list row row--ai-c">
+                                            <li class="m--r15">
+                                                <h2 class="text text--grauDark14 list--items-mb5">Навык:</h2>
+                                                <h2 class="text text--grauDark14 list--items-mb5">Продажи:</h2>
+                                            </li>
+                                            <li>
+                                                <p class="text text--purpleMedium14 text--bold text--td-underline text--center text--fw700 list--items-mb5">Web Design</p>
+                                                <p class="text text--purpleMedium14 text--bold text--td-underline text--center text--fw700 list--items-mb5">Веб программирование</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="b--w300 p--t10">
+                                        <div class="row row--jc-fe m--b30">
+                                            <div class="b--w150"><a class="button button--fill-greenMedium button--p-tb3 text text--white14" href="#">Редактировать</a>
+                                            </div>
+                                        </div>
+                                        <h2 class="text text--black14 text--right m--b10">Принимает</h2>
+                                        <div class="column column--ai-fe m--b15">
+                                            <div class="b--w210">
+                                                <ul class="list row row--jc-fe m--b10">
+                                                    <li class="list--items-mr5"><span class="icons icons--mastercard icons--fill-purpleMedium icons--user-profile">
+            <svg class="mastercard" width="48.43px" height="29px">
+                <use xlink:href="#mastercard"></use>
+            </svg>
+        </span>
+                                                    </li>
+                                                    <li class="list--items-mr5"><span class="icons icons--mastercard icons--fill-purpleMedium icons--user-profile">
+            <svg class="mastercard" width="48.43px" height="29px">
+                <use xlink:href="#mastercard"></use>
+            </svg>
+        </span>
+                                                    </li>
+                                                    <li class="list--items-mr5"><span class="icons icons--mastercard icons--fill-purpleMedium icons--user-profile">
+            <svg class="mastercard" width="48.43px" height="29px">
+                <use xlink:href="#mastercard"></use>
+            </svg>
+        </span>
+                                                    </li>
+                                                    <li class="list--items-mr5"><span class="icons icons--mastercard icons--fill-purpleMedium icons--user-profile">
+            <svg class="mastercard" width="48.43px" height="29px">
+                <use xlink:href="#mastercard"></use>
+            </svg>
+        </span>
+                                                    </li>
+                                                </ul>
+                                                <div class="border border--fill-grayDark"></div>
+                                            </div>
+                                        </div>
+                                        <h2 class="text text--black14 text--right text--fw700 m--b5">Дополнительные навыки:</h2>
+                                        <ul class="list row row--wrap row--jc-fe m--b15">
+                                            <li class="list--items-mr5">
+                                                <p class="text text--purpleMedium14 text--td-underline">Веб дизайн/</p>
+                                            </li>
+                                            <li class="list--items-mr5">
+                                                <p class="text text--purpleMedium14 text--td-underline">Front-end/</p>
+                                            </li>
+                                            <li class="list--items-mr5">
+                                                <p class="text text--purpleMedium14 text--td-underline">Back-end/</p>
+                                            </li>
+                                            <li class="list--items-mr5">
+                                                <p class="text text--purpleMedium14 text--td-underline">Разработка сайтов/</p>
+                                            </li>
+                                            <li class="list--items-mr5">
+                                                <p class="text text--purpleMedium14 text--td-underline">Системы администрирования (CMS)</p>
+                                            </li>
+                                        </ul>
+                                        <div class="row row--jc-sb">
+                                            <p class="text text--grayDark12">В сервисе: 6 лет</p>
+                                            <p class="text text--grayDark12">Последний визит:<span class="text text--grayDark12 m--l4">23 часа назад</span>
+                                            </p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border--fill-grayDark m--b20"></div>
+                        <div class="container row">
+                            <div class="b--w240">
+                                <div class="m--b20">
+                                    <ul class="nav nav--profile-nav list">
+                                        <li class="nav__items"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="messages.html">Сообщения<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
+                                        </li>
+                                        <li class="nav__items"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="user-profile-exchange-active.html">Биржа<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
+                                        </li>
+                                        <li class="nav__items"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="user-profile-freelance-active.html">Фриланс<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
+                                        </li>
+                                        <li class="nav__items"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="user-profile-learn-active.html">Обучение<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
+                                        </li>
+                                        <li class="nav__items"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="user-profile-users-active.html">Пользователи<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
+                                        </li>
+                                        <li class="nav__items m--b10"><a class="nav__items-link text text--black16 row row--jc-sb row--ai-c" href="user-profile-finance-balance.html">Финансы<span class="nav__items-number text text--white12 text--center d-block">5</span></a>
+                                        </li>
+                                        <li class="nav__items"><a class="button button--fill-greenMedium button--p-tb5 text text--white16" href="#">Подать объявление</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="advert-cart">
+                                    <a class="advert-cart__content d-block" href="#">
+                                        <div class="column column--ai-c">
+                                            <h2 class="text text--black18 text--fw700 m--b10">Информация о продавце</h2>
+                                            <div class="column column--ai-c m--b5">
+                                                <div class="advert-cart__avatar-wrap m--b15">
+                                                    <img src="static/img/content/avatar-grey.svg"><span class="advert-cart__avatar-icon d-block">
+            <svg class="verifed" width="353.12px" height="471.22px">
+                <use xlink:href="#verifed"></use>
+            </svg>
+        </span><span class="advert-cart__user-online d-block"></span>
+                                                </div>
+                                            </div>
+                                            <h2 class="text text--black18 text--fw700 text--center m--b5">Евгений Горонин</h2>
+                                            <div class="b m--b5">
+                                                <h2 class="advert-cart__nickname text text--purpleMedium16 text--td-underline text--center">@Евгений</h2>
+                                            </div>
+                                            <div class="b m--b10">
+                                                <div class="row row--ai-c"><span class="icons icons--security icons--fill-purpleMedium icons--security-user-profile m--r10">
+            <svg class="security" width="274.11px" height="347.5px">
+                <use xlink:href="#security"></use>
+            </svg>
+        </span>
+                                                    <div class="b">
+                                                        <p class="text text--black14 m--b5">Рейтинг:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">58</span>
+                                                        </p>
+                                                        <p class="text text--black14 m--b5">Отзывов:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">25</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <p class="text text--black14">Репутация:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">2500</span>
+                                                </p>
+                                            </div>
+                                            <p class="text text--black16 m--b10">Принимает:</p>
+                                            <ul class="list row row--jc-c row--wrap b--w200">
+                                                <li class="list--items-mb10 list--items-mr10">
+                                                    <div class="icons icons--yandexmoney icons--fill-purpleMedium icons--yandexmoney-user-panel">
+                                                        <svg class="yandexmoney" width="49.08px" height="17.12px">
+                                                            <use xlink:href="#yandexmoney"></use>
+                                                        </svg>
+
+                                                    </div>
+                                                </li>
+                                                <li class="list--items-mb10 list--items-mr10">
+                                                    <div class="icons icons--webmoney icons--fill-purpleMedium icons--webmoney-user-panel">
+                                                        <svg class="webmoney" width="49.89px" height="13.14px">
+                                                            <use xlink:href="#webmoney"></use>
+                                                        </svg>
+
+                                                    </div>
+                                                </li>
+                                                <li class="list--items-mb10 list--items-mr10">
+                                                    <div class="icons icons--visa icons--fill-purpleMedium icons--visa-user-panel">
+                                                        <svg class="visa" width="47.83px" height="14.73px">
+                                                            <use xlink:href="#visa"></use>
+                                                        </svg>
+
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="b--fb800 grow">
+                                <div class="row row--jc-c m--b40">
+                                    <ul class="nav nav--user-profile-nav list row">
+                                        <li class="list--items-mr10"><a class="nav__link nav__link--active button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-information.html">Информация</a>
+                                        </li>
+                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-profiling.html">Профилирование</a>
+                                        </li>
+                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-teams-command.html">Участники</a>
+                                        </li>
+                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-portfolio.html">Портфолио</a>
+                                        </li>
+                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-contacts.html">Контакты</a>
+                                        </li>
+                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-reputation.html">Репутация</a>
+                                        </li>
+                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-statistic.html">Статистика</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="b p--l50">
+                                    <h2 class="text text--black18 text--fw700 m--b30">Информация</h2>
+                                    <ul class="list row m--b20">
+                                        <li class="m--r30 row">
+                                            <h2 class="text text--black16 m--b5 m--r10">Основной приоритет</h2>
+                                            <p class="text text--purpleMedium14 text--td-underline text--fw700">Веб программирование</p>
+                                        </li>
+                                        <li class="row">
+                                            <h2 class="text text--black16 m--b5 m--r10">Дополнительный приоритет</h2>
+                                            <p class="text text--purpleMedium14 text--td-underline text--fw700">Веб программирование</p>
+                                        </li>
+                                    </ul>
+                                    <h2 class="text text--black14 text--fw700 m--b15">Обо мне</h2>
+                                    <p class="text text--black14 m--b20">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                                        est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                                        sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                                        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                    <h2 class="text text--black14 text--fw700 m--b15">Опыт</h2>
+                                    <p class="text text--black14 m--b20">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                                        est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                                        sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                                        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                    <h2 class="text text--black14 text--fw700 m--b15">Биография</h2>
+                                    <p class="text text--black14 m--b20">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in</p>
                                 </div>
                             </div>
                         </div>
@@ -1173,7 +1089,6 @@
 
         <script src="static/js/separate-js/util.js"></script>
         <script src="static/js/separate-js/user-block.js"></script>
-        <script src="static/js/separate-js/select.js"></script>
         <script src="static/js/main97v1d2.min.js"></script>
     </body>
 
