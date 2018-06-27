@@ -303,9 +303,8 @@ body {
           flex: 0 0 auto;
 }
 .container {
-  width: 1160px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 3%;
 }
 img {
   width: 100%;
@@ -3449,6 +3448,7 @@ a.ui-button:active,
   background-color: #292929;
 }
 .slider__slide-img {
+  width: 100vw !important;
   height: 100vh;
 }
 .slider__text span {
@@ -3606,6 +3606,17 @@ a.ui-button:active,
   }
   .slider__list-wrap {
     padding: 0 10px;
+  }
+}
+@media (max-width: 375px) {
+  .slider__headline {
+    margin-bottom: 15px !important;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .slider__text {
+    font-size: 15px;
+    margin-bottom: 10px !important;
   }
 }
 @media (max-width: 360px) {
