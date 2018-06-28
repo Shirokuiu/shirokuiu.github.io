@@ -819,7 +819,7 @@ img {
   background-color: #fff;
 }
 .page-header__content--sticky .user-block--header .user-block__basket {
-  position: absolute;
+  position: fixed;
   top: 180px;
   right: 20px;
   z-index: 30;
@@ -2841,7 +2841,8 @@ img {
   border: 1px solid #eaeaea;
   border-radius: 5px;
 }
-.basket__table-count-text {
+.basket__table-count-text,
+.basket__table-count-text-mobile {
   font-size: 29px;
   line-height: 44px;
   color: #f04034;
@@ -3346,7 +3347,8 @@ img {
     font-size: 17px;
     line-height: 20px;
   }
-  .basket__table-count-text {
+  .basket__table-count-text,
+  .basket__table-count-text-mobile {
     font-size: 19px;
     line-height: 37px;
   }
