@@ -616,30 +616,16 @@
                         <div class="container">
                             <div class="row">
                                 <div class="user-profile__aside-description-wrap b--w315">
-                                    <div class="m--b30">
+                                    <div class="m--b70">
                                         <ul class="nav nav--user-profile-tabs list row">
-                                            <li class="nav__user-profile-items"><a class="nav__user-profile-item-link text text--black12 text--uppercase text--td-none text--center" href="user-profile-friends-information.html">Друзья</a>
+                                            <li class="nav__user-profile-items"><a class="nav__user-profile-item-link nav__user-profile-item-link--active text text--black12 text--uppercase text--td-none text--center" href="user-profile-friends-information.html">Друзья</a>
                                             </li>
-                                            <li class="nav__user-profile-items"><a class="nav__user-profile-item-link nav__user-profile-item-link--active text text--black12 text--uppercase text--td-none text--center" href="user-profile-teams-information.html">Команды</a>
+                                            <li class="nav__user-profile-items"><a class="nav__user-profile-item-link text text--black12 text--uppercase text--td-none text--center" href="user-profile-teams-information.html">Команды</a>
                                             </li>
                                             <li class="nav__user-profile-items"><a class="nav__user-profile-item-link text text--black12 text--uppercase text--td-none text--center" href="user-profile-schools-information.html">Школы</a>
                                             </li>
                                         </ul>
                                     </div>
-                                    <ul class="list row row--ai-c m--b20">
-                                        <li class="m--r20">
-                                            <div class="icons icons--flag icons--fill-purpleMedium">
-                                                <svg class="flag" width="74.48px" height="97.44px">
-                                                    <use xlink:href="#flag"></use>
-                                                </svg>
-
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <p class="button button--stroke1-greenMedium button--p-tb3 text text--black14">Необходимо оставить отзывов:<span class="text text--black14 text--fw700 m--l5">2</span>
-                                            </p>
-                                        </li>
-                                    </ul>
                                     <ul class="list b--w200">
                                         <li class="list--items-mb10">
                                             <div class="row row--ai-c m--b10"><span class="icons icons--hammer icons--stroke3-purpleMedium m--r10">
@@ -760,7 +746,7 @@
                                     </div>
                                     <div class="b--w300 p--t10">
                                         <div class="row row--jc-fe m--b30">
-                                            <div class="b--w150"><a class="button button--fill-greenMedium button--p-tb3 text text--white14" href="user-profile-teams-edit-command.html">Редактировать</a>
+                                            <div class="b--w150"><a class="button button--fill-greenMedium button--p-tb3 text text--white14" href="user-profile-entry-edit-information.html">Редактировать</a>
                                             </div>
                                         </div>
                                         <h2 class="text text--black14 text--right m--b10">Принимает</h2>
@@ -907,471 +893,241 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="b--fb800 grow">
-                                <div class="row row--jc-c m--b40">
-                                    <ul class="nav nav--user-profile-nav list row">
-                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-information.html">Информация</a>
-                                        </li>
-                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-profiling.html">Профилирование</a>
-                                        </li>
-                                        <li class="list--items-mr10"><a class="nav__link nav__link--active button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-teams-command.html">Участники</a>
-                                        </li>
-                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-portfolio.html">Портфолио</a>
-                                        </li>
-                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-contacts.html">Контакты</a>
-                                        </li>
-                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-reputation.html">Репутация</a>
-                                        </li>
-                                        <li class="list--items-mr10"><a class="nav__link button button--stroke1-purpleMedium button--p-tb3 text text--purpleMedium14" href="user-profile-entry-statistic.html">Статистика</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="b p--l50">
-                                    <h2 class="text text--black18 text--fw700 m--b30">Участники команды</h2>
-                                    <div class="row row--jc-c">
-                                        <div class="b--w695 row row--jc-sb m--b20">
-                                            <div class="b"><a class="button button--fill-greenMedium button--p-tb3 text text--white14" href="#">Добавить участника</a>
-                                            </div>
-                                            <div class="b"><a class="button button--fill-purpleMedium button--hover-purpleMedium button--p-tb3 text text--white14" href="#">Редактировать</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <ul class="list column column--ai-c m--b20">
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--teams">
-                                                <button class="exchange-cart-exit"></button>
-                                                <div class="row row--ai-c grow">
-                                                    <div class="column column--jc-c m--r15">
-                                                        <div class="exchange-cart__img-wrap">
-                                                            <img class="exchange-cart__img" src="static/img/content/avatar-grey.svg" aly="img"><span class="exchange-cart__img-indicator d-block"></span>
-                                                        </div>
-                                                        <div class="row row--jc-c">
-                                                            <ul class="list row m--r5">
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--no-fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                            </ul>
-                                                            <p class="text text--purpleMedium14">4.0</p>
-                                                        </div>
+                            <div class="b--fb800 grow m--l20">
+                                <div class="friends">
+                                    <h2 class="text text--grayDark20 m--b15">Новые запросы</h2>
+                                    <ul class="friends__list friends__list--new list m--b15">
+                                        <li class="friends__items-list">
+                                            <div class="exchange-cart exchange-cart--friends"><span class="friends__exit d-block"></span>
+                                                <div class="column column--jc-c m--r15">
+                                                    <div class="exchange-cart__img-wrap row row--jc-c">
+                                                        <img class="exchange-cart__img" src="static/img/content/avatar.svg" aly="img"><span class="exchange-cart__img-indicator d-block"></span>
                                                     </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="row">
-                                                            <div class="b"><a class="text text--purpleMedium18 text--fw700 m--b5 d-block" href="#">Евгений</a>
-                                                                <p class="text text--grayDark12">В команде с 21.21.21</p>
-                                                                <p class="text text--grayDark12 m--b5">Последний визит: 9 часов назад</p>
-                                                                <h2 class="text text--black14 text--fw700 m--b5">Должность</h2>
-                                                                <div class="b--w165 m--b5">
-                                                                    <input class="input input--text input--p-tb3 input--p-lr5 text text--black12" type="text">
-                                                                </div>
-                                                                <div class="row m--r75">
-                                                                    <p class="text text--black14 m--b5 m--r20">Рейтинг:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                    <p class="text text--black14 m--b5">Отзывов:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="b--w260 column column--ai-c">
-                                                                <h2 class="text text--black14 text--center text--fw700 m--b5">Основной навык:</h2>
-                                                                <p class="text text--purpleMedium14 text--td-underline text--center text--fw700 m--b20">Веб программирование</p>
-                                                                <h2 class="text text--black14 text--center m--b5">Доп навык:</h2>
-                                                                <ul class="list row row--wrap">
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб программирование /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб дизайн /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Front-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Back-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Разработка сайтов</span>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
+                                                    <div class="row row--jc-c">
+                                                        <ul class="list row m--r5">
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill exchange-cart__star-icon--white d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill exchange-cart__star-icon--white d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill exchange-cart__star-icon--white d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill exchange-cart__star-icon--white d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--no-fill exchange-cart__star-icon--no-fill-white d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                        </ul>
+                                                        <p class="text text--white14">4.0</p>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--teams">
-                                                <button class="exchange-cart-exit"></button>
-                                                <div class="row row--ai-c grow">
-                                                    <div class="column column--jc-c m--r15">
-                                                        <div class="exchange-cart__img-wrap">
-                                                            <img class="exchange-cart__img" src="static/img/content/avatar-grey.svg" aly="img"><span class="exchange-cart__img-indicator d-block"></span>
-                                                        </div>
-                                                        <div class="row row--jc-c">
-                                                            <ul class="list row m--r5">
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--no-fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                            </ul>
-                                                            <p class="text text--purpleMedium14">4.0</p>
-                                                        </div>
+                                                <div class="grow row">
+                                                    <div class="m--t-a m--b-a"><a class="text--white20 m--b5 d-block" href="#">@greeezl</a>
+                                                        <p class="text text--white20 text--fw700">Александр Александров</p>
                                                     </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="row">
-                                                            <div class="b"><a class="text text--purpleMedium18 text--fw700 m--b5 d-block" href="#">Евгений</a>
-                                                                <p class="text text--grayDark12">В команде с 21.21.21</p>
-                                                                <p class="text text--grayDark12 m--b5">Последний визит: 9 часов назад</p>
-                                                                <h2 class="text text--black14 text--fw700 m--b5">Должность</h2>
-                                                                <div class="b--w165 m--b5">
-                                                                    <input class="input input--text input--p-tb3 input--p-lr5 text text--black12" type="text">
-                                                                </div>
-                                                                <div class="row m--r75">
-                                                                    <p class="text text--black14 m--b5 m--r20">Рейтинг:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                    <p class="text text--black14 m--b5">Отзывов:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="b--w260 column column--ai-c">
-                                                                <h2 class="text text--black14 text--center text--fw700 m--b5">Основной навык:</h2>
-                                                                <p class="text text--purpleMedium14 text--td-underline text--center text--fw700 m--b20">Веб программирование</p>
-                                                                <h2 class="text text--black14 text--center m--b5">Доп навык:</h2>
-                                                                <ul class="list row row--wrap">
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб программирование /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб дизайн /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Front-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Back-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Разработка сайтов</span>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--teams">
-                                                <button class="exchange-cart-exit"></button>
-                                                <div class="row row--ai-c grow">
-                                                    <div class="column column--jc-c m--r15">
-                                                        <div class="exchange-cart__img-wrap">
-                                                            <img class="exchange-cart__img" src="static/img/content/avatar-grey.svg" aly="img"><span class="exchange-cart__img-indicator d-block"></span>
-                                                        </div>
-                                                        <div class="row row--jc-c">
-                                                            <ul class="list row m--r5">
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--no-fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                            </ul>
-                                                            <p class="text text--purpleMedium14">4.0</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="row">
-                                                            <div class="b"><a class="text text--purpleMedium18 text--fw700 m--b5 d-block" href="#">Евгений</a>
-                                                                <p class="text text--grayDark12">В команде с 21.21.21</p>
-                                                                <p class="text text--grayDark12 m--b5">Последний визит: 9 часов назад</p>
-                                                                <h2 class="text text--black14 text--fw700 m--b5">Должность</h2>
-                                                                <div class="b--w165 m--b5">
-                                                                    <input class="input input--text input--p-tb3 input--p-lr5 text text--black12" type="text">
-                                                                </div>
-                                                                <div class="row m--r75">
-                                                                    <p class="text text--black14 m--b5 m--r20">Рейтинг:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                    <p class="text text--black14 m--b5">Отзывов:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="b--w260 column column--ai-c">
-                                                                <h2 class="text text--black14 text--center text--fw700 m--b5">Основной навык:</h2>
-                                                                <p class="text text--purpleMedium14 text--td-underline text--center text--fw700 m--b20">Веб программирование</p>
-                                                                <h2 class="text text--black14 text--center m--b5">Доп навык:</h2>
-                                                                <ul class="list row row--wrap">
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб программирование /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб дизайн /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Front-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Back-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Разработка сайтов</span>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--teams">
-                                                <button class="exchange-cart-exit"></button>
-                                                <div class="row row--ai-c grow">
-                                                    <div class="column column--jc-c m--r15">
-                                                        <div class="exchange-cart__img-wrap">
-                                                            <img class="exchange-cart__img" src="static/img/content/avatar-grey.svg" aly="img"><span class="exchange-cart__img-indicator d-block"></span>
-                                                        </div>
-                                                        <div class="row row--jc-c">
-                                                            <ul class="list row m--r5">
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--no-fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                            </ul>
-                                                            <p class="text text--purpleMedium14">4.0</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="row">
-                                                            <div class="b"><a class="text text--purpleMedium18 text--fw700 m--b5 d-block" href="#">Евгений</a>
-                                                                <p class="text text--grayDark12">В команде с 21.21.21</p>
-                                                                <p class="text text--grayDark12 m--b5">Последний визит: 9 часов назад</p>
-                                                                <h2 class="text text--black14 text--fw700 m--b5">Должность</h2>
-                                                                <div class="b--w165 m--b5">
-                                                                    <input class="input input--text input--p-tb3 input--p-lr5 text text--black12" type="text">
-                                                                </div>
-                                                                <div class="row m--r75">
-                                                                    <p class="text text--black14 m--b5 m--r20">Рейтинг:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                    <p class="text text--black14 m--b5">Отзывов:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="b--w260 column column--ai-c">
-                                                                <h2 class="text text--black14 text--center text--fw700 m--b5">Основной навык:</h2>
-                                                                <p class="text text--purpleMedium14 text--td-underline text--center text--fw700 m--b20">Веб программирование</p>
-                                                                <h2 class="text text--black14 text--center m--b5">Доп навык:</h2>
-                                                                <ul class="list row row--wrap">
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб программирование /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб дизайн /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Front-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Back-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Разработка сайтов</span>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="list--items-mb20">
-                                            <div class="exchange-cart exchange-cart--teams">
-                                                <button class="exchange-cart-exit"></button>
-                                                <div class="row row--ai-c grow">
-                                                    <div class="column column--jc-c m--r15">
-                                                        <div class="exchange-cart__img-wrap">
-                                                            <img class="exchange-cart__img" src="static/img/content/avatar-grey.svg" aly="img"><span class="exchange-cart__img-indicator d-block"></span>
-                                                        </div>
-                                                        <div class="row row--jc-c">
-                                                            <ul class="list row m--r5">
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                                <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--no-fill d-block">
-            <svg class="star" width="93.43px" height="89.15px">
-                <use xlink:href="#star"></use>
-            </svg>
-        </span>
-                                                                </li>
-                                                            </ul>
-                                                            <p class="text text--purpleMedium14">4.0</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="b--fb650 grow row row--jc-sb">
-                                                        <div class="row">
-                                                            <div class="b"><a class="text text--purpleMedium18 text--fw700 m--b5 d-block" href="#">Евгений</a>
-                                                                <p class="text text--grayDark12">В команде с 21.21.21</p>
-                                                                <p class="text text--grayDark12 m--b5">Последний визит: 9 часов назад</p>
-                                                                <h2 class="text text--black14 text--fw700 m--b5">Должность</h2>
-                                                                <div class="b--w165 m--b5">
-                                                                    <input class="input input--text input--p-tb3 input--p-lr5 text text--black12" type="text">
-                                                                </div>
-                                                                <div class="row m--r75">
-                                                                    <p class="text text--black14 m--b5 m--r20">Рейтинг:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                    <p class="text text--black14 m--b5">Отзывов:<span class="text text--purpleMedium14 text--fw700 text--overflow-h m--l4">56</span>
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                            <div class="b--w260 column column--ai-c">
-                                                                <h2 class="text text--black14 text--center text--fw700 m--b5">Основной навык:</h2>
-                                                                <p class="text text--purpleMedium14 text--td-underline text--center text--fw700 m--b20">Веб программирование</p>
-                                                                <h2 class="text text--black14 text--center m--b5">Доп навык:</h2>
-                                                                <ul class="list row row--wrap">
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб программирование /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Веб дизайн /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Front-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Back-end /</span>
-                                                                    </li>
-                                                                    <li class="list--items-mr4"><span class="text text--purpleMedium14 text--td-underline text--center">Разработка сайтов</span>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
+                                                    <div class="m--l-a m--t-a"><a class="button button--fill-greenMedium button--p-tb3 text text--white16" href="#">Написать сообщение</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </li>
                                     </ul>
-                                    <div class="pagination">
-                                        <div class="row row--jc-c">
-                                            <ul class="list row row--ai-c">
-                                                <li class="row">
-                                                    <button class="pagination__arows pagination__arows--prev m--r10" type="button"><span class="pagination__arow d-block"></span><span class="pagination__arow pagination__arow pagination__arow--last d-block"></span>
-                                                    </button>
-                                                    <div class="pagination__arows">
-                                                        <button class="pagination__arow pagination__arow--prev" type="button"></button>
-                                                    </div>
-                                                </li>
-                                                <li class="m--l25 m--r25"><a class="pagination__number pagination__number--active text list--items-mr15" href="#">1</a><a class="pagination__number text list--items-mr15" href="#">2</a><a class="pagination__number text list--items-mr15"
-                                                    href="#">3</a><a class="pagination__number text list--items-mr15" href="#">4</a><a class="pagination__number text list--items-mr15" href="#">...</a><a class="pagination__number text list--items-mr15"
-                                                    href="#">154</a>
-                                                </li>
-                                                <li class="row">
-                                                    <div class="pagination__arows pagination__arows--next">
-                                                        <button class="pagination__arow pagination__arow--next" type="button"></button>
-                                                    </div>
-                                                    <button class="pagination__arows pagination__arows--next m--l10" type="button"><span class="pagination__arow d-block"></span><span class="pagination__arow pagination__arow--last d-block"></span>
-                                                    </button>
-                                                </li>
-                                            </ul>
+                                    <div class="m--b15">
+                                        <div class="row row--ai-c"><span class="friends__star-icon">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                            <div class="grow">
+                                                <div class="user-block">
+                                                    <form class="user-block__search user-block__search--exchange" action="action.php" method="get">
+                                                        <input class="user-block__search-input input text" type="text" name="search" tabindex="0" placeholder="Поиск друзей"><span class="user-block__search-icon d-block">
+            <svg class="search" width="30.24px" height="30.24px">
+                <use xlink:href="#search"></use>
+            </svg>
+        </span>
+                                                    </form>
+                                                </div>
+                                            </div><span class="friends__castle-icon">
+            <svg class="lock" width="71.31px" height="99.31px">
+                <use xlink:href="#lock"></use>
+            </svg>
+        </span>
                                         </div>
                                     </div>
+                                    <h2 class="text text--grayDark20 m--b15">Список друзей</h2>
+                                    <ul class="friends__list list">
+                                        <li class="friends__items-list">
+                                            <div class="exchange-cart exchange-cart--friends"><span class="friends__exit d-block"></span>
+                                                <div class="column column--jc-c m--r15">
+                                                    <div class="exchange-cart__img-wrap row row--jc-c">
+                                                        <img class="exchange-cart__img" src="static/img/content/avatar-grey.svg" aly="img"><span class="exchange-cart__img-indicator d-block"></span>
+                                                    </div>
+                                                    <div class="row row--jc-c">
+                                                        <ul class="list row m--r5">
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--no-fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                        </ul>
+                                                        <p class="text text--purpleMedium14">4.0</p>
+                                                    </div>
+                                                </div>
+                                                <div class="grow row">
+                                                    <div class="m--t-a m--b-a"><a class="text--purpleMedium20 m--b5 d-block" href="#">@greeezl</a>
+                                                        <p class="text text--black20 text--fw700">Александр Александров</p>
+                                                    </div>
+                                                    <div class="m--l-a m--t-a"><a class="button button--fill-purpleMedium button--hover-purpleMedium button--p-tb3 text text--white16" href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="friends__items-list">
+                                            <div class="exchange-cart exchange-cart--friends"><span class="friends__exit d-block"></span>
+                                                <div class="column column--jc-c m--r15">
+                                                    <div class="exchange-cart__img-wrap row row--jc-c">
+                                                        <img class="exchange-cart__img" src="static/img/content/avatar-grey.svg" aly="img"><span class="exchange-cart__img-indicator d-block"></span>
+                                                    </div>
+                                                    <div class="row row--jc-c">
+                                                        <ul class="list row m--r5">
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--no-fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                        </ul>
+                                                        <p class="text text--purpleMedium14">4.0</p>
+                                                    </div>
+                                                </div>
+                                                <div class="grow row">
+                                                    <div class="m--t-a m--b-a"><a class="text--purpleMedium20 m--b5 d-block" href="#">@greeezl</a>
+                                                        <p class="text text--black20 text--fw700">Александр Александров</p>
+                                                    </div>
+                                                    <div class="m--l-a m--t-a"><a class="button button--fill-purpleMedium button--hover-purpleMedium button--p-tb3 text text--white16" href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="friends__items-list">
+                                            <div class="exchange-cart exchange-cart--friends"><span class="friends__exit d-block"></span>
+                                                <div class="column column--jc-c m--r15">
+                                                    <div class="exchange-cart__img-wrap row row--jc-c">
+                                                        <img class="exchange-cart__img" src="static/img/content/avatar-grey.svg" aly="img"><span class="exchange-cart__img-indicator d-block"></span>
+                                                    </div>
+                                                    <div class="row row--jc-c">
+                                                        <ul class="list row m--r5">
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                            <li class="list--items-mr3"><span class="exchange-cart__star-icon exchange-cart__star-icon--no-fill d-block">
+            <svg class="star" width="93.43px" height="89.15px">
+                <use xlink:href="#star"></use>
+            </svg>
+        </span>
+                                                            </li>
+                                                        </ul>
+                                                        <p class="text text--purpleMedium14">4.0</p>
+                                                    </div>
+                                                </div>
+                                                <div class="grow row">
+                                                    <div class="m--t-a m--b-a"><a class="text--purpleMedium20 m--b5 d-block" href="#">@greeezl</a>
+                                                        <p class="text text--black20 text--fw700">Александр Александров</p>
+                                                    </div>
+                                                    <div class="m--l-a m--t-a"><a class="button button--fill-purpleMedium button--hover-purpleMedium button--p-tb3 text text--white16" href="#">Написать сообщение</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
