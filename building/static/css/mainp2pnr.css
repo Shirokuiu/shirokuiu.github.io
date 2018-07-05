@@ -469,7 +469,6 @@ img {
       -ms-flex-positive: 1;
           flex-grow: 1;
   width: 70%;
-  margin-left: 315px;
 }
 @media (max-width: 1570px) {
   .page-content {
@@ -494,13 +493,7 @@ img {
   }
 }
 .aside {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 40;
   width: 315px;
-  margin: auto;
   background-color: #fff;
 }
 .aside__headline-wrap {
@@ -793,9 +786,6 @@ img {
     line-height: 19px;
   }
 }
-.house {
-  overflow: hidden;
-}
 .house__preview {
   position: absolute;
   top: 20px;
@@ -820,9 +810,6 @@ img {
 }
 .house__preview--hidden {
   opacity: 0;
-}
-.house__content {
-  position: relative;
 }
 .house__popup {
   position: absolute;
@@ -1262,14 +1249,7 @@ img {
   color: #fff;
 }
 .house__img-wrap {
-  width: 1920px;
-  height: 1110px;
-  background-image: url("../img/content/main-img.jpg");
-  background-repeat: no-repeat;
-  background-size: 1920px 1110px;
-}
-.house__img {
-  width: 1612px;
+  position: relative;
 }
 .house__appartment1-17-link,
 .house__appartment1-16-link,
@@ -1289,12 +1269,12 @@ img {
 .house__appartment1-2-link,
 .house__appartment1-1-link {
   position: absolute;
-  top: 146px;
-  left: 230px;
+  bottom: 82%;
+  right: 66%;
   z-index: 20;
   display: block;
-  width: 368px;
-  height: 50px;
+  width: 22.2%;
+  height: 4.3%;
   -webkit-transform: rotateZ(20deg);
           transform: rotateZ(20deg);
 }
@@ -1318,71 +1298,63 @@ img {
   opacity: 0.6;
 }
 .house__appartment1-16-link {
-  top: 210px;
+  bottom: 77%;
   -webkit-transform: rotateZ(18deg);
           transform: rotateZ(18deg);
-  height: 36px;
 }
 .house__appartment1-16-link:hover ~ .house__appartment1-16-img {
   opacity: 0.6;
 }
 .house__appartment1-15-link {
-  top: 263px;
+  bottom: 72.3%;
   -webkit-transform: rotateZ(17deg);
           transform: rotateZ(17deg);
-  height: 36px;
 }
 .house__appartment1-15-link:hover ~ .house__appartment1-15-img {
   opacity: 0.6;
 }
 .house__appartment1-14-link {
-  top: 315px;
-  -webkit-transform: rotateZ(14deg);
-          transform: rotateZ(14deg);
-  height: 36px;
+  bottom: 67.6%;
+  -webkit-transform: rotateZ(16deg);
+          transform: rotateZ(16deg);
 }
 .house__appartment1-14-link:hover ~ .house__appartment1-14-img {
   opacity: 0.6;
 }
 .house__appartment1-13-link {
-  top: 373px;
-  -webkit-transform: rotateZ(10deg);
-          transform: rotateZ(10deg);
-  height: 37px;
+  bottom: 63%;
+  -webkit-transform: rotateZ(15deg);
+          transform: rotateZ(15deg);
 }
 .house__appartment1-13-link:hover ~ .house__appartment1-13-img {
   opacity: 0.6;
 }
 .house__appartment1-12-link {
-  top: 418px;
-  -webkit-transform: rotateZ(11deg);
-          transform: rotateZ(11deg);
-  height: 40px;
+  bottom: 58.3%;
+  -webkit-transform: rotateZ(12deg);
+          transform: rotateZ(12deg);
 }
 .house__appartment1-12-link:hover ~ .house__appartment1-12-img {
   opacity: 0.6;
 }
 .house__appartment1-11-link {
-  top: 469px;
-  height: 42px;
-  -webkit-transform: rotateZ(10deg);
-          transform: rotateZ(10deg);
+  bottom: 53.7%;
+  -webkit-transform: rotateZ(11deg);
+          transform: rotateZ(11deg);
 }
 .house__appartment1-11-link:hover ~ .house__appartment1-11-img {
   opacity: 0.6;
 }
 .house__appartment1-10-link {
-  top: 522px;
-  height: 45px;
-  -webkit-transform: rotateZ(8deg);
-          transform: rotateZ(8deg);
+  bottom: 48.8%;
+  -webkit-transform: rotateZ(9deg);
+          transform: rotateZ(9deg);
 }
 .house__appartment1-10-link:hover ~ .house__appartment1-10-img {
   opacity: 0.6;
 }
 .house__appartment1-9-link {
-  top: 577px;
-  height: 45px;
+  bottom: 44%;
   -webkit-transform: rotateZ(5deg);
           transform: rotateZ(5deg);
 }
@@ -1390,64 +1362,57 @@ img {
   opacity: 0.6;
 }
 .house__appartment1-8-link {
-  top: 628px;
-  height: 45px;
-  -webkit-transform: rotateZ(4deg);
-          transform: rotateZ(4deg);
+  bottom: 39.2%;
+  -webkit-transform: rotateZ(3deg);
+          transform: rotateZ(3deg);
 }
 .house__appartment1-8-link:hover ~ .house__appartment1-8-img {
   opacity: 0.6;
 }
 .house__appartment1-7-link {
-  top: 681px;
-  height: 43px;
-  -webkit-transform: rotateZ(2deg);
-          transform: rotateZ(2deg);
+  bottom: 34.7%;
+  -webkit-transform: rotateZ(3deg);
+          transform: rotateZ(3deg);
 }
 .house__appartment1-7-link:hover ~ .house__appartment1-7-img {
   opacity: 0.6;
 }
 .house__appartment1-6-link {
-  top: 733px;
-  -webkit-transform: rotateZ(0deg);
-          transform: rotateZ(0deg);
-  height: 43px;
+  bottom: 30.3%;
+  -webkit-transform: rotateZ(3deg);
+          transform: rotateZ(3deg);
 }
 .house__appartment1-6-link:hover ~ .house__appartment1-6-img {
   opacity: 0.6;
 }
 .house__appartment1-5-link {
-  top: 786px;
+  bottom: 25.5%;
   -webkit-transform: rotateZ(-2deg);
           transform: rotateZ(-2deg);
-  height: 43px;
 }
 .house__appartment1-5-link:hover ~ .house__appartment1-5-img {
   opacity: 0.6;
 }
 .house__appartment1-4-link {
-  top: 840px;
-  -webkit-transform: rotateZ(-4deg);
-          transform: rotateZ(-4deg);
-  height: 43px;
+  bottom: 21%;
+  -webkit-transform: rotateZ(-3deg);
+          transform: rotateZ(-3deg);
 }
 .house__appartment1-4-link:hover ~ .house__appartment1-4-img {
   opacity: 0.6;
 }
 .house__appartment1-3-link {
-  top: 892px;
-  -webkit-transform: rotateZ(-6deg);
-          transform: rotateZ(-6deg);
-  height: 43px;
+  bottom: 16.3%;
+  -webkit-transform: rotateZ(-5deg);
+          transform: rotateZ(-5deg);
 }
 .house__appartment1-3-link:hover ~ .house__appartment1-3-img {
   opacity: 0.6;
 }
 .house__appartment1-2-link {
-  top: 946px;
-  -webkit-transform: rotateZ(-8deg);
-          transform: rotateZ(-8deg);
-  height: 43px;
+  bottom: 11.9%;
+  -webkit-transform: rotateZ(-7deg);
+          transform: rotateZ(-7deg);
 }
 .house__appartment1-2-link:hover ~ .house__appartment1-2-img {
   opacity: 0.6;
@@ -1457,10 +1422,9 @@ img {
   opacity: 0.6;
 }
 .house__appartment1-1-link {
-  top: 1000px;
-  height: 70px;
-  -webkit-transform: rotateZ(-10deg);
-          transform: rotateZ(-10deg);
+  bottom: 7%;
+  -webkit-transform: rotateZ(-11deg);
+          transform: rotateZ(-11deg);
 }
 .house__appartment1-1-link:hover ~ .house__appartment1-1-img {
   opacity: 0.6;
@@ -1487,85 +1451,94 @@ img {
 .house__appartment1-2-img,
 .house__appartment1-1-img {
   position: absolute;
-  top: 68px;
-  left: 105px;
-  width: 524px;
-  height: 239px;
+  right: 67.4%;
+  bottom: 69.8%;
+  width: 27.17%;
+  height: 26.68%;
   fill: #20c1e6;
   opacity: 0;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
 .house__appartment1-16-img {
-  left: 104px;
-  top: 121px;
-  width: 521px;
+  bottom: 65.1%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-15-img {
-  top: 173px;
-  width: 518px;
+  bottom: 60.5%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-14-img {
-  top: 222px;
-  width: 514px;
+  bottom: 56%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-13-img {
-  top: 275px;
-  width: 517px;
+  bottom: 51.3%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-12-img {
-  top: 325px;
-  width: 517px;
+  bottom: 46.7%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-11-img {
-  top: 376px;
-  width: 517px;
+  bottom: 42.1%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-10-img {
-  top: 427px;
-  width: 517px;
+  bottom: 37.5%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-9-img {
-  top: 478px;
-  width: 517px;
+  bottom: 33%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-8-img {
-  top: 529px;
-  width: 517px;
+  bottom: 28.4%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-7-img {
-  top: 580px;
-  width: 517px;
+  bottom: 23.8%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-6-img {
-  top: 636px;
-  left: 103px;
-  width: 517px;
+  bottom: 18.9%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-5-img {
-  top: 689px;
-  left: 103px;
-  width: 517px;
+  bottom: 14.1%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-4-img {
-  top: 740px;
-  left: 103px;
-  width: 517px;
+  bottom: 9.6%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-3-img {
-  top: 792px;
-  left: 103px;
-  width: 517px;
+  bottom: 5%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-2-img {
-  top: 842px;
-  left: 103px;
-  width: 517px;
+  bottom: 0.5%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment1-1-img {
-  top: 898px;
-  left: 98px;
-  width: 520px;
+  bottom: -4.6%;
+  width: 26.8%;
+  right: 67.7%;
 }
 .house__appartment2-17-link,
 .house__appartment2-16-link,
@@ -1585,10 +1558,10 @@ img {
 .house__appartment2-2-link,
 .house__appartment2-1-link {
   position: absolute;
-  top: 285px;
-  left: 626px;
-  width: 246px;
-  height: 32px;
+  right: 55%;
+  bottom: 71.4%;
+  width: 12%;
+  height: 3.2%;
   -webkit-transform: rotateZ(18deg);
           transform: rotateZ(18deg);
   z-index: 20;
@@ -1614,7 +1587,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-16-link {
-  top: 325px;
+  bottom: 67.9%;
   -webkit-transform: rotateZ(17deg);
           transform: rotateZ(17deg);
 }
@@ -1622,7 +1595,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-15-link {
-  top: 365px;
+  bottom: 64.4%;
   -webkit-transform: rotateZ(17deg);
           transform: rotateZ(17deg);
 }
@@ -1630,7 +1603,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-14-link {
-  top: 407px;
+  bottom: 60.6%;
   -webkit-transform: rotateZ(15deg);
           transform: rotateZ(15deg);
 }
@@ -1638,7 +1611,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-13-link {
-  top: 448px;
+  bottom: 56.9%;
   -webkit-transform: rotateZ(13deg);
           transform: rotateZ(13deg);
 }
@@ -1646,7 +1619,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-12-link {
-  top: 490px;
+  bottom: 53.2%;
   -webkit-transform: rotateZ(11deg);
           transform: rotateZ(11deg);
 }
@@ -1654,7 +1627,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-11-link {
-  top: 530px;
+  bottom: 49.5%;
   -webkit-transform: rotateZ(9deg);
           transform: rotateZ(9deg);
 }
@@ -1666,7 +1639,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-10-link {
-  top: 572px;
+  bottom: 45.7%;
   -webkit-transform: rotateZ(7deg);
           transform: rotateZ(7deg);
 }
@@ -1674,7 +1647,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-9-link {
-  top: 614px;
+  bottom: 42.1%;
   -webkit-transform: rotateZ(5deg);
           transform: rotateZ(5deg);
 }
@@ -1682,7 +1655,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-8-link {
-  top: 654px;
+  bottom: 38.4%;
   -webkit-transform: rotateZ(4deg);
           transform: rotateZ(4deg);
 }
@@ -1690,7 +1663,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-7-link {
-  top: 695px;
+  bottom: 34.7%;
   -webkit-transform: rotateZ(2deg);
           transform: rotateZ(2deg);
 }
@@ -1698,7 +1671,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-6-link {
-  top: 736px;
+  bottom: 31%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -1706,7 +1679,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-5-link {
-  top: 779px;
+  bottom: 27.2%;
   -webkit-transform: rotateZ(-2deg);
           transform: rotateZ(-2deg);
 }
@@ -1714,7 +1687,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-4-link {
-  top: 821px;
+  bottom: 23.6%;
   -webkit-transform: rotateZ(-4deg);
           transform: rotateZ(-4deg);
 }
@@ -1722,7 +1695,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-3-link {
-  top: 862px;
+  bottom: 20.2%;
   -webkit-transform: rotateZ(-5deg);
           transform: rotateZ(-5deg);
 }
@@ -1730,7 +1703,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-2-link {
-  top: 903px;
+  bottom: 16.2%;
   -webkit-transform: rotateZ(-7deg);
           transform: rotateZ(-7deg);
 }
@@ -1742,10 +1715,9 @@ img {
   opacity: 0.6;
 }
 .house__appartment2-1-link {
-  top: 945px;
+  bottom: 12%;
   -webkit-transform: rotateZ(-7deg);
           transform: rotateZ(-7deg);
-  height: 37px;
 }
 .house__appartment2-1-link:hover ~ .house__appartment2-1-img {
   opacity: 0.6;
@@ -1768,62 +1740,62 @@ img {
 .house__appartment2-2-img,
 .house__appartment2-1-img {
   position: absolute;
-  top: 228px;
-  left: 623px;
-  width: 236px;
-  height: 152px;
+  bottom: 66.9%;
+  height: 12%;
+  right: 55.5%;
+  width: 12%;
   fill: #20c1e6;
   opacity: 0;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
 .house__appartment2-16-img {
-  top: 268px;
+  bottom: 63.2%;
 }
 .house__appartment2-15-img {
-  top: 309px;
+  bottom: 59.6%;
 }
 .house__appartment2-14-img {
-  top: 349px;
+  bottom: 55.9%;
 }
 .house__appartment2-13-img {
-  top: 390px;
+  bottom: 52.3%;
 }
 .house__appartment2-12-img {
-  top: 431px;
+  bottom: 48.6%;
 }
 .house__appartment2-11-img {
-  top: 471px;
+  bottom: 45%;
 }
 .house__appartment2-10-img {
-  top: 510px;
+  bottom: 41.3%;
 }
 .house__appartment2-9-img {
-  top: 552px;
+  bottom: 37.7%;
 }
 .house__appartment2-8-img {
-  top: 593px;
+  bottom: 33.9%;
 }
 .house__appartment2-7-img {
-  top: 634px;
+  bottom: 30.3%;
 }
 .house__appartment2-6-img {
-  top: 677px;
+  bottom: 26.5%;
 }
 .house__appartment2-5-img {
-  top: 720px;
+  bottom: 22.7%;
 }
 .house__appartment2-4-img {
-  top: 761px;
+  bottom: 19%;
 }
 .house__appartment2-3-img {
-  top: 801px;
+  bottom: 15.4%;
 }
 .house__appartment2-2-img {
-  top: 842px;
+  bottom: 11.7%;
 }
 .house__appartment2-1-img {
-  top: 883px;
+  bottom: 8%;
 }
 .house__appartment3-17-link,
 .house__appartment3-16-link,
@@ -1843,10 +1815,10 @@ img {
 .house__appartment3-2-link,
 .house__appartment3-1-link {
   position: absolute;
-  top: 358px;
-  left: 860px;
-  width: 170px;
-  height: 27px;
+  bottom: 65.4%;
+  right: 46%;
+  width: 9%;
+  height: 2.5%;
   z-index: 20;
   display: block;
   -webkit-transform: rotateZ(17deg);
@@ -1872,7 +1844,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-16-link {
-  top: 392px;
+  bottom: 62.4%;
 }
 .house__appartment3-16-link:hover ~ .house__appartment3-16-img {
   opacity: 0.6;
@@ -1882,7 +1854,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-15-link {
-  top: 426px;
+  bottom: 59.3%;
   -webkit-transform: rotateZ(14deg);
           transform: rotateZ(14deg);
 }
@@ -1890,7 +1862,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-14-link {
-  top: 460px;
+  bottom: 56.2%;
   -webkit-transform: rotateZ(14deg);
           transform: rotateZ(14deg);
 }
@@ -1898,7 +1870,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-13-link {
-  top: 496px;
+  bottom: 53.1%;
   -webkit-transform: rotateZ(14deg);
           transform: rotateZ(14deg);
 }
@@ -1906,7 +1878,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-12-link {
-  top: 530px;
+  bottom: 50.1%;
   -webkit-transform: rotateZ(11deg);
           transform: rotateZ(11deg);
 }
@@ -1914,7 +1886,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-11-link {
-  top: 565px;
+  bottom: 46.9%;
   -webkit-transform: rotateZ(9deg);
           transform: rotateZ(9deg);
 }
@@ -1922,7 +1894,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-10-link {
-  top: 600px;
+  bottom: 43.9%;
   -webkit-transform: rotateZ(7deg);
           transform: rotateZ(7deg);
 }
@@ -1930,7 +1902,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-9-link {
-  top: 634px;
+  bottom: 40.6%;
   -webkit-transform: rotateZ(5deg);
           transform: rotateZ(5deg);
 }
@@ -1938,7 +1910,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-8-link {
-  top: 670px;
+  bottom: 37.6%;
   -webkit-transform: rotateZ(5deg);
           transform: rotateZ(5deg);
 }
@@ -1946,7 +1918,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-7-link {
-  top: 705px;
+  bottom: 34.4%;
   -webkit-transform: rotateZ(2deg);
           transform: rotateZ(2deg);
 }
@@ -1954,7 +1926,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-6-link {
-  top: 739px;
+  bottom: 31.4%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -1962,7 +1934,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-5-link {
-  top: 773px;
+  bottom: 28.4%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -1970,7 +1942,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-4-link {
-  top: 809px;
+  bottom: 25.1%;
   -webkit-transform: rotateZ(-3deg);
           transform: rotateZ(-3deg);
 }
@@ -1982,7 +1954,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-3-link {
-  top: 842px;
+  bottom: 22.3%;
   -webkit-transform: rotateZ(-5deg);
           transform: rotateZ(-5deg);
 }
@@ -1994,7 +1966,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-2-link {
-  top: 877px;
+  bottom: 19.2%;
   -webkit-transform: rotateZ(-6deg);
           transform: rotateZ(-6deg);
 }
@@ -2006,10 +1978,9 @@ img {
   opacity: 0.6;
 }
 .house__appartment3-1-link {
-  top: 914px;
+  bottom: 15.5%;
   -webkit-transform: rotateZ(-6deg);
           transform: rotateZ(-6deg);
-  height: 32px;
 }
 .house__appartment3-1-link:hover ~ .house__appartment3-1-img {
   opacity: 0.6;
@@ -2032,62 +2003,62 @@ img {
 .house__appartment3-2-img,
 .house__appartment3-1-img {
   position: absolute;
-  top: 322px;
-  left: 856px;
-  width: 172px;
-  height: 108px;
+  bottom: 61.8%;
+  right: 46.5%;
+  width: 8.5%;
+  height: 8.8%;
   fill: #20c1e6;
   opacity: 0;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
 .house__appartment3-16-img {
-  top: 356px;
+  bottom: 58.8%;
 }
 .house__appartment3-15-img {
-  top: 390px;
+  bottom: 55.8%;
 }
 .house__appartment3-14-img {
-  top: 424px;
+  bottom: 52.8%;
 }
 .house__appartment3-13-img {
-  top: 458px;
+  bottom: 49.7%;
 }
 .house__appartment3-12-img {
-  top: 490px;
+  bottom: 46.7%;
 }
 .house__appartment3-11-img {
-  top: 526px;
+  bottom: 43.6%;
 }
 .house__appartment3-10-img {
-  top: 560px;
+  bottom: 40.6%;
 }
 .house__appartment3-9-img {
-  top: 594px;
+  bottom: 37.5%;
 }
 .house__appartment3-8-img {
-  top: 628px;
+  bottom: 34.5%;
 }
 .house__appartment3-7-img {
-  top: 662px;
+  bottom: 31.5%;
 }
 .house__appartment3-6-img {
-  top: 698px;
+  bottom: 28.1%;
 }
 .house__appartment3-5-img {
-  top: 733px;
+  bottom: 25%;
 }
 .house__appartment3-4-img {
-  top: 768px;
+  bottom: 22%;
 }
 .house__appartment3-3-img {
-  top: 801px;
+  bottom: 18.9%;
 }
 .house__appartment3-2-img {
-  top: 835px;
+  bottom: 15.8%;
 }
 .house__appartment3-1-img {
-  top: 871px;
+  bottom: 12.7%;
 }
 .house__appartment4-17-link,
 .house__appartment4-16-link,
@@ -2107,10 +2078,10 @@ img {
 .house__appartment4-2-link,
 .house__appartment4-1-link {
   position: absolute;
-  top: 413px;
-  left: 1029px;
-  width: 125px;
-  height: 24px;
+  bottom: 60.8%;
+  right: 40%;
+  width: 6%;
+  height: 2.3%;
   z-index: 20;
   display: block;
   -webkit-transform: rotateZ(16deg);
@@ -2136,19 +2107,19 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-16-link {
-  top: 441px;
+  bottom: 58.2%;
 }
 .house__appartment4-16-link:hover ~ .house__appartment4-16-img {
   opacity: 0.6;
 }
 .house__appartment4-15-link {
-  top: 470px;
+  bottom: 55.4%;
 }
 .house__appartment4-15-link:hover ~ .house__appartment4-15-img {
   opacity: 0.6;
 }
 .house__appartment4-14-link {
-  top: 500px;
+  bottom: 52.9%;
   -webkit-transform: rotateZ(13deg);
           transform: rotateZ(13deg);
 }
@@ -2156,7 +2127,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-13-link {
-  top: 530px;
+  bottom: 50.3%;
   -webkit-transform: rotateZ(13deg);
           transform: rotateZ(13deg);
 }
@@ -2164,7 +2135,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-12-link {
-  top: 560px;
+  bottom: 47.6%;
   -webkit-transform: rotateZ(11deg);
           transform: rotateZ(11deg);
 }
@@ -2172,7 +2143,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-11-link {
-  top: 590px;
+  bottom: 44.9%;
   -webkit-transform: rotateZ(8deg);
           transform: rotateZ(8deg);
 }
@@ -2180,7 +2151,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-10-link {
-  top: 620px;
+  bottom: 42.2%;
   -webkit-transform: rotateZ(6deg);
           transform: rotateZ(6deg);
 }
@@ -2188,7 +2159,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-9-link {
-  top: 650px;
+  bottom: 39.6%;
   -webkit-transform: rotateZ(6deg);
           transform: rotateZ(6deg);
 }
@@ -2196,7 +2167,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-8-link {
-  top: 680px;
+  bottom: 36.9%;
   -webkit-transform: rotateZ(3deg);
           transform: rotateZ(3deg);
 }
@@ -2204,7 +2175,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-7-link {
-  top: 710px;
+  bottom: 34.2%;
   -webkit-transform: rotateZ(1deg);
           transform: rotateZ(1deg);
 }
@@ -2212,7 +2183,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-6-link {
-  top: 740px;
+  bottom: 31.6%;
   -webkit-transform: rotateZ(1deg);
           transform: rotateZ(1deg);
 }
@@ -2220,7 +2191,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-5-link {
-  top: 770px;
+  bottom: 28.9%;
   -webkit-transform: rotateZ(-1deg);
           transform: rotateZ(-1deg);
 }
@@ -2228,7 +2199,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-4-link {
-  top: 800px;
+  bottom: 26.3%;
   -webkit-transform: rotateZ(-3deg);
           transform: rotateZ(-3deg);
 }
@@ -2236,7 +2207,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-3-link {
-  top: 830px;
+  bottom: 23.6%;
   -webkit-transform: rotateZ(-4deg);
           transform: rotateZ(-4deg);
 }
@@ -2248,7 +2219,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-2-link {
-  top: 858px;
+  bottom: 21.1%;
   -webkit-transform: rotateZ(-6deg);
           transform: rotateZ(-6deg);
 }
@@ -2260,10 +2231,9 @@ img {
   opacity: 0.6;
 }
 .house__appartment4-1-link {
-  top: 890px;
+  bottom: 18.1%;
   -webkit-transform: rotateZ(-7deg);
           transform: rotateZ(-7deg);
-  height: 32px;
 }
 .house__appartment4-1-link:hover ~ .house__appartment4-1-img {
   opacity: 0.6;
@@ -2290,64 +2260,109 @@ img {
 .house__appartment4-2-img,
 .house__appartment4-1-img {
   position: absolute;
-  top: 392px;
-  left: 1024px;
-  width: 124px;
-  height: 67px;
+  bottom: 58.9%;
+  right: 38%;
+  height: 6%;
+  width: 11%;
   fill: #20c1e6;
   opacity: 0;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
 .house__appartment4-16-img {
-  top: 422px;
+  bottom: 56.1%;
 }
 .house__appartment4-15-img {
-  top: 450px;
+  bottom: 53.7%;
+  height: 5.5%;
+  width: 10.5%;
+  right: 38.2%;
 }
 .house__appartment4-14-img {
-  top: 480px;
+  bottom: 51.2%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
   -webkit-transform: rotateZ(-1deg);
           transform: rotateZ(-1deg);
 }
 .house__appartment4-13-img {
-  top: 510px;
+  bottom: 48.5%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-12-img {
-  top: 540px;
+  bottom: 45.8%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-11-img {
-  top: 570px;
+  bottom: 43.1%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-10-img {
-  top: 600px;
+  bottom: 40.4%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-9-img {
-  top: 630px;
+  bottom: 37.8%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-8-img {
-  top: 657px;
+  bottom: 35.1%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-7-img {
-  top: 687px;
+  bottom: 32.4%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-6-img {
-  top: 718px;
+  bottom: 29.7%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-5-img {
-  top: 748px;
+  bottom: 27%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-4-img {
-  top: 778px;
+  bottom: 24.2%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-3-img {
-  top: 807px;
+  bottom: 21.6%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-2-img {
-  top: 836px;
+  bottom: 18.9%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment4-1-img {
-  top: 866px;
+  bottom: 16.3%;
+  height: 5.5%;
+  width: 6.2%;
+  right: 40.3%;
 }
 .house__appartment5-17-link,
 .house__appartment5-16-link,
@@ -2367,12 +2382,12 @@ img {
 .house__appartment5-2-link,
 .house__appartment5-1-link {
   position: absolute;
-  top: 447px;
-  width: 130px;
-  left: 1165px;
+  bottom: 58.2%;
+  right: 32.5%;
+  width: 7%;
+  height: 2%;
   z-index: 20;
   display: block;
-  height: 20px;
   -webkit-transform: rotateZ(3deg);
           transform: rotateZ(3deg);
 }
@@ -2416,7 +2431,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-16-link {
-  top: 476px;
+  bottom: 55.5%;
 }
 .house__appartment5-16-link:hover ~ .house__appartment5-16-img {
   opacity: 0.6;
@@ -2426,13 +2441,13 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-15-link {
-  top: 505px;
+  bottom: 53.3%;
 }
 .house__appartment5-15-link:hover ~ .house__appartment5-15-img {
   opacity: 0.6;
 }
 .house__appartment5-14-link {
-  top: 530px;
+  bottom: 50.8%;
 }
 .house__appartment5-14-link:hover ~ .house__appartment5-14-img {
   opacity: 0.6;
@@ -2442,19 +2457,19 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-13-link {
-  top: 556px;
+  bottom: 48.4%;
 }
 .house__appartment5-13-link:hover ~ .house__appartment5-13-img {
   opacity: 0.6;
 }
 .house__appartment5-12-link {
-  top: 582px;
+  bottom: 46.1%;
 }
 .house__appartment5-12-link:hover ~ .house__appartment5-12-img {
   opacity: 0.6;
 }
 .house__appartment5-11-link {
-  top: 608px;
+  bottom: 43.6%;
 }
 .house__appartment5-11-link:hover ~ .house__appartment5-11-img {
   opacity: 0.6;
@@ -2464,13 +2479,13 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-10-link {
-  top: 634px;
+  bottom: 41.4%;
 }
 .house__appartment5-10-link:hover ~ .house__appartment5-10-img {
   opacity: 0.6;
 }
 .house__appartment5-9-link {
-  top: 661px;
+  bottom: 38.9%;
   -webkit-transform: rotateZ(1deg);
           transform: rotateZ(1deg);
 }
@@ -2478,7 +2493,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-8-link {
-  top: 687px;
+  bottom: 36.6%;
   -webkit-transform: rotateZ(1deg);
           transform: rotateZ(1deg);
 }
@@ -2490,7 +2505,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-7-link {
-  top: 714px;
+  bottom: 34.3%;
   -webkit-transform: rotateZ(1deg);
           transform: rotateZ(1deg);
 }
@@ -2498,7 +2513,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-6-link {
-  top: 740px;
+  bottom: 31.8%;
   -webkit-transform: rotateZ(1deg);
           transform: rotateZ(1deg);
 }
@@ -2510,7 +2525,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-5-link {
-  top: 766px;
+  bottom: 29.4%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -2518,7 +2533,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-4-link {
-  top: 792px;
+  bottom: 27.1%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -2526,7 +2541,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-3-link {
-  top: 819px;
+  bottom: 24.7%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -2534,7 +2549,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-2-link {
-  top: 845px;
+  bottom: 22.4%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -2546,7 +2561,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment5-1-link {
-  top: 875px;
+  bottom: 19.6%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -2575,62 +2590,62 @@ img {
 .house__appartment5-2-img,
 .house__appartment5-1-img {
   position: absolute;
-  top: 430px;
-  left: 1145px;
-  width: 152px;
-  height: 53px;
+  bottom: 57.1%;
+  right: 32.4%;
+  width: 8%;
+  height: 4%;
   fill: #20c1e6;
   opacity: 0;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
 .house__appartment5-16-img {
-  top: 457px;
+  bottom: 54.6%;
 }
 .house__appartment5-15-img {
-  top: 484px;
+  bottom: 52.2%;
 }
 .house__appartment5-14-img {
-  top: 511px;
+  bottom: 49.9%;
 }
 .house__appartment5-13-img {
-  top: 537px;
+  bottom: 47.4%;
 }
 .house__appartment5-12-img {
-  top: 563px;
+  bottom: 45.2%;
 }
 .house__appartment5-11-img {
-  top: 590px;
+  bottom: 42.7%;
 }
 .house__appartment5-10-img {
-  top: 617px;
+  bottom: 40.4%;
 }
 .house__appartment5-9-img {
-  top: 643px;
+  bottom: 38%;
 }
 .house__appartment5-8-img {
-  top: 670px;
+  bottom: 35.6%;
 }
 .house__appartment5-7-img {
-  top: 697px;
+  bottom: 33.2%;
 }
 .house__appartment5-6-img {
-  top: 724px;
+  bottom: 30.7%;
 }
 .house__appartment5-5-img {
-  top: 752px;
+  bottom: 28.3%;
 }
 .house__appartment5-4-img {
-  top: 778px;
+  bottom: 26%;
 }
 .house__appartment5-3-img {
-  top: 805px;
+  bottom: 23.5%;
 }
 .house__appartment5-2-img {
-  top: 831px;
+  bottom: 21.1%;
 }
 .house__appartment5-1-img {
-  top: 859px;
+  bottom: 18.4%;
 }
 .house__appartment6-17-link,
 .house__appartment6-16-link,
@@ -2650,14 +2665,14 @@ img {
 .house__appartment6-2-link,
 .house__appartment6-1-link {
   position: absolute;
-  top: 429px;
-  left: 1297px;
-  width: 216px;
+  bottom: 59.7%;
+  right: 21%;
+  width: 11.5%;
+  height: 2.1%;
   -webkit-transform: rotateZ(-7deg);
           transform: rotateZ(-7deg);
   z-index: 20;
   display: block;
-  height: 20px;
 }
 .house__appartment6-17-link:hover ~ .house__appartment6-17-img,
 .house__appartment6-16-link:hover ~ .house__appartment6-17-img,
@@ -2699,13 +2714,13 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-16-link {
-  top: 457px;
+  bottom: 57.3%;
 }
 .house__appartment6-16-link:hover ~ .house__appartment6-16-img {
   opacity: 0.6;
 }
 .house__appartment6-15-link {
-  top: 484px;
+  bottom: 54.7%;
 }
 .house__appartment6-15-link:hover ~ .house__appartment6-15-img {
   opacity: 0.6;
@@ -2715,7 +2730,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-14-link {
-  top: 512px;
+  bottom: 52%;
   -webkit-transform: rotateZ(-5deg);
           transform: rotateZ(-5deg);
 }
@@ -2727,7 +2742,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-13-link {
-  top: 542px;
+  bottom: 49.6%;
   -webkit-transform: rotateZ(-5deg);
           transform: rotateZ(-5deg);
 }
@@ -2735,7 +2750,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-12-link {
-  top: 570px;
+  bottom: 47%;
   -webkit-transform: rotateZ(-5deg);
           transform: rotateZ(-5deg);
 }
@@ -2743,7 +2758,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-11-link {
-  top: 599px;
+  bottom: 44.5%;
   -webkit-transform: rotateZ(-5deg);
           transform: rotateZ(-5deg);
 }
@@ -2755,7 +2770,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-10-link {
-  top: 628px;
+  bottom: 41.8%;
   -webkit-transform: rotateZ(-2deg);
           transform: rotateZ(-2deg);
 }
@@ -2763,7 +2778,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-9-link {
-  top: 656px;
+  bottom: 39.3%;
   -webkit-transform: rotateZ(-2deg);
           transform: rotateZ(-2deg);
 }
@@ -2771,7 +2786,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-8-link {
-  top: 684px;
+  bottom: 36.7%;
   -webkit-transform: rotateZ(-2deg);
           transform: rotateZ(-2deg);
 }
@@ -2779,7 +2794,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-7-link {
-  top: 712px;
+  bottom: 34.1%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -2787,7 +2802,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-6-link {
-  top: 742px;
+  bottom: 31.7%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -2795,7 +2810,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-5-link {
-  top: 770px;
+  bottom: 29%;
   -webkit-transform: rotateZ(0deg);
           transform: rotateZ(0deg);
 }
@@ -2803,7 +2818,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-4-link {
-  top: 799px;
+  bottom: 26.5%;
   -webkit-transform: rotateZ(2deg);
           transform: rotateZ(2deg);
 }
@@ -2811,7 +2826,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-3-link {
-  top: 827px;
+  bottom: 24%;
   -webkit-transform: rotateZ(2deg);
           transform: rotateZ(2deg);
 }
@@ -2819,7 +2834,7 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-2-link {
-  top: 856px;
+  bottom: 21.5%;
   -webkit-transform: rotateZ(2deg);
           transform: rotateZ(2deg);
 }
@@ -2831,10 +2846,9 @@ img {
   opacity: 0.6;
 }
 .house__appartment6-1-link {
-  top: 881px;
+  bottom: 18.8%;
   -webkit-transform: rotateZ(2deg);
           transform: rotateZ(2deg);
-  height: 40px;
 }
 .house__appartment6-1-link:hover ~ .house__appartment6-1-img {
   opacity: 0.6;
@@ -2861,62 +2875,62 @@ img {
 .house__appartment6-2-img,
 .house__appartment6-1-img {
   position: absolute;
-  top: 409px;
-  left: 1296px;
-  width: 264px;
-  height: 67px;
+  bottom: 56.8%;
+  right: 18.7%;
+  width: 13.8%;
+  height: 7.2%;
   fill: #20c1e6;
   opacity: 0;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
 .house__appartment6-16-img {
-  top: 436px;
+  bottom: 54.3%;
 }
 .house__appartment6-15-img {
-  top: 465px;
+  bottom: 51.7%;
 }
 .house__appartment6-14-img {
-  top: 493px;
+  bottom: 49.2%;
 }
 .house__appartment6-13-img {
-  top: 521px;
+  bottom: 46.6%;
 }
 .house__appartment6-12-img {
-  top: 549px;
+  bottom: 44%;
 }
 .house__appartment6-11-img {
-  top: 577px;
+  bottom: 41.4%;
 }
 .house__appartment6-10-img {
-  top: 606px;
+  bottom: 39%;
 }
 .house__appartment6-9-img {
-  top: 634px;
+  bottom: 36.5%;
 }
 .house__appartment6-8-img {
-  top: 662px;
+  bottom: 34%;
 }
 .house__appartment6-7-img {
-  top: 690px;
+  bottom: 31.5%;
 }
 .house__appartment6-6-img {
-  top: 719px;
+  bottom: 28.9%;
 }
 .house__appartment6-5-img {
-  top: 747px;
+  bottom: 26.3%;
 }
 .house__appartment6-4-img {
-  top: 774px;
+  bottom: 23.8%;
 }
 .house__appartment6-3-img {
-  top: 804px;
+  bottom: 21.3%;
 }
 .house__appartment6-2-img {
-  top: 831px;
+  bottom: 18.7%;
 }
 .house__appartment6-1-img {
-  top: 858px;
+  bottom: 16.4%;
 }
 @media (max-width: 1680px) {
   .house__content {
