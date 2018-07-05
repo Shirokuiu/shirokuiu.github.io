@@ -468,8 +468,6 @@ img {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  overflow-x: scroll;
-  overflow-y: scroll;
   width: 70%;
   margin-left: 315px;
 }
@@ -796,7 +794,7 @@ img {
   }
 }
 .house {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .house__preview {
   position: absolute;
