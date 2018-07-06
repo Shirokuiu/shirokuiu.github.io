@@ -726,6 +726,16 @@ img {
     width: 62px;
   }
 }
+@media (max-width: 320px) {
+  .aside {
+    right: 0;
+    width: auto;
+  }
+  .aside--close {
+    right: auto;
+    width: 62px;
+  }
+}
 .main-nav {
   margin-bottom: 20px;
 }
@@ -776,6 +786,14 @@ img {
   .main-nav__item-link {
     font-size: 16px;
     line-height: 19px;
+  }
+}
+@media (max-width: 320px) {
+  .main-nav {
+    margin-bottom: 9px;
+  }
+  .main-nav__items {
+    margin-bottom: 7px;
   }
 }
 .house__preview {
@@ -3581,6 +3599,147 @@ img {
   }
   .house__appartment6-1-link {
     z-index: 1;
+  }
+}
+@media (max-width: 360px) {
+  .house__popup-img-room1-img {
+    left: -15px;
+  }
+  .house__popup-img-room2-img {
+    left: 33px;
+  }
+  .house__popup-img-room3-img {
+    left: 137px;
+    top: 1px;
+  }
+  .house__popup-img-room4-img {
+    left: 185px;
+  }
+  .house__popup-img-room1-6-img {
+    left: -19px;
+  }
+  .house__popup-img-room2-6-img {
+    left: 32px;
+  }
+  .house__popup-img-room3-6-img {
+    left: 114px;
+  }
+  .house__popup-img-room4-6-img {
+    -webkit-transform: scaleX(0.79);
+            transform: scaleX(0.79);
+    left: 192px;
+  }
+  .house__popup-img-room5-6-img {
+    -webkit-transform: scaleX(0.77);
+            transform: scaleX(0.77);
+    left: 191px;
+  }
+  .house__popup-img-room6-6-img {
+    -webkit-transform: scaleX(0.77);
+            transform: scaleX(0.77);
+    left: 193px;
+  }
+}
+@media (max-width: 320px) {
+  .house__popup-img-room1-link {
+    -webkit-transform: scaleX(0.6);
+            transform: scaleX(0.6);
+    left: -27px;
+  }
+  .house__popup-img-room1-img {
+    left: -21px;
+    -webkit-transform: scaleX(0.68);
+            transform: scaleX(0.68);
+  }
+  .house__popup-img-room2-link {
+    -webkit-transform: scaleX(0.68);
+            transform: scaleX(0.68);
+    left: 25px;
+  }
+  .house__popup-img-room2-img {
+    left: 22px;
+    -webkit-transform: scaleX(0.64);
+            transform: scaleX(0.64);
+  }
+  .house__popup-img-room3-link {
+    left: 111px;
+    -webkit-transform: scaleX(0.68);
+            transform: scaleX(0.68);
+  }
+  .house__popup-img-room3-img {
+    -webkit-transform: scaleX(0.66);
+            transform: scaleX(0.66);
+    left: 108px;
+  }
+  .house__popup-img-room4-link {
+    -webkit-transform: scaleX(0.68);
+            transform: scaleX(0.68);
+    left: 152px;
+  }
+  .house__popup-img-room4-img {
+    left: 150px;
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+  }
+  .house__popup-img-room1-6-link {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: -35px;
+  }
+  .house__popup-img-room1-6-img {
+    left: -32px;
+    -webkit-transform: scaleX(0.68);
+            transform: scaleX(0.68);
+  }
+  .house__popup-img-room2-6-link {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: 19px;
+  }
+  .house__popup-img-room2-6-img {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: 20px;
+  }
+  .house__popup-img-room3-6-link {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: 89px;
+  }
+  .house__popup-img-room3-6-img {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: 90px;
+  }
+  .house__popup-img-room4-6-link {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: 157px;
+  }
+  .house__popup-img-room4-6-img {
+    -webkit-transform: scaleX(0.69);
+            transform: scaleX(0.69);
+    left: 158px;
+  }
+  .house__popup-img-room5-6-link {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: 156px;
+  }
+  .house__popup-img-room5-6-img {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: 157px;
+  }
+  .house__popup-img-room6-6-link {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: 160px;
+  }
+  .house__popup-img-room6-6-img {
+    -webkit-transform: scaleX(0.67);
+            transform: scaleX(0.67);
+    left: 160px;
   }
 }
 .house-footer {
