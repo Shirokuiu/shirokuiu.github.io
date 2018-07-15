@@ -742,8 +742,8 @@ img {
   margin-right: 15px;
 }
 .page-header__menu-button .menu {
-  width: 100%;
-  height: auto;
+  width: 30px;
+  height: 21px;
   fill: #fff;
 }
 .page-header__menu-title {
@@ -906,12 +906,6 @@ img {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-  }
-}
-@media (max-width: 375px) {
-  .page-header__menu-button {
-    width: 30px;
-    height: 21px;
   }
 }
 .main-nav__about {
