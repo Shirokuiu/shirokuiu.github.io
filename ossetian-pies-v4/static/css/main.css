@@ -908,6 +908,12 @@ img {
             align-items: flex-start;
   }
 }
+@media (max-width: 375px) {
+  .page-header__menu-button {
+    width: 30px;
+    height: 21px;
+  }
+}
 .main-nav__about {
   padding: 0 30px;
 }
@@ -1788,6 +1794,15 @@ img {
     width: auto;
   }
 }
+@media (max-width: 375px) {
+  .cart__content-calculating-number-text-wrap {
+    box-sizing: border-box;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 @media (max-width: 360px) {
   .cart__content-item-weight {
     font-size: 13px;
@@ -2367,7 +2382,11 @@ img {
     line-height: 20px;
   }
   .user-basket__order-total-price-currency {
+    margin-top: 0;
     line-height: 21px;
+  }
+  .user-basket--open .user-basket__order {
+    display: block;
   }
 }
 @media (max-width: 360px) {
@@ -2564,6 +2583,26 @@ img {
   }
   .features__items:last-child {
     margin-bottom: 0;
+  }
+}
+@media (max-width) {
+  .features__item-time .time,
+  .features__item-moscow .time,
+  .features__item-recipe-book .time,
+  .features__item-free-delivery .time,
+  .features__item-time .moscow,
+  .features__item-moscow .moscow,
+  .features__item-recipe-book .moscow,
+  .features__item-free-delivery .moscow,
+  .features__item-time .recipe-book,
+  .features__item-moscow .recipe-book,
+  .features__item-recipe-book .recipe-book,
+  .features__item-free-delivery .recipe-book,
+  .features__item-time .free-delivery,
+  .features__item-moscow .free-delivery,
+  .features__item-recipe-book .free-delivery,
+  .features__item-free-delivery .free-delivery {
+    height: 40px;
   }
 }
 .order {
