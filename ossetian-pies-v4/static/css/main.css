@@ -2579,7 +2579,7 @@ img {
     margin-bottom: 0;
   }
 }
-@media (max-width) {
+@media (max-width: 375px) {
   .features__item-time .time,
   .features__item-moscow .time,
   .features__item-recipe-book .time,
