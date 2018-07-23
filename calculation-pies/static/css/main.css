@@ -634,7 +634,11 @@ img {
 .calculation__checkbox-number--step2::before {
   bottom: -79px;
   display: block;
-  height: -79px;
+  height: 79px;
+}
+.calculation__checkbox-number--step3.step3-checked {
+  color: #fff;
+  background-color: #37b84c;
 }
 .calculation__checkbox-block-right {
   -webkit-box-flex: 1;
