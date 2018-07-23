@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>default title</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="telephone=no" name="format-detection">
+        <meta name="HandheldFriendly" content="true">
+
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <link href="static/css/main.css" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+        <meta property="og:title" content="#{data.title}">
+        <meta property="og:title" content="">
+        <meta property="og:url" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="300">
+        <meta property="twitter:description" content="">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <script>
+            (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+        </script>
+    </head>
+
+    <body class="page">
+        <div class="wrapper">
+            <div class="content">
+                <header class="page-header"></header>
+                <main class="page-content">
+                    <div class="calculation">
+                        <form class="calculation__form" action="action.php" method="post">
+                            <div class="container">
+                                <div class="calculation__content">
+                                    <h2>Калькулятор пирогов</h2>
+                                    <div class="calculation__checkbox">
+                                        <div class="calculation__checkbox-blocks-wrap">
+                                            <div class="calculation__checkbox-block-left">
+                                                <div class="calculation__checkbox-number calculation__checkbox-number--step1">1</div>
+                                                <div class="calculation__checkbox-number calculation__checkbox-number--step2">2</div>
+                                                <div class="calculation__checkbox-number calculation__checkbox-number--step3">3</div>
+                                            </div>
+                                            <div class="calculation__checkbox-block-right">
+                                                <h3>Мероприятие:</h3>
+                                                <div class="calculation-select calculation-select--close">
+                                                    <div class="calculation-select-val">
+                                                        <p class="val-js">День Рождения</p><span></span>
+                                                    </div>
+                                                    <div class="calculation-select-options">
+                                                        <p class="option-js">День Рождения</p>
+                                                        <p class="option-js">Свадьба</p>
+                                                        <p class="option-js">Новый Год</p>
+                                                        <p class="option-js">Праздник</p>
+                                                    </div>
+                                                </div>
+                                                <h3>Количество гостей:</h3>
+                                                <div class="calculation__range">
+                                                    <div class="calculation__range-bar"><span class="calculation__range-bar-pin"></span>
+                                                    </div>
+                                                    <div class="calculation__range-bar-guests-wrap"><span class="calculation__range-bar-guests">2</span><span class="calculation__range-bar-guests">4</span><span class="calculation__range-bar-guests">6</span><span class="calculation__range-bar-guests">8</span>
+                                                        <span
+                                                        class="calculation__range-bar-guests">10</span><span class="calculation__range-bar-guests">12</span><span class="calculation__range-bar-guests">14</span><span class="calculation__range-bar-guests">16</span><span class="calculation__range-bar-guests">18</span>
+                                                            <span
+                                                            class="calculation__range-bar-guests">20</span><span class="calculation__range-bar-guests">22</span><span class="calculation__range-bar-guests">24</span><span class="calculation__range-bar-guests">26</span><span class="calculation__range-bar-guests">28</span>
+                                                                <span
+                                                                class="calculation__range-bar-guests">30</span><span class="calculation__range-bar-guests">32</span><span class="calculation__range-bar-guests">34</span><span class="calculation__range-bar-guests">36</span><span class="calculation__range-bar-guests">38</span>
+                                                                    <span
+                                                                    class="calculation__range-bar-guests">40</span><span class="calculation__range-bar-guests">42</span><span class="calculation__range-bar-guests">44</span><span class="calculation__range-bar-guests">46</span><span class="calculation__range-bar-guests">48</span>
+                                                                        <span
+                                                                        class="calculation__range-bar-guests">50</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calculation__fill">
+                                                    <h3>Выберите начинки для пирогов:</h3>
+                                                    <div class="calculation__fill-checkbox-row">
+                                                        <div class="calculation__fill-checkbox-lists-wrap">
+                                                            <ul class="calculation__fill-checkbox-wrap calculation__fill-checkbox-wrap--close checkbox-js">
+                                                                <li class="calculation__fill-checkbox-items">
+                                                                    <div class="calculation__fill-checkbox-input-wrap checkbox-item-js">
+                                                                        <input class="calculation__fill-checkbox checkbox-item-input-js" type="checkbox">
+                                                                        <h4>С мясом</h4><span class="calculation__fill-indicator"></span>
+                                                                    </div>
+                                                                    <ul class="calculation__fill-checkbox-wrap-inner">
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox" checked>
+                                                                                <p>С рубленой говядиной</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С индейкой</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром, курицей и грибами</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром и курицей</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                            <ul class="calculation__fill-checkbox-wrap calculation__fill-checkbox-wrap--close checkbox-js">
+                                                                <li class="calculation__fill-checkbox-items">
+                                                                    <div class="calculation__fill-checkbox-input-wrap checkbox-item-js">
+                                                                        <input class="calculation__fill-checkbox checkbox-item-input-js" type="checkbox">
+                                                                        <h4>С капустой</h4><span class="calculation__fill-indicator"></span>
+                                                                    </div>
+                                                                    <ul class="calculation__fill-checkbox-wrap-inner">
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox" checked>
+                                                                                <p>С рубленой говядиной</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С индейкой</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром, курицей и грибами</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром и курицей</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                            <ul class="calculation__fill-checkbox-wrap calculation__fill-checkbox-wrap--close checkbox-js">
+                                                                <li class="calculation__fill-checkbox-items">
+                                                                    <div class="calculation__fill-checkbox-input-wrap checkbox-item-js">
+                                                                        <input class="calculation__fill-checkbox checkbox-item-input-js" type="checkbox">
+                                                                        <h4>С рыбой</h4><span class="calculation__fill-indicator"></span>
+                                                                    </div>
+                                                                    <ul class="calculation__fill-checkbox-wrap-inner">
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox" checked>
+                                                                                <p>С рубленой говядиной</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С индейкой</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром, курицей и грибами</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром и курицей</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="calculation__fill-checkbox-lists-wrap">
+                                                            <ul class="calculation__fill-checkbox-wrap calculation__fill-checkbox-wrap--close checkbox-js">
+                                                                <li class="calculation__fill-checkbox-items">
+                                                                    <div class="calculation__fill-checkbox-input-wrap checkbox-item-js">
+                                                                        <input class="calculation__fill-checkbox checkbox-item-input-js" type="checkbox">
+                                                                        <h4>С сыром</h4><span class="calculation__fill-indicator"></span>
+                                                                    </div>
+                                                                    <ul class="calculation__fill-checkbox-wrap-inner">
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox" checked>
+                                                                                <p>С рубленой говядиной</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С индейкой</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром, курицей и грибами</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром и курицей</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                            <ul class="calculation__fill-checkbox-wrap calculation__fill-checkbox-wrap--close checkbox-js">
+                                                                <li class="calculation__fill-checkbox-items">
+                                                                    <div class="calculation__fill-checkbox-input-wrap checkbox-item-js">
+                                                                        <input class="calculation__fill-checkbox checkbox-item-input-js" type="checkbox">
+                                                                        <h4>С картофелем</h4><span class="calculation__fill-indicator"></span>
+                                                                    </div>
+                                                                    <ul class="calculation__fill-checkbox-wrap-inner">
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox" checked>
+                                                                                <p>С рубленой говядиной</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С индейкой</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром, курицей и грибами</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром и курицей</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                            <ul class="calculation__fill-checkbox-wrap calculation__fill-checkbox-wrap--close checkbox-js">
+                                                                <li class="calculation__fill-checkbox-items">
+                                                                    <div class="calculation__fill-checkbox-input-wrap checkbox-item-js">
+                                                                        <input class="calculation__fill-checkbox checkbox-item-input-js" type="checkbox">
+                                                                        <h4>С овощами</h4><span class="calculation__fill-indicator"></span>
+                                                                    </div>
+                                                                    <ul class="calculation__fill-checkbox-wrap-inner">
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox" checked>
+                                                                                <p>С рубленой говядиной</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С индейкой</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром, курицей и грибами</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром и курицей</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                            <ul class="calculation__fill-checkbox-wrap calculation__fill-checkbox-wrap--close checkbox-js">
+                                                                <li class="calculation__fill-checkbox-items">
+                                                                    <div class="calculation__fill-checkbox-input-wrap checkbox-item-js">
+                                                                        <input class="calculation__fill-checkbox checkbox-item-input-js" type="checkbox">
+                                                                        <h4>С грибами</h4><span class="calculation__fill-indicator"></span>
+                                                                    </div>
+                                                                    <ul class="calculation__fill-checkbox-wrap-inner">
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox" checked>
+                                                                                <p>С рубленой говядиной</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С индейкой</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром, курицей и грибами</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром и курицей</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                            <ul class="calculation__fill-checkbox-wrap calculation__fill-checkbox-wrap--close checkbox-js">
+                                                                <li class="calculation__fill-checkbox-items">
+                                                                    <div class="calculation__fill-checkbox-input-wrap checkbox-item-js">
+                                                                        <input class="calculation__fill-checkbox checkbox-item-input-js" type="checkbox">
+                                                                        <h4>Сладкие</h4><span class="calculation__fill-indicator"></span>
+                                                                    </div>
+                                                                    <ul class="calculation__fill-checkbox-wrap-inner">
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox" checked>
+                                                                                <p>С рубленой говядиной</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С индейкой</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром, курицей и грибами</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="calculation__fill-checkbox-inner-items">
+                                                                            <div class="calculation__fill-checkbox-input-wrap checkbox-item-inner-js">
+                                                                                <input class="calculation__fill-checkbox-inner checkbox-item-inner-input-js" type="checkbox">
+                                                                                <p>С сыром и курицей</p><span class="calculation__fill-indicator"></span>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="calculation__checkbox-submit" type="submit">Рассчитать количество пирогов</button>
+                                    </div>
+                                    <div class="calculation__table-title">
+                                        <h2>МЫ ПОДОБРАЛИ ДЛЯ ВАС<span>5 ВИДОВ ПИРОГОВ</span>(ИСХОДЯ ИЗ ВЫБРАННЫХ НАЧИНОК)</h2>
+                                    </div>
+                                    <div class="calculation__table-title-description">
+                                        <p>Для <span>10 гостей </span>рекомендуем купить <span>12 осетинских пирогов </span>весом <span>по 1 400 г. </span>Вам осталось лишь указать количество пирогов каждого вида и оформить заказ:</p>
+                                    </div>
+                                    <div class="calculation__table-step"><span class="calculation__table-step-number">4</span>
+                                        <h3>Выберите количество пирогов и вес:</h3>
+                                    </div>
+                                    <form action="action.php" method="post">
+                                        <div class="calculation__table-wrap">
+                                            <table class="calculation__table">
+                                                <tr class="calculation__table-head">
+                                                    <td class="calculation__table-head-text">
+                                                        <p>Наименование</p>
+                                                    </td>
+                                                    <td class="calculation__table-head-text">
+                                                        <p>Вес</p>
+                                                    </td>
+                                                    <td class="calculation__table-head-text">
+                                                        <p>Цена</p>
+                                                    </td>
+                                                    <td class="calculation__table-head-text">
+                                                        <p>Количество, шт.</p>
+                                                    </td>
+                                                    <td class="calculation__table-head-text">
+                                                        <p>Сумма</p>
+                                                    </td>
+                                                    <td class="calculation__table-head-text"></td>
+                                                </tr>
+                                                <tr class="calculation__cart">
+                                                    <td class="calculation__cart-td calculation__cart-td--title">
+                                                        <div class="calculation__cart-img-wrap">
+                                                            <img src="static/img/content/table-cart-img.jpg" alt="Картинка">
+                                                        </div>
+                                                        <p>Цахараджын (со свекольными листьями, сыром и зеленью) 1000 г</p>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-select calculation__cart-select--close cart-select-js" data-current-price="1000">
+                                                            <div class="calculation__cart-select-val-wrap">
+                                                                <div class="calculation__cart-select-val" data-current-price="1000">1 400 г</div><span class="calculation__cart-select-indicator"></span>
+                                                            </div>
+                                                            <div class="calculation__cart-select-options">
+                                                                <div class="calculation__cart-select-option" data-price="1000">1 400 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="850">1 200 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="750">1 000 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="650">800 г</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-td-price-wrap">
+                                                            <p class="calculation__cart-td-price"></p><span class="calculation__cart-td-price-currency">руб.</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__incDec">
+                                                            <button class="calculation__incDec-button calculation__incDec-button--minus" type="button"></button><span class="calculation__incDec-val">1</span>
+                                                            <button class="calculation__incDec-button calculation__incDec-button--plus" type="button"></button>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-td-total-price-wrap">
+                                                            <p class="calculation__cart-td-total-price"></p><span class="calculation__cart-td-total-price-currency">руб.</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td calculation__cart-td--remove">
+                                                        <button class="calculation__cart-remove-button" type="button"></button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="calculation__cart">
+                                                    <td class="calculation__cart-td calculation__cart-td--title">
+                                                        <div class="calculation__cart-img-wrap">
+                                                            <img src="static/img/content/table-cart-img.jpg" alt="Картинка">
+                                                        </div>
+                                                        <p>Цахараджын (со свекольными листьями, сыром и зеленью) 1000 г</p>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-select calculation__cart-select--close cart-select-js" data-current-price="1000">
+                                                            <div class="calculation__cart-select-val-wrap">
+                                                                <div class="calculation__cart-select-val" data-current-price="1000">1 400 г</div><span class="calculation__cart-select-indicator"></span>
+                                                            </div>
+                                                            <div class="calculation__cart-select-options">
+                                                                <div class="calculation__cart-select-option" data-price="1000">1 400 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="850">1 200 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="750">1 000 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="650">800 г</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-td-price-wrap">
+                                                            <p class="calculation__cart-td-price"></p><span class="calculation__cart-td-price-currency">руб.</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__incDec">
+                                                            <button class="calculation__incDec-button calculation__incDec-button--minus" type="button"></button><span class="calculation__incDec-val">1</span>
+                                                            <button class="calculation__incDec-button calculation__incDec-button--plus" type="button"></button>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-td-total-price-wrap">
+                                                            <p class="calculation__cart-td-total-price"></p><span class="calculation__cart-td-total-price-currency">руб.</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td calculation__cart-td--remove">
+                                                        <button class="calculation__cart-remove-button" type="button"></button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="calculation__cart">
+                                                    <td class="calculation__cart-td calculation__cart-td--title">
+                                                        <div class="calculation__cart-img-wrap">
+                                                            <img src="static/img/content/table-cart-img.jpg" alt="Картинка">
+                                                        </div>
+                                                        <p>Цахараджын (со свекольными листьями, сыром и зеленью) 1000 г</p>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-select calculation__cart-select--close cart-select-js" data-current-price="1000">
+                                                            <div class="calculation__cart-select-val-wrap">
+                                                                <div class="calculation__cart-select-val" data-current-price="1000">1 400 г</div><span class="calculation__cart-select-indicator"></span>
+                                                            </div>
+                                                            <div class="calculation__cart-select-options">
+                                                                <div class="calculation__cart-select-option" data-price="1000">1 400 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="850">1 200 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="750">1 000 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="650">800 г</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-td-price-wrap">
+                                                            <p class="calculation__cart-td-price"></p><span class="calculation__cart-td-price-currency">руб.</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__incDec">
+                                                            <button class="calculation__incDec-button calculation__incDec-button--minus" type="button"></button><span class="calculation__incDec-val">1</span>
+                                                            <button class="calculation__incDec-button calculation__incDec-button--plus" type="button"></button>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-td-total-price-wrap">
+                                                            <p class="calculation__cart-td-total-price"></p><span class="calculation__cart-td-total-price-currency">руб.</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td calculation__cart-td--remove">
+                                                        <button class="calculation__cart-remove-button" type="button"></button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="calculation__cart">
+                                                    <td class="calculation__cart-td calculation__cart-td--title">
+                                                        <div class="calculation__cart-img-wrap">
+                                                            <img src="static/img/content/table-cart-img.jpg" alt="Картинка">
+                                                        </div>
+                                                        <p>Цахараджын (со свекольными листьями, сыром и зеленью) 1000 г</p>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-select calculation__cart-select--close cart-select-js" data-current-price="1000">
+                                                            <div class="calculation__cart-select-val-wrap">
+                                                                <div class="calculation__cart-select-val" data-current-price="1000">1 400 г</div><span class="calculation__cart-select-indicator"></span>
+                                                            </div>
+                                                            <div class="calculation__cart-select-options">
+                                                                <div class="calculation__cart-select-option" data-price="1000">1 400 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="850">1 200 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="750">1 000 г</div>
+                                                                <div class="calculation__cart-select-option" data-price="650">800 г</div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-td-price-wrap">
+                                                            <p class="calculation__cart-td-price"></p><span class="calculation__cart-td-price-currency">руб.</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__incDec">
+                                                            <button class="calculation__incDec-button calculation__incDec-button--minus" type="button"></button><span class="calculation__incDec-val">1</span>
+                                                            <button class="calculation__incDec-button calculation__incDec-button--plus" type="button"></button>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td">
+                                                        <div class="calculation__cart-td-total-price-wrap">
+                                                            <p class="calculation__cart-td-total-price"></p><span class="calculation__cart-td-total-price-currency">руб.</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="calculation__cart-td calculation__cart-td--remove">
+                                                        <button class="calculation__cart-remove-button" type="button"></button>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <div class="calculation__table-result">
+                                                <div class="calculation__table-result-block-left">
+                                                    <p class="calculation__table-result-text">Общая сумма заказа:</p>
+                                                    <div class="calculation__table-result-price-wrap">
+                                                        <p class="calculation__table-result-price">12180</p><span class="calculation__table-result-price-currency">руб.</span>
+                                                    </div>
+                                                </div>
+                                                <div class="calculation__table-result-block-right">
+                                                    <p class="calculation__table-result-text">Кол-во пирогов:
+                                                        <p class="calculation__table-result-price">4</p>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="calculation__table-step calculation__table-step--5"><span class="calculation__table-step-number">5</span>
+                                                <h3>Оформление заказа:</h3>
+                                            </div>
+                                            <div class="calculation__user-data-wrap">
+                                                <div class="calculation__user-data-block">
+                                                    <h3 class="calculation__user-data-title">Заполните контактные данные и адрес доставки:</h3>
+                                                    <div class="calculation__user-data-input-row">
+                                                        <input class="calculation__user-data-input" type="text" placeholder="Ваше имя">
+                                                        <input class="calculation__user-data-input tel-js" type="text">
+                                                    </div>
+                                                    <textarea class="calculation__user-data-textarea" placeholder="Адрес доставки:"></textarea>
+                                                </div>
+                                                <div class="calculation__user-data-block">
+                                                    <textarea class="calculation__user-data-textarea calculation__user-data-textarea--comment" placeholder="Комментарий к заказу..."></textarea>
+                                                    <button class="calculation__user-data-submit" type="submit">ЗАКАЗАТЬ ПИРОГИ С ДОСТАВКОЙ</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </main>
+            </div>
+            <footer class="page-footer">
+                <div class="footer-content"></div>
+            </footer>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="static/js/separate-js/jquery.mask.js"></script>
+        <script src="static/js/main.js"></script>
+    </body>
+
+</html>
