@@ -1074,8 +1074,16 @@ img {
   font-weight: 400;
   color: #3a9032;
 }
+.calculation__table-step--4.step4-checked {
+  color: #fff;
+  background-color: #37b84c;
+}
 .calculation__table-step--5 {
   margin-bottom: 25px;
+}
+.calculation__table-step--5.step5-checked {
+  color: #fff;
+  background-color: #37b84c;
 }
 .calculation__table-step-number {
   width: 58px;
