@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>default title</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="telephone=no" name="format-detection">
+        <meta name="HandheldFriendly" content="true">
+
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <link href="static/css/main.css" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+        <meta property="og:title" content="#{data.title}">
+        <meta property="og:title" content="">
+        <meta property="og:url" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="300">
+        <meta property="twitter:description" content="">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <script>
+            (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+        </script>
+    </head>
+
+    <body class="page">
+        <svg xmlns="http://www.w3.org/2000/svg" style="border: 0 !important; clip: rect(0 0 0 0) !important; height: 1px !important; margin: -1px !important; overflow: hidden !important; padding: 0 !important; position: absolute !important; width: 1px !important;"
+        class="root-svg-symbols-element">
+            <symbol id="email" viewBox="0 0 512 359.31">
+                <title>email</title>
+                <path class="cls-1" d="M475 120.89l-2.5-1.4c-6.37-3.57-18.5-6.16-28.83-6.16-36.93 0-56.86 29.18-56.86 56.64 0 20 11.8 33.41 29.35 33.41a35.71 35.71 0 0 0 27.62-12.53c3.57 8 11.09 12.53 21.32 12.53 27.64 0 46.94-23.75 46.94-57.77 0-40.13-30.36-69.26-72.19-69.26-50.41 0-88.43 38.7-88.43 90 0 49.32 37.45 75.13 74.45 75.13 17.35 0 29.39-2.38 42.94-8.48l3.31-1.49-6.59-21.25-4.36 2.29c-8 4.22-19.56 6.75-30.79 6.75-33.08 0-53.62-21.07-53.62-55 0-43.35 30.49-66 60.61-66s49.79 18.84 49.79 48c0 23.2-10.45 34-17.51 34h-.11c-1.19 0-1.48-.4-1.62-.57-.63-.78-1.91-3.72-.12-14.3zm-35.16 36c-1.79 11.56-9.46 20.21-15.11 20.21-1.77 0-7.17 0-7.17-9.88 0-15.4 10.1-27.92 22.51-27.92a23.09 23.09 0 0 1 2.36.12z"
+                transform="translate(0 -76.35)" />
+                <path class="cls-1" d="M433.9 389.58a15 15 0 0 1-1.69 6.68l-108.59-108.6L364.23 247q-3.48-2.61-6.73-5.53a93.83 93.83 0 0 1-14.5-16.59L237 330.79a6.86 6.86 0 0 1-9.48 0L59 162.22h266.72a122.42 122.42 0 0 1 4.89-30.72H46.08A46.13 46.13 0 0 0 0 177.58v212a46.13 46.13 0 0 0 46.08 46.08h372.46a46.13 46.13 0 0 0 46.08-46.08V262a120.36 120.36 0 0 1-30.72 5v122.58zm-401.5 6.67a15.07 15.07 0 0 1-1.68-6.68V177.41L141 287.66zm34.75 8.68l95.56-95.56 43.14 43.14a37.41 37.41 0 0 0 52.92 0l43.14-43.14 95.55 95.56z"
+                transform="translate(0 -76.35)" />
+            </symbol>
+            <symbol id="like" viewBox="0 0 561 510">
+                <title>like</title>
+                <path d="M0 510h102V204H0zm561-280.5a51.15 51.15 0 0 0-51-51H349.35l25.5-117.3v-7.7c0-10.2-5.1-20.4-10.2-28L336.6 0 168.3 168.3c-10.2 7.65-15.3 20.4-15.3 35.7v255a51.15 51.15 0 0 0 51 51h229.5c20.4 0 38.25-12.75 45.9-30.6l76.5-181.05c2.55-5.1 2.55-12.75 2.55-17.85v-51H561z"
+                />
+            </symbol>
+            <symbol id="metro" viewBox="0 0 473.47 512">
+                <title>metro</title>
+                <path class="cls-1" d="M358.66 0H153.34C79.41 0 19.27 60.14 19.27 134.07V512h31.67V134.07a102.52 102.52 0 0 1 102.4-102.4h205.32a102.52 102.52 0 0 1 102.4 102.4V512h31.67V134.07C492.73 60.14 432.59 0 358.66 0z" transform="translate(-19.27)"
+                />
+                <path class="cls-1" d="M409.19 392.59L385.62 88.76H126.38l-23.57 303.83h37.08L59.68 479.4V512h392.64v-32.6l-80.21-86.81h37.08zm-52.88-272.16l8.82 113.67H146.87l8.82-113.67zM144.42 265.77h223.16l7.42 95.15H137zm-42.48 214.56l25.9-28h256.32l25.9 28zm253-59.7H157.11l25.9-28H329z"
+                transform="translate(-19.27)" />
+                <path class="cls-1" d="M147.16 297.51h42.27v31.67h-42.27zm136.88 0h42.27v31.67h-42.27z" />
+            </symbol>
+            <symbol id="person" viewBox="0 0 512 494.62">
+                <title>person</title>
+                <path class="cls-1" d="M323.56 379.73c-5.84-8.35-10.12-22-1.1-75.4 15.42-15.28 28.18-29.43 31.14-32.75l.8-.89 2.57-14.1C379 209.06 447.36 36 284.32 11.16 99.87-16.91 101.57 201.91 168.4 267.56l.57 3.13.81.89c3 3.32 15.72 17.48 31.15 32.76 7.66 45.39 5.71 62.09 1.21 71.34C132.4 389.83 18 424.27 0 503.31h512C482.7 431 389.15 396 323.56 379.73zM204.65 296q-2.14-2.12-4.23-4.26c-8.55-8.68-16.69-17.36-23.47-24.94l-8.52-46.61c-.45-2.69-.83-5.29-1.25-7.92.32-44.49 6.49-99.15 34.91-99.78l64.37 49.07v-16l36 16-6.55-29.87 15.28 5.31 5.46-17-13.09-33.11 57.77 60.67q.55 31.68-6.37 72.58l-8.53 46.66c-6.78 7.58-14.92 16.27-23.47 24.94q-2.1 2.14-4.23 4.26c-1.43 1.43-2.88 2.85-4.33 4.27-21.46 21-43.62 39.81-52.71 39.81s-31.25-18.79-52.69-39.81c-1.47-1.42-2.91-2.83-4.35-4.27zm57 165.36c-42.54 0-77.16-19.62-77.16-43.73 0-7.81 3.88-15.56 11.2-22.42l1-.92a59.5 59.5 0 0 1 5.93-4.57l1.28-1.29c3.06-3.86 6.17-7.77 8.23-14.7 3-10.17 3.79-26.93-1-59.51 18.93 17.83 39.49 34.41 50.55 34.41s31.62-16.57 50.55-34.41c-5.38 36.27-3.79 52.93.18 62.87 2 5.08 4.69 8.42 7.35 11.76l1 .89a55.13 55.13 0 0 1 6.06 4.69l.86.8c7.32 6.85 11.2 14.61 11.2 22.42-.04 24.09-34.65 43.71-77.19 43.71z"
+                transform="translate(0 -8.69)" />
+            </symbol>
+            <symbol id="remove" viewBox="0 0 404.43 473">
+                <title>remove</title>
+                <path d="M283.39 214.42l5.66-86.42h21V38h-98.43V0H98.39v38H0v90h21l20 305h140.53a129.37 129.37 0 0 0 222.91-89.43c-.01-68.57-53.58-124.81-121.05-129.15zM128.39 30h53.23v8h-53.23zM30.01 68h250v30h-250zm39 335l-18-275h208l-5.77 88c-61 10.39-107.64 63.64-107.64 127.59A128.63 128.63 0 0 0 160.05 403h-91zm206 40a99.43 99.43 0 1 1 99.43-99.43A99.54 99.54 0 0 1 275.01 443z"
+                />
+                <path d="M307.96 289.39L275 322.36l-32.96-32.97-21.22 21.22 32.97 32.96-32.97 32.96 21.22 21.22L275 364.78l32.96 32.97 21.22-21.22-32.97-32.96 32.97-32.96-21.22-21.22z" />
+            </symbol>
+            <symbol id="shield" viewBox="0 0 384 469.33">
+                <title>shield</title>
+                <path d="M192 0L0 85.33v128c0 118.51 81.81 229 192 256 110.19-27 192-137.49 192-256v-128zm-42.67 341.33L64 256l30.19-30.19L149.33 281l140.48-140.52L320 170.67z" />
+            </symbol>
+            <symbol id="star-no-fill" viewBox="0 0 475.08 453.1">
+                <title>star-no-fill</title>
+                <path d="M475.08 175.58q0-10.56-16-13.13l-143.31-20.84L251.53 11.7Q246.11.01 237.54.01t-14 11.7l-64.23 129.9L16 162.45q-16 2.56-16 13.13 0 6 7.14 13.71l103.92 101.07-24.55 142.75a46.37 46.37 0 0 0-.57 5.71 16.83 16.83 0 0 0 3 10.14q3 4.15 9 4.14 5.14 0 11.42-3.42l128.19-67.39 128.19 67.38a23.1 23.1 0 0 0 11.42 3.43q11.72 0 11.71-14.27a43.24 43.24 0 0 0-.29-5.72L364 290.36 467.66 189.3q7.42-7.44 7.42-13.72zM324.62 277.51l20.55 120.2-107.63-56.82-107.93 56.82 20.84-120.2-87.36-84.8 120.49-17.7 54-109.06 54 109.06L412 192.71z"
+                />
+            </symbol>
+            <symbol id="star" viewBox="0 0 475.08 453.1">
+                <title>star</title>
+                <path d="M475.08 175.58q0-10.56-16-13.13l-143.31-20.84L251.53 11.7Q246.11.01 237.54.01t-14 11.7l-64.23 129.9L16 162.45q-16 2.56-16 13.13 0 6 7.14 13.71l103.92 101.07-24.55 142.75a46.37 46.37 0 0 0-.57 5.71 16.83 16.83 0 0 0 3 10.14q3 4.15 9 4.14 5.14 0 11.42-3.42l128.19-67.39 128.2 67.39a23.11 23.11 0 0 0 11.42 3.42 10.06 10.06 0 0 0 8.71-4.14 16.86 16.86 0 0 0 3-10.14 43.13 43.13 0 0 0-.29-5.71L364 290.36l103.65-101.07q7.43-7.42 7.43-13.71z"
+                />
+            </symbol>
+            <symbol id="tel" viewBox="0 0 480.55 480.56">
+                <title>tel</title>
+                <path d="M365.34 317.9c-15.7-15.5-35.3-15.5-50.9 0-11.9 11.8-23.8 23.6-35.5 35.6-3.2 3.3-5.9 4-9.8 1.8-7.7-4.2-15.9-7.6-23.3-12.2-34.5-21.7-63.4-49.6-89-81-12.7-15.6-24-32.3-31.9-51.1-1.6-3.8-1.3-6.3 1.8-9.4 11.9-11.5 23.5-23.3 35.2-35.1 16.3-16.4 16.3-35.6-.1-52.1-9.3-9.4-18.6-18.6-27.9-28-9.6-9.6-19.1-19.3-28.8-28.8-15.7-15.3-35.3-15.3-50.9.1-12 11.8-23.5 23.9-35.7 35.5-11.3 10.7-17 23.8-18.2 39.1-1.9 24.9 4.2 48.4 12.8 71.3 17.6 47.4 44.4 89.5 76.9 128.1 43.9 52.2 96.3 93.5 157.6 123.3 27.6 13.4 56.2 23.7 87.3 25.4 21.4 1.2 40-4.2 54.9-20.9 10.2-11.4 21.7-21.8 32.5-32.7 16-16.2 16.1-35.8.2-51.8q-28.5-28.65-57.2-57.1zm-19.1-79.7l36.9-6.3A165.63 165.63 0 0 0 243.04 96l-5.2 37.1a128 128 0 0 1 108.4 105.1z"
+                />
+                <path d="M403.99 77.8a272.09 272.09 0 0 0-156-77.8l-5.2 37.1a237.42 237.42 0 0 1 200.9 194.7l36.9-6.3a274.08 274.08 0 0 0-76.6-147.7z" />
+            </symbol>
+            <symbol id="user-tel" viewBox="0 0 494.03 511.99">
+                <title>user-tel</title>
+                <path class="cls-1" d="M475.64 235.25H417.8a27.33 27.33 0 0 0-27.31 27.36v3A27.34 27.34 0 0 0 417.82 293h57.82A27.41 27.41 0 0 0 503 265.58v-3a27.31 27.31 0 0 0-27.36-27.33z" transform="translate(-8.99)" />
+                <path class="cls-1" d="M475.67 167h-12V34.59A34.69 34.69 0 0 0 429 0H200.76a34.69 34.69 0 0 0-34.59 34.59v95c-46 26-93.53 53.22-93.63 53.28C46.76 193.47 9 227.7 9 308.54a195.1 195.1 0 0 0 1.14 20.32c.21 1.89.45 3.7.7 5.52q1 7.09 2.49 13.55c.36 1.53.64 3.13 1 4.6A133.32 133.32 0 0 0 19 366.59c.88 2.2 1.83 4.2 2.78 6.26s2.05 4.3 3.16 6.3c1.28 2.4 2.56 4.72 4 6.92.34.51.7 1 1 1.5 33.29 50.32 94.71 50.55 94.71 50.55h41.55v39.3A34.69 34.69 0 0 0 200.76 512H429a34.69 34.69 0 0 0 34.6-34.57v-47.95h12.01a27.33 27.33 0 0 0 27.39-27.4v-3a27.36 27.36 0 0 0-27.38-27.31h-57.83a27.3 27.3 0 0 0-27.31 27.34v3a27.36 27.36 0 0 0 27.34 27.35h21.73V448H190.23V199.65c12.52-7.94 24.12-15.59 30.73-20.71 33.5-25.91 65.3-46.55 69.61-65.26 5.6-24.28-13-44.74-45.37-27.94C235 91 214.11 102.63 190.23 116V54.82h249.31V167h-21.71a27.37 27.37 0 0 0-27.39 27.38v3a27.34 27.34 0 0 0 27.35 27.34h57.86A27.33 27.33 0 0 0 503 197.34v-3A27.31 27.31 0 0 0 475.67 167zM314.86 460.16a17.3 17.3 0 1 1-17.27 17.3 17.29 17.29 0 0 1 17.27-17.3zm36.55-426.85h-73a4.18 4.18 0 1 1 0-8.37h73a4.18 4.18 0 0 1 0 8.37z"
+                transform="translate(-8.99)" />
+                <path class="cls-1" d="M475.64 303.52H417.8a27.38 27.38 0 0 0-27.35 27.37v3a27.34 27.34 0 0 0 27.35 27.35h57.83A27.37 27.37 0 0 0 503 333.89v-3a27.35 27.35 0 0 0-27.36-27.37z" transform="translate(-8.99)" />
+            </symbol>
+        </svg>
+        <div class="wrapper">
+            <div class="content">
+                <header class="page-header">
+                    <div class="container">
+                        <div class="page-header__content row row--jc-sb row--ai-c">
+                            <div class="logo logo--header row row--ai-c">
+                                <div class="logo__img-wrap">
+                                    <img src="static/img/content/logo-header.svg" alt="Логотип">
+                                </div>
+                                <div class="logo__content">
+                                    <h2>Осетинские пироги</h2>
+                                    <p>ВСЕ ПЕКАРНИ МОСКВЫ В ОДНОМ МЕСТЕ</p>
+                                </div>
+                            </div>
+                            <ul class="info info--header list row row--jc-sb grow">
+                                <li class="info__items info__items--new"><a href="#">Пекарни</a><span class="info__items-number">23</span>
+                                </li>
+                                <li class="info__items"><a href="#">Доставка</a><span class="info__items-number"> </span>
+                                </li>
+                                <li class="info__items info__items--new"><a href="#">Акции и скидки</a><span class="info__items-number">6</span>
+                                </li>
+                                <li class="info__items"><a href="#">Оплата</a><span class="info__items-number"></span>
+                                </li>
+                                <li class="info__items info__items--new"><a href="#">Отзывы</a><span class="info__items-number info__items-number--big">125</span>
+                                </li>
+                                <li class="info__items"><a href="#">Контакты</a><span class="info__items-number"></span>
+                                </li>
+                            </ul>
+                            <div class="tel tel--header">
+                                <p>Ежедневно с 09:00 до 21:00</p>
+                                <div class="tel__link-wrap row row--ai-c"><span class="tel__link-icon">
+            <svg class="tel" width="480.55px" height="480.56px">
+                <use xlink:href="#tel"></use>
+            </svg>
+        </span><a class="tel__link" href="tel:84952009709">8 (495) 200-97-09</a>
+                                </div><a class="tel__feedback" href="#">Заказать обратный звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main class="page-content">
+                    <nav class="main-nav main-nav--basket">
+                        <div class="container">
+                            <div class="main-nav__content">
+                                <div class="main-nav__slider owl-carousel owl-theme">
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                    <div class="main-nav__slider-slide main-nav__slider-slide--new"><a class="main-nav__slider-link" href="#">Говядина</a><span class="main-nav__slider-link-number">5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="order">
+                        <div class="container">
+                            <div class="order__content">
+                                <div class="order__content-title">
+                                    <h2>Ваша корзина</h2>
+                                </div>
+                                <div class="order__title-table-wrap">
+                                    <h3>Ваш заказ на осетинские пироги</h3>
+                                </div>
+                                <div class="order__table-wrap">
+                                    <table class="order__table">
+                                        <tr class="order__table-head mobile-h">
+                                            <td class="order__table-head-title order__table-head-title--first">
+                                                <h4>Наименование пирогов</h4>
+                                            </td>
+                                            <td class="order__table-head-title order__table-head-title--center mobile-h">
+                                                <h4>Кол-во пирогов</h4>
+                                            </td>
+                                            <td class="order__table-head-title order__table-head-title--center mobile-h">
+                                                <h4>Цена</h4>
+                                            </td>
+                                            <td class="order__table-head-title order__table-head-title--center mobile-h">
+                                                <h4>Стоимость</h4>
+                                            </td>
+                                            <td class="order__table-head-title"></td>
+                                        </tr>
+                                        <tr class="order__table-cart">
+                                            <td class="order__table-cart-td order__table-cart-td--first">
+                                                <div class="order__table-cart-name-wrap row row--ai-c">
+                                                    <div class="order__table-cart-img-wrap">
+                                                        <img src="static/img/content/logo-header.svg">
+                                                    </div>
+                                                    <p class="order__table-cart-name">Осетинский пирог с говядиной и сыром</p>
+                                                </div>
+                                                <div class="order__table-mobile">
+                                                    <div class="cart__calculate cart__calculate--table row">
+                                                        <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                        <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                    </div>
+                                                    <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                        <p>1200</p><span>руб.</span>
+                                                    </div>
+                                                    <button class="order__table-cart-remove" type="button">
+                                                        <svg class="remove" width="404.43px" height="473px">
+                                                            <use xlink:href="#remove"></use>
+                                                        </svg>
+
+                                                    </button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td row row--jc-c mobile-h">
+                                                <div class="cart__calculate cart__calculate--table row">
+                                                    <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                    <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-price-wrap row row--jc-c">
+                                                    <p>750</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                    <p>1200</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <button class="order__table-cart-remove" type="button">
+                                                    <svg class="remove" width="404.43px" height="473px">
+                                                        <use xlink:href="#remove"></use>
+                                                    </svg>
+
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr class="order__table-cart">
+                                            <td class="order__table-cart-td order__table-cart-td--first">
+                                                <div class="order__table-cart-name-wrap row row--ai-c">
+                                                    <div class="order__table-cart-img-wrap">
+                                                        <img src="static/img/content/logo-header.svg">
+                                                    </div>
+                                                    <p class="order__table-cart-name">Осетинский пирог с говядиной и сыром</p>
+                                                </div>
+                                                <div class="order__table-mobile">
+                                                    <div class="cart__calculate cart__calculate--table row">
+                                                        <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                        <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                    </div>
+                                                    <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                        <p>1200</p><span>руб.</span>
+                                                    </div>
+                                                    <button class="order__table-cart-remove" type="button">
+                                                        <svg class="remove" width="404.43px" height="473px">
+                                                            <use xlink:href="#remove"></use>
+                                                        </svg>
+
+                                                    </button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td row row--jc-c mobile-h">
+                                                <div class="cart__calculate cart__calculate--table row">
+                                                    <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                    <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-price-wrap row row--jc-c">
+                                                    <p>750</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                    <p>1200</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <button class="order__table-cart-remove" type="button">
+                                                    <svg class="remove" width="404.43px" height="473px">
+                                                        <use xlink:href="#remove"></use>
+                                                    </svg>
+
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr class="order__table-cart">
+                                            <td class="order__table-cart-td order__table-cart-td--first">
+                                                <div class="order__table-cart-name-wrap row row--ai-c">
+                                                    <div class="order__table-cart-img-wrap">
+                                                        <img src="static/img/content/logo-header.svg">
+                                                    </div>
+                                                    <p class="order__table-cart-name">Осетинский пирог с говядиной и сыром</p>
+                                                </div>
+                                                <div class="order__table-mobile">
+                                                    <div class="cart__calculate cart__calculate--table row">
+                                                        <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                        <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                    </div>
+                                                    <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                        <p>1200</p><span>руб.</span>
+                                                    </div>
+                                                    <button class="order__table-cart-remove" type="button">
+                                                        <svg class="remove" width="404.43px" height="473px">
+                                                            <use xlink:href="#remove"></use>
+                                                        </svg>
+
+                                                    </button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td row row--jc-c mobile-h">
+                                                <div class="cart__calculate cart__calculate--table row">
+                                                    <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                    <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-price-wrap row row--jc-c">
+                                                    <p>750</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                    <p>1200</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <button class="order__table-cart-remove" type="button">
+                                                    <svg class="remove" width="404.43px" height="473px">
+                                                        <use xlink:href="#remove"></use>
+                                                    </svg>
+
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr class="order__table-cart">
+                                            <td class="order__table-cart-td order__table-cart-td--first">
+                                                <div class="order__table-cart-name-wrap row row--ai-c">
+                                                    <div class="order__table-cart-img-wrap">
+                                                        <img src="static/img/content/logo-header.svg">
+                                                    </div>
+                                                    <p class="order__table-cart-name">Осетинский пирог с говядиной и сыром</p>
+                                                </div>
+                                                <div class="order__table-mobile">
+                                                    <div class="cart__calculate cart__calculate--table row">
+                                                        <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                        <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                    </div>
+                                                    <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                        <p>1200</p><span>руб.</span>
+                                                    </div>
+                                                    <button class="order__table-cart-remove" type="button">
+                                                        <svg class="remove" width="404.43px" height="473px">
+                                                            <use xlink:href="#remove"></use>
+                                                        </svg>
+
+                                                    </button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td row row--jc-c mobile-h">
+                                                <div class="cart__calculate cart__calculate--table row">
+                                                    <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                    <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-price-wrap row row--jc-c">
+                                                    <p>750</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                    <p>1200</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <button class="order__table-cart-remove" type="button">
+                                                    <svg class="remove" width="404.43px" height="473px">
+                                                        <use xlink:href="#remove"></use>
+                                                    </svg>
+
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr class="order__table-cart">
+                                            <td class="order__table-cart-td order__table-cart-td--first">
+                                                <div class="order__table-cart-name-wrap row row--ai-c">
+                                                    <div class="order__table-cart-img-wrap">
+                                                        <img src="static/img/content/logo-header.svg">
+                                                    </div>
+                                                    <p class="order__table-cart-name">Осетинский пирог с говядиной и сыром</p>
+                                                </div>
+                                                <div class="order__table-mobile">
+                                                    <div class="cart__calculate cart__calculate--table row">
+                                                        <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                        <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                    </div>
+                                                    <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                        <p>1200</p><span>руб.</span>
+                                                    </div>
+                                                    <button class="order__table-cart-remove" type="button">
+                                                        <svg class="remove" width="404.43px" height="473px">
+                                                            <use xlink:href="#remove"></use>
+                                                        </svg>
+
+                                                    </button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td row row--jc-c mobile-h">
+                                                <div class="cart__calculate cart__calculate--table row">
+                                                    <button class="cart__calculate-button cart__calculate-button--minus grow" type="button"></button><span class="cart__calculate-val">1</span>
+                                                    <button class="cart__calculate-button cart__calculate-button--plus grow" type="button"></button>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-price-wrap row row--jc-c">
+                                                    <p>750</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <div class="order__table-cart-total-price-wrap row row--jc-c">
+                                                    <p>1200</p><span>руб.</span>
+                                                </div>
+                                            </td>
+                                            <td class="order__table-cart-td mobile-h">
+                                                <button class="order__table-cart-remove" type="button">
+                                                    <svg class="remove" width="404.43px" height="473px">
+                                                        <use xlink:href="#remove"></use>
+                                                    </svg>
+
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="order__table-result-wrap row">
+                                        <p class="order__table-result-block-left-text">Итого:<span class="order__table-result-count">12 </span><span class="order__table-result-pies">пирогов</span>, общая стоимость <span class="order__table-result-price">12300 </span><span class="order__table-result-currency">руб.</span>
+                                        </p>
+                                        <div class="order__table-result-discount">
+                                            <p>У вас бесплатная доставка!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <form class="order__contacts-wrap" action="action.php" method="post">
+                                    <div class="order__contacts">
+                                        <div class="order__contacts-user"><span class="order__contacts-line order__contacts-line--user"></span>
+                                            <div class="order__contacts-user-title-wrap row">
+                                                <div class="order__contacts-step-wrap">1<span class="order__contacts-step-border"></span>
+                                                </div>
+                                                <div class="order__contacts-title-wrap">
+                                                    <h3>Контактная информация</h3><b>Заполните все поля для перехода к следующему этапу</b>
+                                                </div>
+                                            </div>
+                                            <ul class="order__contacts-user-list list row">
+                                                <li class="order__contacts-user-items grow">
+                                                    <label for="userName">Имя</label>
+                                                    <div class="order__contacts-user-input-wrap">
+                                                        <input type="text" placeholder="Ваше имя" id="userName"><span class="order__contacts-user-preson-icon">
+            <svg class="person" width="512px" height="494.62px">
+                <use xlink:href="#person"></use>
+            </svg>
+        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="order__contacts-user-items grow">
+                                                    <label for="userTel">Телефон</label>
+                                                    <div class="order__contacts-user-input-wrap">
+                                                        <input type="tel" placeholder="Введите телефон" id="userTel"><span class="order__contacts-user-tel-icon">
+            <svg class="user-tel" width="494.03px" height="511.99px">
+                <use xlink:href="#user-tel"></use>
+            </svg>
+        </span>
+                                                    </div>
+                                                </li>
+                                                <li class="order__contacts-user-items grow">
+                                                    <label for="userMail">E-mail</label>
+                                                    <div class="order__contacts-user-input-wrap">
+                                                        <input type="email" placeholder="Ваш e-mail" id="userMail"><span class="order__contacts-user-email-icon">
+            <svg class="email" width="512px" height="359.31px">
+                <use xlink:href="#email"></use>
+            </svg>
+        </span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="order__contacts-delivery order__contacts-delivery--disable"><span class="order__contacts-line order__contacts-line--delivery"></span>
+                                            <div class="order__contacts-user-title-wrap row">
+                                                <div class="order__contacts-step-wrap">2<span class="order__contacts-step-border"></span>
+                                                </div>
+                                                <div class="order__contacts-title-wrap order__contacts-title-wrap--margin">
+                                                    <h3>Куда доставить пироги?</h3>
+                                                </div>
+                                            </div>
+                                            <div class="order__contacts-delivery-content">
+                                                <div class="order__contacts-delivery-row row">
+                                                    <div class="order__contacts-delivery-select-wrap grow"><span class="order__contacts-delivery-select-title">Ближайшая станция метро:</span>
+                                                        <div class="order__contacts-delivery-select grow">
+                                                            <div class="order__contacts-delivery-select-val-wrap"><span class="order__contacts-delivery-select-val-icon">
+            <svg class="metro" width="473.47px" height="512px">
+                <use xlink:href="#metro"></use>
+            </svg>
+        </span>
+                                                                <div class="order__contacts-delivery-select-val">Цветной бульвар</div><span class="order__contacts-delivery-select-val-arrow"></span>
+                                                            </div>
+                                                            <div class="order__contacts-delivery-select-options">
+                                                                <p>Цветной бульвар</p>
+                                                                <p>Трубная</p>
+                                                                <p>Калужская</p>
+                                                                <p>Театральная</p>
+                                                                <p>Цветной бульвар</p>
+                                                                <p>Трубная</p>
+                                                                <p>Калужская</p>
+                                                                <p>Театральная</p>
+                                                                <p>Цветной бульвар</p>
+                                                                <p>Трубная</p>
+                                                                <p>Калужская</p>
+                                                                <p>Театральная</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="order__contacts-delivery-address-wrap grow">
+                                                        <label for="userAddress">Адрес доставки:</label>
+                                                        <input class="order__contacts-delivery-address" type="text" id="userAddress">
+                                                    </div>
+                                                </div>
+                                                <div class="order__contacts-delivery-textarea-wrap">
+                                                    <textarea placeholder="Комментарий к заказу"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="order__contacts-payment order__contacts-payment--disable"><span class="order__contacts-line order__contacts-line--payment"></span>
+                                            <div class="order__contacts-user-title-wrap row">
+                                                <div class="order__contacts-step-wrap">3<span class="order__contacts-step-border"></span>
+                                                </div>
+                                                <div class="order__contacts-title-wrap order__contacts-title-wrap--margin">
+                                                    <h3>Как оплатить?</h3>
+                                                </div>
+                                            </div>
+                                            <div class="order__contacts-payment-content"><span class="order__contacts-delivery-select-title">Выберите способ оплаты:</span>
+                                                <ul class="order__contacts-payment-list list">
+                                                    <li class="order__contacts-payment-items">
+                                                        <input class="order__contacts-payment-radio input--radio" type="radio" name="paymentRadioGroup" checked id="cash">
+                                                        <label class="order__contacts-payment-label" for="cash">Наличными курьеру<span class="order__contacts-payment-indicator"></span>
+                                                        </label>
+                                                    </li>
+                                                    <li class="order__contacts-payment-items">
+                                                        <input class="order__contacts-payment-radio input--radio" type="radio" name="paymentRadioGroup" id="card">
+                                                        <label class="order__contacts-payment-label" for="card">Банковская карта<span class="order__contacts-payment-indicator"></span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order__result-wrap order__result-wrap--disable row">
+                                        <div class="order__result-step-wrap"><span class="order__result-step-icon">
+            <svg class="shield" width="384px" height="469.33px">
+                <use xlink:href="#shield"></use>
+            </svg>
+        </span>
+                                        </div>
+                                        <div class="order__result-content">
+                                            <div class="order__result-content-text-wrap row row--ai-c">
+                                                <p class="order__result-content-text">Итого к оплате: <span class="order__result-price">65000</span><span class="order__result-currency">руб.</span>
+                                                </p>
+                                                <button class="order__result-button" type="submit">Оформить заказ</button>
+                                            </div>
+                                            <div class="order__result-terms-wrap">
+                                                <input class="order__result-terms-checkbox input--checkbox" type="checkbox" checked id="terms">
+                                                <label class="order__result-terms-label" for="terms">Настоящим подтверждаю, что я ознакомлен и согласен с условиями политики обработки<a href="#">персональных данных</a><span class="order__result-terms-label-indicator"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <footer class="page-footer">
+                <div class="footer-content">
+                    <div class="footer-content__row-top">
+                        <div class="container">
+                            <div class="footer-content__row-top-content row row--ai-c">
+                                <div class="logo logo--footer row row--ai-c">
+                                    <div class="logo__img-wrap">
+                                        <img src="static/img/content/logo-header.svg" alt="Логотип">
+                                    </div>
+                                    <div class="logo__content">
+                                        <h2>Осетинские пироги</h2>
+                                        <p>ВСЕ ПЕКАРНИ МОСКВЫ В ОДНОМ МЕСТЕ</p>
+                                    </div>
+                                </div>
+                                <ul class="info info--footer list row grow">
+                                    <li class="info__items info__items--new"><a href="#">Пекарни</a><span class="info__items-number">23</span>
+                                    </li>
+                                    <li class="info__items"><a href="#">Доставка</a><span class="info__items-number"> </span>
+                                    </li>
+                                    <li class="info__items info__items--new"><a href="#">Акции и скидки</a><span class="info__items-number">6</span>
+                                    </li>
+                                    <li class="info__items"><a href="#">Оплата</a><span class="info__items-number"></span>
+                                    </li>
+                                    <li class="info__items info__items--new"><a href="#">Отзывы</a><span class="info__items-number info__items-number--big">125</span>
+                                    </li>
+                                    <li class="info__items"><a href="#">Контакты</a><span class="info__items-number"></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-content__row-middle">
+                        <div class="container">
+                            <div class="footer-content__row-middle-content row">
+                                <div class="footer-content__row-middle-block-left">
+                                    <div class="tel tel--footer">
+                                        <p>Ежедневно с 09:00 до 21:00</p>
+                                        <div class="tel__link-wrap row row--ai-c"><span class="tel__link-icon">
+            <svg class="tel" width="480.55px" height="480.56px">
+                <use xlink:href="#tel"></use>
+            </svg>
+        </span><a class="tel__link" href="tel:84952009709">8 (495) 200-97-09</a>
+                                        </div><a class="tel__feedback" href="#">Заказать обратный звонок</a>
+                                    </div>
+                                    <div class="payment">
+                                        <h2>Варианты оплаты:</h2>
+                                        <div class="payment__img-wrap">
+                                            <img src="static/img/content/payment.png" alt="Способ оплаты">
+                                        </div>
+                                    </div>
+                                    <ul class="socials list row">
+                                        <li class="socials__items">
+                                            <a class="socials__link socials__link--vk" href="#"></a>
+                                        </li>
+                                        <li class="socials__items">
+                                            <a class="socials__link socials__link--fb" href="#"></a>
+                                        </li>
+                                        <li class="socials__items">
+                                            <a class="socials__link socials__link--od" href="#"></a>
+                                        </li>
+                                        <li class="socials__items">
+                                            <a class="socials__link socials__link--g" href="#"></a>
+                                        </li>
+                                        <li class="socials__items">
+                                            <a class="socials__link socials__link--tw" href="#"></a>
+                                        </li>
+                                        <li class="socials__items">
+                                            <a class="socials__link socials__link--v" href="#"></a>
+                                        </li>
+                                        <li class="socials__items">
+                                            <a class="socials__link socials__link--w" href="#"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-content__row-middle-block-right grow">
+                                    <ul class="footer-content__nav list row row--wrap">
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 4</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 6</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 12</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 4</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 6</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 12</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 4</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 6</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 12</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 4</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 6</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 12</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 4</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 6</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 12</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 4</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 6</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 12</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 4</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 6</span>
+                                        </li>
+                                        <li class="footer-content__nav-items row"><a href="#">Пироги с говядиной</a><span class="footer-content__nav-item-number">- 12</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-content__row-bottom">
+                        <div class="container">
+                            <div class="footer-content__row-bottom-content row row--jc-sb row--ai-c">
+                                <div class="copyright">
+                                    <p>© 2018 Осетинские пироги</p>
+                                </div>
+                                <div class="developers"><a href="#">Создание и продвижение сайтов<span class="developers__icon"></span></a><span class="developers__yandex-metrika"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="static/js/separate-js/owl.carousel.min.js"></script>
+        <script src="static/js/main.js"></script>
+    </body>
+
+</html>
