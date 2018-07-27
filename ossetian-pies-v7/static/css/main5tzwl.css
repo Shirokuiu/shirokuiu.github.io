@@ -1848,6 +1848,9 @@ img {
 .order {
   padding-bottom: 100px;
 }
+.order--vis-h {
+  display: none;
+}
 .order__content {
   padding-left: 6%;
   padding-right: 8%;
@@ -2021,6 +2024,12 @@ img {
 .order__table-result-pies,
 .order__table-result-currency {
   color: #f00;
+}
+.order__table-result-pies {
+  margin-left: 5px;
+}
+.order__table-result-currency {
+  margin-left: 5px;
 }
 .order__table-result-discount {
   background-color: #26bb38;
@@ -4107,6 +4116,9 @@ img {
   border: 1px solid #dcdcdc;
   border-left: none;
   border-right: none;
+}
+.cart__weight--vis-h {
+  display: none;
 }
 .cart__weight-items {
   position: relative;
