@@ -1588,8 +1588,6 @@ img {
   .dropdown-menu__items {
     margin-bottom: 0;
   }
-}
-@media (max-width: 360px) {
   .dropdown-menu__content {
     height: auto;
     display: block;
