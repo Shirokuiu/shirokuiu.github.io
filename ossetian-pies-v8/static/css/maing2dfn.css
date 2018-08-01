@@ -1602,6 +1602,9 @@ img {
   .dropdown-menu__items {
     margin-bottom: 35px;
   }
+  .dropdown-menu__description-content {
+    background-color: #fff;
+  }
 }
 .reviews-comments__list {
   padding-bottom: 30px;
