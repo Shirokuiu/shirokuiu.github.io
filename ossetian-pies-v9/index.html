@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>default title</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="telephone=no" name="format-detection">
+        <meta name="HandheldFriendly" content="true">
+
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <link href="static/css/mainsxomx.min.css" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+        <meta property="og:title" content="#{data.title}">
+        <meta property="og:title" content="">
+        <meta property="og:url" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="500">
+        <meta property="og:image:height" content="300">
+        <meta property="twitter:description" content="">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <script>
+            (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+        </script>
+    </head>
+
+    <body class="page">
+        <svg xmlns="http://www.w3.org/2000/svg" style="border: 0 !important; clip: rect(0 0 0 0) !important; height: 1px !important; margin: -1px !important; overflow: hidden !important; padding: 0 !important; position: absolute !important; width: 1px !important;"
+        class="root-svg-symbols-element">
+            <symbol id="basket-icon" viewBox="0 0 486.72 512">
+                <title>basket-icon</title>
+                <path class="cls-1" d="M177.5 356.94h284v35.47H149L91.42 131H12.64V95.59h107.24zM209.76 416a48 48 0 1 0 48 48 48 48 0 0 0-48-48zm197.85 0a48 48 0 1 0 48 48 48 48 0 0 0-48-48zm-212.18-85.6l-42.1-218h68.88L374.88 0l68.31 92.77-2.95 19.58h59.12l-49.23 218zm236.62-230.06l-16.34 12h14.55zm-193.2 12h35.87l-2.14-2.93 6.94-5.11 5.94 8h8.79l-9-12.26 7-5.11L305 112.34h10l-16.3-22.11 7-5.11 20.06 27.22h11.47L313.3 79.95l6.94-5.13 27.61 37.52h10l-31.12-42.29 6.95-5.05 34.84 47.37h30.56l30-22.08-56.24-76.5zm159.6-15.15l-38.25-52-7 5.11 38.27 52zm-13.37 9.89l-38.29-52-6.94 5.11 38.32 52z"
+                transform="translate(-12.64)" />
+            </symbol>
+            <symbol id="chat" viewBox="0 0 512 512">
+                <title>chat</title>
+                <path class="cls-1" d="M170.67 247.47h93.87a8.53 8.53 0 0 0 0-17.07h-93.87a8.53 8.53 0 1 0 0 17.07zm136.53 42.66H128a8.53 8.53 0 1 0 0 17.07h179.2a8.53 8.53 0 1 0 0-17.07zm0 59.74H128a8.53 8.53 0 1 0 0 17.07h179.2a8.53 8.53 0 1 0 0-17.07z"
+                />
+                <path class="cls-1" d="M511.56 406.9l-33.27-99.81a205.36 205.36 0 0 0 26.8-101.49C505.09 92.24 412.84 0 299.48 0a205.78 205.78 0 0 0-186.75 119.8C49.68 155 6.92 222.3 6.92 299.48A205.38 205.38 0 0 0 33.72 401L.44 500.77a8.53 8.53 0 0 0 10.26 10.95L119.83 483a206.09 206.09 0 0 0 92.7 22.08c80.75 0 150.74-46.81 184.35-114.71l104.41 27.48a9 9 0 0 0 2.18.27 8.54 8.54 0 0 0 8.1-11.23zM212.52 488a189.09 189.09 0 0 1-64.44-11.42l28.25-6.29a8.54 8.54 0 0 0-3.7-16.67L119 465.59c-.06 0-.1.06-.16.07h-.15l-97 25.54 29.5-88.51a8.54 8.54 0 0 0-.76-7.06A188.35 188.35 0 0 1 24 299.47c0-73.75 42.59-137.71 104.45-168.68 1.07-.53 2.12-1.08 3.2-1.6 1.72-.82 3.46-1.6 5.21-2.36s3.26-1.41 4.91-2.07c1.43-.58 2.87-1.16 4.32-1.71 2.47-.93 5-1.81 7.48-2.64.73-.24 1.44-.5 2.17-.73q5.29-1.66 10.67-3l.44-.1c3.36-.84 6.76-1.57 10.16-2.23l2.2-.39q4.26-.77 8.57-1.33l2.78-.36c2.76-.32 5.53-.57 8.31-.78.93-.07 1.84-.16 2.77-.21 3.63-.21 7.26-.34 10.9-.34 104 0 188.54 84.61 188.54 188.57q0 4.93-.26 9.82c-.08 1.5-.23 3-.34 4.46-.13 1.74-.23 3.49-.41 5.22s-.44 3.49-.67 5.22c-.19 1.45-.35 2.9-.57 4.34-.27 1.76-.61 3.48-.94 5.22-.26 1.43-.5 2.87-.8 4.29-.34 1.62-.73 3.23-1.12 4.83s-.72 3.09-1.13 4.63-.82 2.91-1.25 4.36c-.49 1.66-1 3.33-1.49 5-.43 1.34-.9 2.67-1.36 4-.6 1.73-1.2 3.46-1.85 5.17-.49 1.3-1 2.58-1.53 3.86q-1 2.5-2.08 5C356.14 441.4 289.69 488 212.52 488zm191.4-113.43c.15-.37.24-.74.38-1.11q3-7.81 5.42-15.91c.26-.87.5-1.74.74-2.62 1.48-5.28 2.78-10.65 3.84-16.09.18-.92.33-1.85.49-2.77 1-5.49 1.8-11 2.35-16.65.07-.67.09-1.36.15-2 .52-5.91.84-11.88.84-17.92 0-113.37-92.24-205.61-205.61-205.61-6.08 0-12.07.32-18 .84l-1.43.11c-5.9.55-11.72 1.39-17.46 2.44l-1.48.26q-8.58 1.63-16.89 4l-1.88.54q-8 2.33-15.8 5.27c-.39.15-.8.25-1.2.4a188.79 188.79 0 0 1 161.1-90.62c104 0 188.54 84.58 188.54 188.54a188.37 188.37 0 0 1-26.37 96.17 8.54 8.54 0 0 0-.76 7.06l29.5 88.5z"
+                />
+            </symbol>
+            <symbol id="confetti" viewBox="0 0 511.83 512">
+                <title>confetti</title>
+                <path class="cls-1" d="M349.11 321.09a8.53 8.53 0 1 0-16 5.78l.12.32c7.78 20.3 8.34 35.83 1.54 42.65-8.26 8.24-28.82 5.66-55-6.88a364.86 364.86 0 0 1-94.42-70.46c-66.82-66.82-94.38-132.39-77.33-149.45a23.3 23.3 0 0 1 19.29-4.5 8.53 8.53 0 0 0 1.65-17 39.28 39.28 0 0 0-33 9.38c-31.25 31.25 16.52 112.75 77.33 173.57a381.49 381.49 0 0 0 99.12 73.78 168 168 0 0 0 20.57 8.23l-60.61 23a241.44 241.44 0 0 1-152.69-188 8.53 8.53 0 1 0-16.86 2.64 258.25 258.25 0 0 0 146.43 194.09L109.5 456a8.38 8.38 0 0 0-1.71-2 118.85 118.85 0 0 1-44-82.6l-4-47.93a8.43 8.43 0 0 0-9-7.84h-.26a8.53 8.53 0 0 0-7.83 9.18v.06l4 47.91a135.88 135.88 0 0 0 45.13 89.86l-71.07 26.92 12.8-52.51A8.53 8.53 0 1 0 17 433L.33 501.25a8.53 8.53 0 0 0 11.31 10l315.62-119.42a8 8 0 0 0 1.42-.89 33.14 33.14 0 0 0 18.11-9c8.44-8.48 15.72-25.94 2.32-60.85z"
+                transform="translate(-.09)" />
+                <path class="cls-1" d="M429.61 299.09a280.9 280.9 0 0 0-144.52-14l-30.48 5.12a8.53 8.53 0 0 0 2.81 16.79l30.47-5.08a263.64 263.64 0 0 1 135.73 13.19 8.78 8.78 0 0 0 3 .5 8.53 8.53 0 0 0 3-16.52zm30.32-132.16a8.53 8.53 0 0 0-11.37-4L269.43 248.2a8.53 8.53 0 0 0-4 11.37 8.53 8.53 0 0 0 11.37 4l179.1-85.27a8.53 8.53 0 0 0 4.03-11.37zM207.25 57.89a8.53 8.53 0 1 0-16.72 3.4c0 .1 0 .2.07.3a238.61 238.61 0 0 1-12.74 144.23l-12.4 29.76a8.53 8.53 0 0 0 4.54 11.13 8.4 8.4 0 0 0 3.28.66 8.53 8.53 0 0 0 7.87-5.25l12.41-29.73a255.56 255.56 0 0 0 13.69-154.5zm262.01 249.19a25.59 25.59 0 1 0 25.59 25.59 25.59 25.59 0 0 0-25.59-25.59zm0 34.12a8.53 8.53 0 1 1 8.53-8.53 8.53 8.53 0 0 1-8.53 8.53zM264.54 68.24a25.59 25.59 0 1 0 25.59 25.59 25.59 25.59 0 0 0-25.59-25.59zm0 34.12a8.53 8.53 0 1 1 8.53-8.53 8.53 8.53 0 0 1-8.53 8.53z"
+                transform="translate(-.09)" />
+                <circle class="cls-1" cx="187.68" cy="17.06" r="17.06" />
+                <path class="cls-1" d="M426.61 42.65a8.53 8.53 0 0 0-8.53 8.53v8.53a8.53 8.53 0 0 0 17.06 0v-8.53a8.53 8.53 0 0 0-8.53-8.53zm0-42.65a8.53 8.53 0 0 0-8.53 8.53v8.53a8.53 8.53 0 0 0 17.06 0V8.53A8.53 8.53 0 0 0 426.61 0zm25.59 25.59h-8.53a8.53 8.53 0 0 0 0 17.06h8.53a8.53 8.53 0 1 0 0-17.06zm-42.65 0H401a8.53 8.53 0 0 0 0 17.06h8.53a8.53 8.53 0 0 0 0-17.06zM366.9 93.65h-42.83a8.53 8.53 0 0 0-8.53 8.53V145a8.53 8.53 0 0 0 8.53 8.53h42.83a8.53 8.53 0 0 0 8.53-8.53v-42.82a8.53 8.53 0 0 0-8.53-8.53zm-8.53 42.83H332.6v-25.77h25.77zm-53.61 28.4a8.53 8.53 0 0 0-11.81-.62L207.66 241a8.53 8.53 0 0 0 11.41 12.68l85.3-76.77a8.53 8.53 0 0 0 .39-12.03zm155.97 31.31a8.53 8.53 0 0 0-8.53 8.53v8.53a8.53 8.53 0 0 0 17.06 0v-8.53a8.53 8.53 0 0 0-8.53-8.53zm36.2-1.47l-6-6a8.53 8.53 0 0 0-12.06 12.06l6 6a8.53 8.53 0 0 0 12.06-12.06zm6.45-32.65h-8.53a8.53 8.53 0 1 0 0 17.06h8.53a8.53 8.53 0 0 0 0-17.06zm-6.66-27.65a8.53 8.53 0 0 0-11.85 0l-6 6a8.53 8.53 0 0 0 6 14.56 8.53 8.53 0 0 0 6-2.5l6-6a8.53 8.53 0 0 0-.15-12.06zm-35.99-15a8.53 8.53 0 0 0-8.53 8.58v8.53a8.53 8.53 0 0 0 17.06 0V128a8.53 8.53 0 0 0-8.53-8.58zm-18.1 21.03l-6-6a8.53 8.53 0 0 0-12.06 12.06l6 6a8.53 8.53 0 0 0 12.06-12.06zM102.05 36.88a8.53 8.53 0 0 0-6.88-5.8l-25-3.64L59 4.76a8.88 8.88 0 0 0-15.3 0L32.45 27.44l-25 3.64a8.53 8.53 0 0 0-4.78 14.55l18.11 17.65-4.26 24.94a8.53 8.53 0 0 0 12.39 9l22.38-11.78 22.39 11.77a8.53 8.53 0 0 0 12.38-9L81.8 63.28l18.11-17.65a8.53 8.53 0 0 0 2.14-8.75zM66.65 54.2a8.53 8.53 0 0 0-2.46 7.54l2.11 12.33-11-5.83a8.53 8.53 0 0 0-7.93 0l-11.13 5.82 2.12-12.33a8.53 8.53 0 0 0-2.41-7.53l-9-8.73 12.38-1.8A8.53 8.53 0 0 0 45.77 39l5.52-11.2L56.82 39a8.53 8.53 0 0 0 6.41 4.67l12.37 1.8zM483.1 427.57l-3.51-5.27a128.72 128.72 0 0 0-85.65-55.39 8.53 8.53 0 0 0-2.81 16.82A111.6 111.6 0 0 1 456.18 420a50.32 50.32 0 0 0-34.12 23.43 34.12 34.12 0 1 0 59.58 33.27 49.47 49.47 0 0 0 5.54-21.9 41.68 41.68 0 0 1 1.87 44.3 8.53 8.53 0 0 0 14.67 8.7l.22-.4a59.55 59.55 0 0 0-20.84-79.83zm-16.33 40.82a17.06 17.06 0 1 1-29.87-16.49l.08-.14a32 32 0 0 1 23.1-15 8.67 8.67 0 0 1 4.27 1c7.18 3.98 7.57 21.4 2.41 30.63z"
+                transform="translate(-.09)" />
+            </symbol>
+            <symbol id="delete" viewBox="0 0 444.3 512">
+                <title>delete</title>
+                <path class="cls-1" d="M298.91 60.23a14.69 14.69 0 0 1-14.69-14.69V29.38H172.56v16.16a14.69 14.69 0 0 1-29.38 0V14.69A14.69 14.69 0 0 1 157.87 0h141a14.69 14.69 0 0 1 14.73 14.69v30.85a14.69 14.69 0 0 1-14.69 14.69zM366.49 512a111.66 111.66 0 1 1 111.66-111.66A111.78 111.78 0 0 1 366.49 512zm0-193.93a82.27 82.27 0 1 0 82.27 82.27 82.37 82.37 0 0 0-82.27-82.27z"
+                transform="translate(-33.85)" />
+                <path class="cls-1" d="M297.69 483.34H105A14.69 14.69 0 0 1 90.34 470L61 161.53a14.69 14.69 0 0 1 14.63-16.08H381.2a14.69 14.69 0 0 1 0 29.38H91.74L118.32 454h179.37a14.69 14.69 0 0 1 0 29.38z" transform="translate(-33.85)" />
+                <path class="cls-1" d="M158.38 424.58a14.69 14.69 0 0 1-14.61-13.3l-14.5-152.2a14.69 14.69 0 0 1 29.25-2.79L173 408.49a14.69 14.69 0 0 1-13.23 16c-.45.07-.92.09-1.39.09zM307 338.49c-.48 0-1 0-1.46-.07a14.69 14.69 0 0 1-13.17-16.07l6.53-66.11a14.69 14.69 0 1 1 29.24 2.89l-6.53 66.11A14.69 14.69 0 0 1 307 338.49zm60.56-20.39h-1.17a14.68 14.68 0 0 1-12.93-21.55l3.83-40.22a14.69 14.69 0 0 1 29.25 2.79l-4.36 45.72a14.69 14.69 0 0 1-14.62 13.26zm-38.69 134.56a14.69 14.69 0 0 1-10.39-25.08l75.25-75.25a14.69 14.69 0 0 1 20.78 20.78l-75.25 75.25a14.65 14.65 0 0 1-10.39 4.3z"
+                transform="translate(-33.85)" />
+                <path class="cls-1" d="M404.12 452.66a14.64 14.64 0 0 1-10.39-4.3l-75.25-75.26a14.69 14.69 0 0 1 20.78-20.78l75.25 75.25a14.69 14.69 0 0 1-10.39 25.08z" transform="translate(-33.85)" />
+                <path class="cls-2" d="M14.69 101.37h359.7v79.89H14.69z" />
+                <path class="cls-1" d="M408.24 195.95H48.54a14.69 14.69 0 0 1-14.69-14.69v-79.89a14.69 14.69 0 0 1 14.69-14.69h359.7a14.69 14.69 0 0 1 14.69 14.69v79.89a14.69 14.69 0 0 1-14.69 14.69zm-345-29.38h330.31v-50.51H63.23zm165.15 258.01a14.69 14.69 0 0 1-14.69-14.69V256a14.69 14.69 0 1 1 29.38 0v153.89a14.69 14.69 0 0 1-14.69 14.69z"
+                transform="translate(-33.85)" />
+            </symbol>
+            <symbol id="delivery-truck" viewBox="0 0 512 349.05">
+                <title>delivery-truck</title>
+                <path class="cls-1" d="M418.59 336.69a47.28 47.28 0 0 0-33.36 13.76 46.32 46.32 0 0 0 0 66.31 47.46 47.46 0 0 0 33.36 13.76c25.65 0 46.5-21.06 46.5-46.92s-20.86-46.91-46.5-46.91zm0 73c-14.39 0-26.48-11.89-26.48-26.06s12.09-26.06 26.48-26.06a26.07 26.07 0 0 1 0 52.13zm12.09-229.26a10.12 10.12 0 0 0-7-2.71h-53.47a10.46 10.46 0 0 0-10.43 10.43v85.49A10.46 10.46 0 0 0 370.21 284h84.86a10.46 10.46 0 0 0 10.43-10.43v-57.19a10.43 10.43 0 0 0-3.44-7.71zm14 82.78h-64v-64.76h39l25 22.52zM164 336.69a47.28 47.28 0 0 0-33.36 13.76 46.32 46.32 0 0 0 0 66.31A47.46 47.46 0 0 0 164 430.52c25.65 0 46.5-21.06 46.5-46.92s-20.86-46.91-46.5-46.91zm0 73c-14.39 0-26.48-11.89-26.48-26.06s12.09-26.06 26.48-26.06a26.07 26.07 0 0 1 0 52.13zm-69.54-60.17h-21v-27.73a10.43 10.43 0 1 0-20.85 0v38.16a10.46 10.46 0 0 0 10.43 10.43h31.42a10.43 10.43 0 0 0 0-20.85zm52.86-56.82a10.46 10.46 0 0 0-10.43-10.43H10.43a10.43 10.43 0 0 0 0 20.85h126.46a10.39 10.39 0 0 0 10.42-10.42zM31.59 255.06l126.46.73a10.53 10.53 0 0 0 10.53-10.32 10.33 10.33 0 0 0-10.32-10.53l-126.46-.73h-.1a10.43 10.43 0 0 0-.1 20.85zm21.27-47.33h126.46a10.43 10.43 0 0 0 0-20.85H52.86a10.43 10.43 0 1 0 0 20.85zm455.28-14.07l-74.64-61.83a10.27 10.27 0 0 0-6.67-2.4H339V91.9a10.46 10.46 0 0 0-10.43-10.43H63.07A10.46 10.46 0 0 0 52.65 91.9v76.32a10.43 10.43 0 1 0 20.85 0v-65.89h244.79v247.19H232.8a10.43 10.43 0 0 0 0 20.85h127.3a10.43 10.43 0 0 0 0-20.85h-21V150.28h84l68 56.3-.73 142.73h-10.79a10.43 10.43 0 1 0 0 20.85h21.16a10.37 10.37 0 0 0 10.43-10.32l.83-158.05a11 11 0 0 0-3.86-8.13z"
+                transform="translate(0 -81.48)" />
+            </symbol>
+            <symbol id="menu-button" viewBox="0 0 459 306">
+                <title>menu-button</title>
+                <path d="M0 306h459v-51H0zm0-127.5h459v-51H0zM0 0v51h459V0z" />
+            </symbol>
+            <symbol id="right-quote-sign" viewBox="0 0 512 451.93">
+                <title>right-quote-sign</title>
+                <path class="cls-1" d="M485.74 30H326.11a26.27 26.27 0 0 0-26.26 26.26v159.66a26.26 26.26 0 0 0 26.26 26.26h76.4q-1.5 62.7-29.09 100.4-21.74 29.77-65.8 49.26a26.22 26.22 0 0 0-13 35.24L313.51 467a26.25 26.25 0 0 0 34.18 12.81q52.14-22.53 88.06-57.13 43.79-42.3 60-95.52T512 181.79V56.29A26.27 26.27 0 0 0 485.74 30zM55.68 479.69q51.51-22.45 87.64-57 44.19-42.3 60.39-95.15t16.23-145.72V56.29A26.26 26.26 0 0 0 193.68 30H34A26.27 26.27 0 0 0 7.79 56.29v159.63A26.26 26.26 0 0 0 34 242.18h76.4q-1.5 62.7-29.09 100.4-21.74 29.77-65.8 49.26a26.22 26.22 0 0 0-13 35.24l18.85 39.8a26.33 26.33 0 0 0 34.32 12.81z"
+                transform="translate(0 -30.03)" />
+            </symbol>
+            <symbol id="spacecraft" viewBox="0 0 512 492.34">
+                <title>spacecraft</title>
+                <path class="cls-1" d="M258.39 125.8a41.73 41.73 0 1 0 41.73 41.73 41.77 41.77 0 0 0-41.73-41.73zm0 67.24a25.52 25.52 0 1 1 25.52-25.52A25.55 25.55 0 0 1 258.39 193z" transform="translate(0 -9.83)" />
+                <path class="cls-1" d="M424.24 361.86V242.18a8.11 8.11 0 0 0-2.39-5.75L344 159v-17.06a146 146 0 0 0-82-131.28 8.1 8.1 0 0 0-7.12 0 146.05 146.05 0 0 0-82 131.28V159l-77.89 77.4a8.11 8.11 0 0 0-2.39 5.75v119.71a8.11 8.11 0 0 0 8.11 8.11h72.18v.32a28.65 28.65 0 0 0 28.62 28.62h12a74.39 74.39 0 0 0-7.27 32.22 75.31 75.31 0 0 0 49.41 70.57 8.11 8.11 0 0 0 5.54 0 75.31 75.31 0 0 0 49.42-70.57 74.39 74.39 0 0 0-7.27-32.22h12A28.65 28.65 0 0 0 344 370.28V370h72.17a8.11 8.11 0 0 0 8.07-8.14zm-251.42-22.8v14.69h-64.07v-108.2l64.07-63.67zm28.62 43.63A12.42 12.42 0 0 1 189 370.28v-23.11h61.25v35.52zm56.94 102.67a59.07 59.07 0 0 1-36-54.24 58.25 58.25 0 0 1 9.37-31.81h18.5v15a8.11 8.11 0 1 0 16.21 0v-15H285a58.26 58.26 0 0 1 9.37 31.81 59.07 59.07 0 0 1-35.98 54.24zm69.36-115.08a12.42 12.42 0 0 1-12.41 12.41H266.5v-35.52h61.25zM408 353.75h-64v-64.66a8.11 8.11 0 0 0-16.21 0V331H266.5v-21.57a8.11 8.11 0 0 0-16.21 0V331H189V142a129 129 0 0 1 69.39-115 129 129 0 0 1 69.36 114.91v119.62a8.11 8.11 0 0 0 16.21 0v-79.65L408 245.55v108.2z"
+                transform="translate(0 -9.83)" />
+                <path class="cls-1" d="M443.55 412.12a68.61 68.61 0 0 0-26.4 5.29 35.58 35.58 0 0 0-69.52 10.67 8.11 8.11 0 1 0 16.21 0 19.37 19.37 0 1 1 34.16 12.5 8.11 8.11 0 0 0 12.37 10.47A35.57 35.57 0 0 0 418.1 435a52.23 52.23 0 0 1 77.69 45.62 8.11 8.11 0 1 0 16.21 0 68.53 68.53 0 0 0-68.45-68.5zm-288.32 34.29a40.86 40.86 0 0 0-9.43 1.11 8.08 8.08 0 0 0 .66-6.77 44.86 44.86 0 0 0-78.09-12.24A54.43 54.43 0 0 0 0 481.07a8.11 8.11 0 0 0 16.21 0 38.17 38.17 0 0 1 70.5-20.29 8.11 8.11 0 1 0 13.72-8.63 54.51 54.51 0 0 0-16.58-16.81 28.66 28.66 0 0 1 47.3 10.76 8.08 8.08 0 0 0 5.07 5 41 41 0 0 0-22 36.26 8.11 8.11 0 0 0 16.21 0 24.74 24.74 0 0 1 49.49 0 8.11 8.11 0 0 0 16.21 0 41 41 0 0 0-40.9-40.95z"
+                transform="translate(0 -9.83)" />
+            </symbol>
+        </svg>
+        <div class="wrapper">
+            <div class="content">
+                <header class="page-header page-header--index">
+                    <div class="page-header__row-top">
+                        <div class="container">
+                            <div class="page-header__row-top-content row">
+                                <ul class="about about--header list row row--jc-c grow">
+                                    <li><a href="#">О нас</a>
+                                    </li>
+                                    <li><a class="about__link-discount" href="#">Акции</a>
+                                    </li>
+                                    <li><a href="#">Доставка</a>
+                                    </li>
+                                    <li><a href="#">Оплата</a>
+                                    </li>
+                                    <li><a href="#">Отзывы</a>
+                                    </li>
+                                    <li><a href="#">Контакты</a>
+                                    </li>
+                                </ul>
+                                <div class="feedback feedback--row-top"><a class="feedback__link" href="#">Обратный звонок</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-header__row-middle">
+                        <div class="container">
+                            <div class="page-header__row-middle-content row row--ai-c">
+                                <button class="menu" type="button">
+                                    <svg class="menu-button" width="459px" height="306px">
+                                        <use xlink:href="#menu-button"></use>
+                                    </svg>
+
+                                </button>
+                                <div class="logo row row--ai-c">
+                                    <div class="logo__img-wrap">
+                                        <img src="static/img/content/logo.svg" alt="Логотип">
+                                    </div>
+                                    <div class="logo__description">
+                                        <h2>ПИРОГОРОВ</h2>
+                                        <p>Осетинские пироги</p>
+                                        <p>доставка в Москве</p>
+                                    </div>
+                                </div>
+                                <ul class="popular-pies list row row--jc-sb grow">
+                                    <li class="row"><span class="popular-pies__icon popular-pies__icon--chop"></span><a href="#">МЯСНЫЕ ПИРОГИ</a>
+                                    </li>
+                                    <li class="row"><span class="popular-pies__icon popular-pies__icon--cheese"></span><a href="#">ПИРОГИ С СЫРОМ</a>
+                                    </li>
+                                    <li class="row"><span class="popular-pies__icon popular-pies__icon--grapes"></span><a href="#">СЛАДКИЕ ПИРОГИ</a>
+                                    </li>
+                                    <li class="row"><span class="popular-pies__icon popular-pies__icon--plant"></span><a href="#">ПОСТНЫЕ ПИРОГИ</a>
+                                    </li>
+                                </ul>
+                                <div class="feedback feedback--middle feedback--header"><a class="feedback__tel" href="tel:84952009709">8 (495) 200-97-09</a>
+                                    <p>Время работы пекарни</p>
+                                    <p>с 8:00 до 21:00 ПН-ВС</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-header__row-bottom page-header__row-bottom--close">
+                        <div class="container">
+                            <nav class="main-nav">
+                                <button class="main-nav__exit" type="button"></button>
+                                <ul class="list row row--jc-sb">
+                                    <li><a href="#">С мясом</a>
+                                    </li>
+                                    <li><a href="#">С курицей</a>
+                                    </li>
+                                    <li><a href="#">С рыбой</a>
+                                    </li>
+                                    <li><a href="#">С капустой</a>
+                                    </li>
+                                    <li><a href="#">С картошкой</a>
+                                    </li>
+                                    <li><a href="#">С грибами</a>
+                                    </li>
+                                    <li><a href="#">С луком</a>
+                                    </li>
+                                    <li><a href="#">С перцем</a>
+                                    </li>
+                                    <li><a href="#">Сладкие</a>
+                                    </li>
+                                    <li><a href="#">Постные</a>
+                                    </li>
+                                    <li><a href="#">Традиционные</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+                <main class="page-content">
+                    <div class="basket">
+                        <a class="basket__content" href="basket.html">
+                            <div class="basket__row-top"><span class="basket__icon">
+            <svg class="basket-icon" width="486.72px" height="512px">
+                <use xlink:href="#basket-icon"></use>
+            </svg>
+        </span>
+                                <p class="basket__count"></p>
+                            </div>
+                            <div class="basket__row-bottom">
+                                <p class="basket__text basket__text--price"></p>
+                                <p class="basket__text basket__text--currency">руб.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="title">
+                        <div class="container">
+                            <h1>Осетинские пироги в Москве с бесплатной доставкой</h1>
+                            <div class="title__text-wrap row row--jc-sb">
+                                <p>Близится обед длиною в один час: сегодня ваш выбор пал на кавказскую выпечку? Закажите осетинские пироги: доставка в офис сэкономит и время, и деньги. В офисе всегда многолюдно, а потому очень выгодным будет заказ сразу
+                                    нескольких пирогов. Кто-то любит поесть плотно и закажет выпечку с сыром, мясом, семгой, курицей. Кто-то - убежденный вегетарианец.</p>
+                                <p>Близится обед длиною в один час: сегодня ваш выбор пал на кавказскую выпечку? Закажите осетинские пироги: доставка в офис сэкономит и время, и деньги. В офисе всегда многолюдно, а потому очень выгодным будет заказ сразу
+                                    нескольких пирогов. Кто-то любит поесть плотно и закажет выпечку с сыром, мясом, семгой, курицей. Кто-то - убежденный вегетарианец.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <div class="container">
+                            <h2>Осетинские пироги Пирогоров это:</h2>
+                            <ul class="features__list list row row--wrap">
+                                <li class="features__items features__items--pies">
+                                    <div class="features__item-content column column--ai-c"><span class="features__icon">
+            <svg class="chat" width="512px" height="512px">
+                <use xlink:href="#chat"></use>
+            </svg>
+        </span>
+                                        <h3>ВКУСНЫЕ ПИРОГИ</h3>
+                                        <p>Отличные отзывы!</p><a href="#">Подробнее</a>
+                                    </div>
+                                </li>
+                                <li class="features__items features__items--delivery">
+                                    <div class="features__item-content column column--ai-c"><span class="features__icon">
+            <svg class="spacecraft" width="512px" height="492.34px">
+                <use xlink:href="#spacecraft"></use>
+            </svg>
+        </span>
+                                        <h3>БЕСПЛАТНАЯ ДОСТАВКА</h3>
+                                        <p>Точно ко времени за 45 мин</p><a href="#">Подробнее</a>
+                                    </div>
+                                </li>
+                                <li class="features__items features__items--discount">
+                                    <div class="features__item-content column column--ai-c"><span class="features__icon">
+            <svg class="confetti" width="511.83px" height="512px">
+                <use xlink:href="#confetti"></use>
+            </svg>
+        </span>
+                                        <h3>АКЦИИ И ПОДАРКИ</h3>
+                                        <p>Именинникам скидка 10%</p><a href="#">Подробнее</a>
+                                    </div>
+                                </li>
+                                <li class="features__items features__items--delivery2">
+                                    <div class="features__item-content column column--ai-c"><span class="features__icon">
+            <svg class="delivery-truck" width="512px" height="349.05px">
+                <use xlink:href="#delivery-truck"></use>
+            </svg>
+        </span>
+                                        <h3>5 ПЕКАРЕН В МОСКВЕ</h3>
+                                        <p>Доставка точно в срок</p><a href="#">Подробнее</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="carts-content">
+                        <div class="container">
+                            <h2>Осетинские пироги с мясом</h2>
+                        </div>
+                        <div class="carts-content__bg">
+                            <div class="container">
+                                <div class="carts-content__row row row--wrap">
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carts-content">
+                        <div class="container">
+                            <h2>Осетинские пироги с мясом</h2>
+                        </div>
+                        <div class="carts-content__bg">
+                            <div class="container">
+                                <div class="carts-content__row row row--wrap">
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart column">
+                                        <div class="cart__img-wrap">
+                                            <img src="static/img/content/cart-img.jpg" alt="Картинка">
+                                        </div>
+                                        <a class="cart__link" href="#">
+                                            <h3>Осетинский пирог с мясом «фыджин»</h3>
+                                        </a>
+                                        <ul class="cart__prices-wrap list row">
+                                            <li class="cart__prices-items cart__prices-items--active grow" data-price="600">
+                                                <p class="cart__item-weight">1000 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                            <li class="cart__prices-items grow" data-price="3750">
+                                                <p class="cart__item-weight">1 400 г</p>
+                                                <div class="cart__price-item-wrap row row--jc-c">
+                                                    <p class="cart__price-item cart__price-item--price"></p>
+                                                    <p class="cart__price-item cart__price-item--currency">руб.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="cart__add-wrap">
+                                            <button class="cart__add" type="button">Купить</button>
+                                            <div class="cart__add-calculate-wrap cart__add-calculate-wrap--hidden row row--jc-c row--ai-c">
+                                                <button class="cart__button cart__button--minus" type="button"></button><span class="cart__val">1</span>
+                                                <button class="cart__button cart__button--plus" type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="greet">
+                        <div class="greet__content">
+                            <div class="greet__overlay">
+                                <div class="container">
+                                    <div class="greet__content-description-wrap row"><span class="greet__icon">
+            <svg class="right-quote-sign" width="512px" height="451.93px">
+                <use xlink:href="#right-quote-sign"></use>
+            </svg>
+        </span>
+                                        <div class="greet__description column grow">
+                                            <p>Добро пожаловать! Мы в пекарне Пирогоров готовим вкуснейшие осетинские пироги из натуральных продуктов. Строго придерживаемся традиционных старинных рецептов. И быстро доставляем по Москве: из нашей печи к Вашему
+                                                столу точно ко времени за 45-90 минут. Мы гордимся тем, что обслужили уже более 11413 Счастливых и Сытых Клиентов.</p>
+                                            <p>Попробуйте и Вы счастье на вкус!</p>
+                                            <p>С Уважением, Ваш Пирогоров.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-us">
+                        <div class="container">
+                            <h2>Мы работаем для вас более 10 лет</h2>
+                            <ul class="list row row--wrap">
+                                <li class="about-us__items column column--ai-c">
+                                    <div class="about-us__img-wrap row">
+                                        <p class="about-us__img-text">1</p>
+                                        <div class="about-us__img">
+                                            <img src="static/img/content/diet.svg" alt="Картинка">
+                                        </div>
+                                    </div>
+                                    <h3>Свежие продукты</h3>
+                                    <p class="about-us__text">Мы готовим пироги только из качественных и свежих продуктов.</p>
+                                </li>
+                                <li class="about-us__items column column--ai-c">
+                                    <div class="about-us__img-wrap row">
+                                        <p class="about-us__img-text">2</p>
+                                        <div class="about-us__img">
+                                            <img src="static/img/content/recipe-book.svg" alt="Картинка">
+                                        </div>
+                                    </div>
+                                    <h3>Традиционные рецепты</h3>
+                                    <p class="about-us__text">Наши пекари используют только традиционные рецепты</p>
+                                </li>
+                                <li class="about-us__items column column--ai-c">
+                                    <div class="about-us__img-wrap row">
+                                        <p class="about-us__img-text">3</p>
+                                        <div class="about-us__img">
+                                            <img src="static/img/content/delivery-truck2.svg" alt="Картинка">
+                                        </div>
+                                    </div>
+                                    <h3>Бесплатная доставка</h3>
+                                    <p class="about-us__text">При заказе на сумму не менее 1 000 руб. Доставка в подарок!</p>
+                                </li>
+                                <li class="about-us__items column column--ai-c">
+                                    <div class="about-us__img-wrap row">
+                                        <p class="about-us__img-text">4</p>
+                                        <div class="about-us__img">
+                                            <img src="static/img/content/pie2.svg" alt="Картинка">
+                                        </div>
+                                    </div>
+                                    <h3>Горячие пироги</h3>
+                                    <p class="about-us__text">Пироги всегда доставляются в горячем виде, в термосумках.</p>
+                                </li>
+                                <li class="about-us__items column column--ai-c">
+                                    <div class="about-us__img-wrap row">
+                                        <p class="about-us__img-text">5</p>
+                                        <div class="about-us__img">
+                                            <img src="static/img/content/credit-card.svg" alt="Картинка">
+                                        </div>
+                                    </div>
+                                    <h3>Удобная оплата</h3>
+                                    <p class="about-us__text">Платите как вам удобно, наличными курьеру, банковская карта</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="title title--m42">
+                        <div class="container">
+                            <h1>Осетинские пироги в Москве с бесплатной доставкой</h1>
+                            <div class="title__text-wrap row row--jc-sb">
+                                <p>Близится обед длиною в один час: сегодня ваш выбор пал на кавказскую выпечку? Закажите осетинские пироги: доставка в офис сэкономит и время, и деньги. В офисе всегда многолюдно, а потому очень выгодным будет заказ сразу
+                                    нескольких пирогов. Кто-то любит поесть плотно и закажет выпечку с сыром, мясом, семгой, курицей. Кто-то - убежденный вегетарианец.</p>
+                                <p>Близится обед длиною в один час: сегодня ваш выбор пал на кавказскую выпечку? Закажите осетинские пироги: доставка в офис сэкономит и время, и деньги. В офисе всегда многолюдно, а потому очень выгодным будет заказ сразу
+                                    нескольких пирогов. Кто-то любит поесть плотно и закажет выпечку с сыром, мясом, семгой, курицей. Кто-то - убежденный вегетарианец.</p>
+                            </div>
+                            <div class="title__list-wrap row">
+                                <ul class="title__list list">
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                </ul>
+                                <ul class="title__list list">
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                </ul>
+                                <ul class="title__list list">
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                </ul>
+                                <ul class="title__list list">
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                    <li class="title__list-items">Осетинские пироги на обед</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="discount">
+                        <div class="container">
+                            <div class="discount__content">
+                                <div class="discount__description row row--ai-c">
+                                    <div class="discount__img-wrap">
+                                        <img src="static/img/content/present.svg" alt="Картинка">
+                                    </div>
+                                    <div class="discount__text-wrap grow">
+                                        <p><span>Акция: Скидка -10% в День рождения на осетинские пироги с доставкой!</span>Скидка доступна при заказе от 1000 руб. Подробные условия этой акции, а также другие наши акции смотрите<a href="#">здесь</a>
+                                        </p>
+                                    </div><a class="discount__order-link" href="#">Заказать пироги</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <footer class="page-footer">
+                <div class="footer-content">
+                    <div class="container">
+                        <div class="footer-content__row-top row">
+                            <div class="feedback feedback--middle feedback--footer"><a class="feedback__tel" href="tel:84952009709">8 (495) 200-97-09</a>
+                                <p>Время работы пекарни</p>
+                                <p>с 8:00 до 21:00 ПН-ВС</p>
+                            </div>
+                            <ul class="about about--footer list row row--jc-sb grow">
+                                <li><a href="#">О нас</a>
+                                </li>
+                                <li><a class="about__link-discount" href="#">Акции</a>
+                                </li>
+                                <li><a href="#">Доставка</a>
+                                </li>
+                                <li><a href="#">Оплата</a>
+                                </li>
+                                <li><a href="#">Отзывы</a>
+                                </li>
+                                <li><a href="#">Контакты</a>
+                                </li>
+                            </ul>
+                            <div class="payment">
+                                <h2>Способы оплаты:</h2>
+                                <ul class="list row row--jc-sb row--ai-c">
+                                    <li>
+                                        <a class="payment__link payment__link--1" href="#"></a>
+                                    </li>
+                                    <li>
+                                        <a class="payment__link payment__link--2" href="#"></a>
+                                    </li>
+                                    <li>
+                                        <a class="payment__link payment__link--3" href="#"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-content__row-bottom row row--jc-sb row--ai-c">
+                            <div class="developers">
+                                <a class="developers__link" href="#">
+                                    <div class="developers__img-wrap">
+                                        <img src="static/img/content/developers.png" alt="Разработчики">
+                                    </div>
+                                    <p class="developers__text">Создание и продвижение сайтов</p>
+                                </a>
+                            </div>
+                            <div class="copyright"><span class="copyright__yandex-metrika"></span>
+                                <p class="copyright__text">© 2018 Осетинские пироги</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+        <script src="static/js/mainsxomx.min.js"></script>
+    </body>
+
+</html>
