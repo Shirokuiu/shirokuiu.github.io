@@ -4,101 +4,199 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1880px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-ul {
+.portfolio-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin: 0;
-  margin: auto;
   padding: 0;
+  padding-top: 20px;
   
   list-style: none;
 }
 
-ul.list {
-  display: block;
-}
-
-ul.list li {
-  width: auto;
-  height: auto;
-}
-
-ul.list li a:hover {
-  transform: none;
-}
-
-ul li {
-  width: 310px;
-  height: 379px;
-  margin-bottom: 50px;
-  margin-right: 50px;
-}
-
-ul li a {
-  display: block;
+.portfolio-list__items {
+  position: relative;
   
-  font-size: 50px;
+  width: 22.8%;
+  margin-bottom: 50px;
+  margin-right: 2.7%;
   
   transition: 0.2s ease;
 }
 
-ul li a:hover {
+.portfolio-list__items:nth-child(4n) {
+  margin-right: 0;
+}
+
+.portfolio-list__items:hover {
   transform: scale(1.1);
 }
 
-ul li a img {
+.portfolio-list__img {
   display: block;
 }
 
-@media (max-width: 1155px) {
-  ul {
-    padding-top: 20px;
-  }
+.portfolio-list__popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   
-  ul li:nth-child(1) {
-    display: block;
-  }
-  
-  ul li:nth-child(7) {
-    display: none;
-  }
+  display: flex;
+  margin: auto;
 }
 
-@media (max-width: 800px) {
-  .container {
-    height: auto;
-  }
-  
-  ul li {
-    width: 160px;
-    height: 220px;
-  }
+.portfolio-list__popup--open {
+  background-color: rgba(000, 000, 000, 0.5);
 }
 
-@media (max-width: 703px) {
-  ul {
-    justify-content: space-between;
+.portfolio-list__inner {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  
+  list-style: none;
+}
+
+.portfolio-list__inner-items {
+  width: 33%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  
+  transition: 0.3s ease;
+}
+
+.portfolio-list__inner-items:nth-child(2n) {
+  margin-right: 0;
+}
+
+.portfolio-list__inner-items:last-child {
+  margin-right: 0;
+}
+
+
+.portfolio-list__inner-link {
+  position: relative;
+  
+  display: block;
+  
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.3);
+}
+
+.portfolio-list__inner-link:hover .portfolio-list__title-cart-wrap {
+  opacity: 1;
+}
+
+.portfolio-list__inner-link:hover .portfolio-list__title-cart {
+  opacity: 1;
+}
+
+.portfolio-list__title-cart-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+  background-color: rgba(000, 000, 000, 0.7);
+  
+  opacity: 0;
+  
+  transition: opacity 0.3s ease
+}
+
+.portfolio-list__title-cart {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  
+  opacity: 0;
+  
+  transition: 0.5s ease;
+}
+
+@media(max-width: 1320px) {
+  .portfolio-list__items {
+    width: 31.4%;
   }
   
-  ul li {
-    height: 180px;
+  .portfolio-list__items:nth-child(3n) {
     margin-right: 0;
   }
   
-  ul li a {
-    
+  .portfolio-list__items:nth-child(4n) {
+    margin-right: 2.7%;
   }
-  
 }
 
-@media (max-width: 394px) {
-  ul {
-    justify-content: center;
+@media(max-width: 900px) {
+  .portfolio-list__items {
+    width: 48.5%;
+    margin-bottom: 22px
+  }
+  
+  .portfolio-list__items:nth-child(2n) {
+    margin-right: 0;
+  }
+  
+  .portfolio-list__items:nth-child(3n) {
+    margin-right: 2.7%;
+  }
+  
+  .portfolio-list__items:nth-child(4n) {
+    margin-right: 0;
+  }
+  
+  .portfolio-list__items:nth-child(6n) {
+    margin-right: 0;
+  }
+  
+  .portfolio-list__items:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media(max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    padding: 0 10px;
+  }
+  
+  .portfolio-list__items {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 22px
+  }
+  
+  .portfolio-list__items:last-child {
+    margin-bottom: 0;
+  }
+  
+  .portfolio-list__items:hover {
+    transform: scale(1.02);
   }
 }
