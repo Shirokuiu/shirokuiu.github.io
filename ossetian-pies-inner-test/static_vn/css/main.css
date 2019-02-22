@@ -1116,7 +1116,14 @@ img {
     line-height: 22px;
   }
   .my-inner-cart__prices-select-calculate-buttons {
+    position: static;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
     top: 0px;
+  }
+  .my-inner-cart__prices-select-calculate-button {
+    margin-right: 0;
   }
   .my-inner-cart__prices-select-calculate-button {
     height: 37px;
@@ -1126,6 +1133,7 @@ img {
     height: 40px;
     font-size: 26px;
     line-height: 39px;
+    margin-bottom: 0;
   }
   .my-inner-cart__prices-select-calculate-add {
     font-size: 17px;
