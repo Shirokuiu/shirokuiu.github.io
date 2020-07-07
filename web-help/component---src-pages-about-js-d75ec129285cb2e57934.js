@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{"3XHS":function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),r=a.n(n),l=a("LbRr");t.default=function(){return r.a.createElement(r.a.Fragment,null,r.a.createElement("div",{style:{color:"teal"}},r.a.createElement(l.a,{headerText:"Hello from header"}),r.a.createElement("p",null,"Such wow. Very React.")))}},LbRr:function(e,t,a){"use strict";var n=a("q1tI"),r=a.n(n);t.a=function(e){var t=e.headerText;return r.a.createElement("h1",null,t)}}}]);
+//# sourceMappingURL=component---src-pages-about-js-d75ec129285cb2e57934.js.map
